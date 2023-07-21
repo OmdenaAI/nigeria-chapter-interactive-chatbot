@@ -1,4 +1,4 @@
-# Developing an Interactive Chatbot for the Omdena Website
+## Developing an Interactive Chatbot for the Omdena Website
 
 ## Project background
 There has been a notable rise in the volume of information circulating on Omdena’s official website. Introducing an interactive chatbot presents an ideal opportunity to communicate information effectively to both new and existing users.
