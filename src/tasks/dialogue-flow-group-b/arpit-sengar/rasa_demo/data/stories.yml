@@ -1,0 +1,418 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+# Omdena local chapters
+- story: inquire local chapter program
+  steps:
+  - intent: local_chapter_inquire_local_chapter_programs
+  - action: utter_local_chapter_inquire_local_chapter_programs
+
+- story: local chapter cost
+  steps:
+  - intent: local_chapter_cost
+  - action: utter_local_chapter_cost
+
+- story: local chapter participation eligibility
+  steps:
+  - intent: local_chapter_participation_eligibility
+  - action: utter_local_chapter_participation_eligibility
+
+- story: local chapter join collaborator
+  steps:
+  - intent: local_chapter_join_collaborator
+  - action: utter_local_chapter_join_collaborator
+
+- story: local chapter collaborator benefit
+  steps:
+  - intent: local_chapter_collaborator_benefit
+  - action: utter_local_chapter_collaborator_benefit
+
+- story: local chapter lead local chapter
+  steps:
+  - intent: local_chapter_lead_local_chapter
+  - action: utter_local_chapter_lead_local_chapter
+
+- story: local chapter lead benefit
+  steps:
+  - intent: local_chapter_lead_benefit
+  - action: utter_local_chapter_lead_benefit
+
+- story: local chapter find challenges
+  steps:
+  - intent: local_chapter_find_challenges
+  - action: utter_local_chapter_find_challenges
+
+- story: local chapter contact organizers
+  steps:
+  - intent: local_chapter_contact_organizers
+  - action: utter_local_chapter_contact_organizers
+
+# Omdena School
+- story: omdena school enrollment inquiry
+  steps:
+  - intent: omdena_school_enrollment_inquiry 
+  - action: utter_omdena_school_enrollment_inquiry
+
+- story: omdena school student enrollment
+  steps:
+  - intent: omdena_school_student_enrollment 
+  - action: utter_omdena_school_student_enrollment
+
+- story: omdena school instructor application and requirements
+  steps:
+  - intent: omdena_school_instructor_application_and_requirements 
+  - action: utter_omdena_school_instructor_application_and_requirements
+
+- story: omdena school instructor eligibility
+  steps:
+  - intent: omdena_school_instructor_eligibility 
+  - action: utter_omdena_school_instructor_eligibility
+
+- story: omdena school free course availability
+  steps:
+  - intent: omdena_school_free_course_availability 
+  - action: utter_omdena_school_free_course_availability
+
+- story: omdena school dual role teacher and student inquiry
+  steps:
+  - intent: omdena_school_dual_role_teacher_and_student_inquiry 
+  - action: utter_omdena_school_dual_role_teacher_and_student_inquiry
+
+- story: omdena school access to recorded sessions inquiry
+  steps:
+  - intent: omdena_school_access_to_recorded_sessions_inquiry 
+  - action: utter_omdena_school_access_to_recorded_sessions_inquiry
+
+- story: omdena school overview and offerings
+  steps:
+  - intent: omdena_school_overview_and_offerings 
+  - action: utter_omdena_school_overview_and_offerings
+
+- story: omdena school unique features of omdena courses
+  steps:
+  - intent: omdena_school_unique_features_of_omdena_courses 
+  - action: utter_omdena_school_unique_features_of_omdena_courses
+
+- story: omdena school programs value proposition
+  steps:
+  - intent: omdena_school_programs_value_proposition 
+  - action: utter_omdena_school_programs_value_proposition
+
+# Startups
+- story: startup view testimonials
+  steps:
+    - intent: startup_view_testimonials
+    - action: utter_startup_view_testimonials
+
+- story: startup get contact information    
+  steps:
+    - intent: startup_get_contact_information
+    - action: utter_startup_get_contact_information
+
+- story: startup share past experience
+  steps:
+    - intent: startup_share_past_experience
+    - action: utter_startup_share_past_experience
+
+- story: startup explain product benefits 
+  steps:
+    - intent: startup_explain_product_benefits
+    - action: utter_startup_explain_product_benefits
+
+- story: startup request demo  
+  steps:
+    - intent: startup_request_demo
+    - action: utter_startup_request_demo
+
+- story: startup startup clients info  
+  steps:
+    - intent: startup_startup_clients_info
+    - action: utter_startup_startup_clients_info
+
+- story: startup project skills required     
+  steps:
+    - intent: startup_project_skills_required
+    - action: utter_startup_project_skills_required
+
+- story: startup business success factors 
+  steps:
+    - intent: startup_business_success_factors
+    - action: utter_startup_business_success_factors
+
+- story: startup common business errors  
+  steps:
+    - intent: startup_common_business_errors
+    - action: utter_startup_common_business_errors
+
+- story: startup find cofounder strategies
+  steps:
+    - intent: startup_find_cofounder_strategies
+    - action: utter_startup_find_cofounder_strategies
+
+- story: startup create business plan stepss
+  steps:
+    - intent: startup_create_business_plan_steps
+    - action: utter_startup_create_business_plan_steps
+
+- story: startup raise startup funds strategies         
+  steps:
+    - intent: startup_raise_startup_funds_strategies
+    - action: utter_startup_raise_startup_funds_strategies
+
+- story: startup startup digital marketing strategies    
+  steps:
+    - intent: startup_startup_digital_marketing_strategies
+    - action: utter_startup_startup_digital_marketing_strategies
+
+- story: startup startup growth resources  
+  steps:
+    - intent: startup_startup_growth_resources
+    - action: utter_startup_startup_growth_resources
+
+- story: startup omdena startup connections  
+  steps:
+    - intent: startup_omdena_startup_connections
+    - action: utter_startup_omdena_startup_connections
+
+- story: startup find startup mentor coach 
+  steps:
+    - intent: startup_find_startup_mentor_coach
+    - action: utter_startup_find_startup_mentor_coach
+
+- story: startup plan successful exit
+  steps:
+    - intent: startup_plan_successful_exit
+    - action: utter_startup_plan_successful_exit
+
+- story: startup startup financial management
+  steps:
+    - intent: startup_startup_financial_management
+    - action: utter_startup_startup_financial_management
+
+- story: startup protect startup intellectual property 
+  steps:
+    - intent: startup_protect_startup_intellectual_property
+    - action: utter_startup_protect_startup_intellectual_property
+
+- story: startup data science startup optimization 
+  steps:
+    - intent: startup_data_science_startup_optimization
+    - action: utter_startup_data_science_startup_optimization
+
+- story: startup ai automation startup examples 
+  steps:
+    - intent: startup_ai_automation_startup_examples
+    - action: utter_startup_ai_automation_startup_examples
+
+- story: startup machine learning product innovation
+  steps:
+    - intent: startup_machine_learning_product_innovation
+    - action: utter_startup_machine_learning_product_innovation
+
+- story: startup iot data collection applications         
+  steps:
+    - intent: startup_iot_data_collection_applications
+    - action: utter_startup_iot_data_collection_applications
+
+- story: startup positive work environment
+  steps:
+    - intent: startup_positive_work_environment
+    - action: utter_startup_positive_work_environment
+
+- story: startup team motivation retention   
+  steps:
+    - intent: startup_team_motivation_retention
+    - action: utter_startup_team_motivation_retention
+
+- story: startup industry trends sources 
+  steps:
+    - intent: startup_industry_trends_sources
+    - action: utter_startup_industry_trends_sources
+
+- story: startup long term strategy development   
+  steps:
+    - intent: startup_long_term_strategy_development
+    - action: utter_startup_long_term_strategy_development
+
+# Universities
+- story: university partnership with omdena
+  steps:
+  - intent: university_partnership_with_omdena
+  - action: utter_university_partnership_with_omdena
+
+- story: university team expertise
+  steps:
+  - intent: university_team_expertise
+  - action: utter_university_team_expertise
+
+- story: univerity omdena collaborative platform
+  steps:
+  - intent: university_omdena_collaborative_platform
+  - action: utter_university_omdena_collaborative_platform
+
+- story: university omdena project workflow
+  steps:
+  - intent: university_omdena_project_workflow
+  - action: utter_university_omdena_project_workflow
+
+- story: university omdena partnership benefits
+  steps:
+  - intent: university_omdena_partnership_benefits
+  - action: utter_university_omdena_partnership_benefits
+
+- story: univerity omdena ai project success story
+  steps:
+  - intent: university_omdena_ai_project_success_story
+  - action: utter_university_omdena_ai_project_success_story
+
+- story: univerity project university partners
+  steps:
+  - intent: university_project_university_partners
+  - action: utter_university_project_university_partners
+
+- story: univerity newsletter subscription
+  steps:
+  - intent: university_newsletter_subscription
+  - action: utter_university_newsletter_subscription
+
+- story: university project domains
+  steps:
+  - intent: university_project_domains
+  - action: utter_university_project_domains
+
+# AI Innovation
+- story: ai invo ai innovation challenge
+  steps:
+  - intent: ai_invo_ai_innovation_challenge
+  - action: utter_ai_invo_ai_innovation_challenge
+
+- story: ai invo pricing model
+  steps:
+  - intent: ai_invo_pricing_model
+  - action: utter_ai_invo_pricing_model
+
+- story: ai invo timely results 8 weeks
+  steps:
+  - intent: ai_invo_timely_results_8_weeks
+  - action: utter_ai_invo_timely_results_8_weeks
+
+- story: ai invo participants innovation challenge
+  steps:
+  - intent: ai_invo_participants_innovation_challenge
+  - action: utter_ai_invo_participants_innovation_challenge
+
+- story: ai invo talk with omdena clients
+  steps:
+  - intent: ai_invo_talk_with_omdena_clients
+  - action: utter_ai_invo_talk_with_omdena_clients
+
+# Top Talent
+- story: top talent omdena top talent engineers
+  steps:
+  - intent: top_talent_omdena_top_talent_engineers
+  - action:   utter_top_talent_omdena_top_talent_engineers
+
+- story: top talent top talent project pricing model
+  steps:
+  - intent: top_talent_top_talent_project_pricing_model
+  - action:   utter_top_talent_top_talent_project_pricing_model
+
+- story: top talent top talent vs outsourcing company
+  steps:
+  - intent: top_talent_top_talent_vs_outsourcing_company
+  - action:   utter_top_talent_top_talent_vs_outsourcing_company
+
+- story: top talent hiring inhouse after project
+  steps:
+  - intent: top_talent_hiring_inhouse_after_project
+  - action:   utter_top_talent_hiring_inhouse_after_project
+
+- story: top talent team selection process
+  steps:
+  - intent: top_talent_team_selection_process
+  - action:   utter_top_talent_team_selection_process
+
+- story: top talent week money back guarantee
+  steps:
+  - intent: top_talent_week_money_back_guarantee
+  - action: utter_top_talent_week_money_back_guarantee
+
+# Projects
+- story: projects available projects details
+  steps:
+  - intent: projects_available_projects_details
+  - action: utter_projects_available_projects_details 
+
+- story: projects completed projects details
+  steps:
+  - intent: projects_completed_projects_details
+  - action: utter_projects_completed_projects_details 
+
+- story: projects ongoing projects details
+  steps:
+  - intent: projects_ongoing_projects_details
+  - action: utter_projects_ongoing_projects_details 
+
+- story: projects all projects details
+  steps:
+  - intent: projects_all_projects_details
+  - action: utter_projects_all_projects_details 
+
+- story: projects apply to join
+  steps:
+  - intent: projects_apply_to_join
+  - action: utter_projects_apply_to_join
+
+- story: projects host a project
+  steps:
+  - intent: projects_host_a_project
+  - action: utter_projects_host_a_project
+
+- story: projects categories details
+  steps:
+  - intent: projects_categories_details
+  - action: utter_projects_categories_details
+
+- story: projects recommendation for newcomer
+  steps:
+  - intent: projects_recommendation_for_newcomer
+  - action: utter_projects_recommendation_for_newcomer
+
+
+
+
+
+
+
+
+
+
+

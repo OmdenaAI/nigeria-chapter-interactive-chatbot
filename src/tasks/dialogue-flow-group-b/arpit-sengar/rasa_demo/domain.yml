@@ -1,0 +1,274 @@
+version: "3.1"
+
+intents:
+   - greet
+   - cheer_up
+   - did_that_help
+   - happy
+   - goodbye
+   - iamabot
+   - mood_great
+   - mood_unhappy
+   - deny
+   - affirm
+
+   - local_chapter_inquire_local_chapter_programs
+   - local_chapter_cost
+   - local_chapter_participation_eligibility
+   - local_chapter_join_collaborator
+   - local_chapter_collaborator_benefit
+   - local_chapter_lead_local_chapter
+   - local_chapter_lead_benefit
+   - local_chapter_find_challenges
+   - local_chapter_contact_organizers
+
+   - omdena_school_enrollment_inquiry
+   - omdena_school_student_enrollment
+   - omdena_school_instructor_application_and_requirements
+   - omdena_school_instructor_eligibility
+   - omdena_school_free_course_availability
+   - omdena_school_dual_role_teacher_and_student_inquiry
+   - omdena_school_access_to_recorded_sessions_inquiry
+   - omdena_school_overview_and_offerings
+   - omdena_school_unique_features_of_omdena_courses
+   - omdena_school_programs_value_proposition
+
+   - startup_view_testimonials
+   - startup_get_contact_information
+   - startup_share_past_experience
+   - startup_explain_product_benefits
+   - startup_request_demo
+   - startup_startup_clients_info
+   - startup_project_skills_required
+   - startup_business_success_factors
+   - startup_common_business_errors
+   - startup_find_cofounder_strategies
+   - startup_create_business_plan_steps
+   - startup_raise_startup_funds_strategies
+   - startup_startup_digital_marketing_strategies
+   - startup_startup_growth_resources
+   - startup_omdena_startup_connections
+   - startup_find_startup_mentor_coach
+   - startup_plan_successful_exit
+   - startup_startup_financial_management
+   - startup_protect_startup_intellectual_property
+   - startup_data_science_startup_optimization
+   - startup_ai_automation_startup_examples
+   - startup_machine_learning_product_innovation
+   - startup_iot_data_collection_applications
+   - startup_positive_work_environment
+   - startup_team_motivation_retention
+   - startup_industry_trends_sources
+   - startup_long_term_strategy_development
+
+   - university_partnership_with_omdena
+   - university_team_expertise
+   - university_omdena_collaborative_platform
+   - university_omdena_project_workflow
+   - university_omdena_partnership_benefits
+   - university_omdena_ai_project_success_story
+   - university_project_university_partners
+   - university_newsletter_subscription
+   - university_project_domains
+
+   - ai_invo_ai_innovation_challenge
+   - ai_invo_pricing_model
+   - ai_invo_timely_results_8_weeks
+   - ai_invo_participants_innovation_challenge
+   - ai_invo_talk_with_omdena_clients
+
+   - top_talent_omdena_top_talent_engineers
+   - top_talent_top_talent_project_pricing_model
+   - top_talent_top_talent_vs_outsourcing_company
+   - top_talent_hiring_inhouse_after_project
+   - top_talent_team_selection_process
+   - top_talent_week_money_back_guarantee
+   
+   - projects_available_projects_details
+   - projects_completed_projects_details
+   - projects_ongoing_projects_details
+   - projects_all_projects_details
+   - projects_apply_to_join
+   - projects_host_a_project
+   - projects_categories_details
+   - projects_recommendation_for_newcomer
+
+responses:
+  utter_greet:
+    - text: "Hello there! How can I help you?"
+  utter_cheer_up:
+    - text: "Hey there, cheer up! You're stronger than you know, and brighter days are ahead. Embrace your resilience and keep your head held high. You've got the power to overcome anything. Believe in yourself and spread that beautiful smile. You've got this!"
+  utter_did_that_help:
+    - text: "Did that help you?"
+  utter_happy:
+    - text: "Do you have any questions related to our website, I'd be happy to guide you!"
+  utter_goodbye:
+    - text: "Have a good day"
+  utter_iamabot:
+    - text: "I am an interative chatbot made for Omdena's Website."
+
+  # LOCAL CHAPTER
+  utter_local_chapter_inquire_local_chapter_programs:
+    - text: "Our local chapter program aims to establish local communities who provide AI education and collaborate together on solving issues important for locals in their respective regions. It aims: To promote real-world AI through running open-source projects, To provide case study-based education and To bring AI services to local AI enthusiasts and businesses around the world. "
+  utter_local_chapter_cost:
+    - text: "Yes, joining an Omdena local chapter is free of charge. It's an inclusive community initiative aimed at fostering collaboration and knowledge sharing among AI enthusiasts and professionals."
+  utter_local_chapter_participation_eligibility:
+    - text: "Omdena local chapters are open to anyone interested in AI, regardless of their level of expertise. Whether you're a beginner or an experienced practitioner, you're welcome to join and contribute to the local AI community."
+  utter_local_chapter_join_collaborator:
+    - text: "To join one of our local chapter, visit the Local Chapters page on our website and find the chapter nearest to your location. Then, follow the instructions provided to get involved and connect with other members."
+  utter_local_chapter_collaborator_benefit:
+    - text: "Joining an Omdena local chapter offers numerous benefits, including opportunities for networking, collaborating on AI projects, gaining industry insights, and participating in local events and workshops."
+  utter_local_chapter_lead_local_chapter:
+    - text: "Absolutely! We encourage individuals passionate about AI and community building to start their own local chapters. Visit the Local Chapters page on our website and go to the https://omdena.com/application-page-omdena-chapter-lead/ to learn more about the requirements and process for starting a chapter."
+  utter_local_chapter_lead_benefit:
+    - text: "By becoming a chapter lead you understand the technical approaches and the skills needed in solving a problem using data science/artificial intelligence, Get the work experience needed in becoming a product owner/developerLearn and develop your AI skills through collaboration with other AI engineers, Showcase your work and impact to obtain grants or scholarships at international conferences, universities or global communities, Make contacts and get help from Omdena AI community experts to organise workshops and Develop your non-technical skills like communication, team building, analytical and problem solving skills."
+  utter_local_chapter_find_challenges:
+    - text: "You can find a list of all challenges on the Local Chapter Section on our Website (https://omdena.com/local-chapters/). In the Local Chapter Challenges section you can scroll through the different challenges, search according to interest words or filter according to domain, phase country or city. "
+  utter_local_chapter_contact_organizers:
+    - text: "To contact the organizers of a specific Omdena local chapter, you can find their contact information on the Local Chapters page of our website (https://omdena.com/local-chapters/). Reach out to them directly for any inquiries, suggestions, or collaboration opportunities. Also visit our Growth stories of Local Chapter Leads section to get inspired by their stories and path with us."
+
+  # OMDENA SCHOOL
+  utter_omdena_school_enrollment_inquiry:
+    - text: "You can join OmdenaSchool as a student and as an instructor. Which role are you interested in joining us?"
+  utter_omdena_school_student_enrollment:
+    - text: "You can sign up as a student by filling up this form - https://airtable.com/shrD5oZzBRqLRDfJW"
+  utter_omdena_school_instructor_application_and_requirements:
+    - text: "You can sign up as an instructor by filling up this form - https://airtable.com/shrxOVPFUYhuYNt5H"
+  utter_omdena_school_instructor_eligibility:
+    - text: "Anyone with the right expertise can become an instructor."
+  utter_omdena_school_free_course_availability:
+    - text: "Yes, if a student cannot pay a small upfront honorarium amount for the teacher they are allowed to join the course free of cost."
+  utter_omdena_school_dual_role_teacher_and_student_inquiry:
+    - text: "Yes, you can be a teacher in one course and student of other courses. Even a student can enroll in more than one course if the course schedule allows."
+  utter_omdena_school_access_to_recorded_sessions_inquiry:
+    - text: "No, At the moment our focus is to have live sessions only. On special circumstances, we can share recorded sessions with a student."
+  utter_omdena_school_overview_and_offerings:
+    - text: "OmdenaSchool‘s mission is to empower learners with quality education in application areas of Machine Learning and Artificial Intelligence while removing the financial and geographic barriers. OmdenaSchool provides an instructor-led and code-first environment with a better user experience using real-world case studies. The learners can learn theories, models, and applications to understand the usefulness of applications in advancing AI for the betterment of humanity. The school is run by donations given by students."
+  utter_omdena_school_unique_features_of_omdena_courses:
+    - text: "1. Instructor led courses - Hands-on instructor-led coding experience with real-world projects.\n2. State of the art AI skills - Our aim is to equip learners with state-of-the-art AI skills with Omdena courses.\n3. Real World case studies - Our courses are based on Real-world practical assignment(s) leading to project with similar application areas.\n4. Complete solutions - The courses are developed on end-to-end solutions from collecting datasets to the deployment of working models.\n5. Completion Certificate - After taking the Course completion certificates will be issued to successful participants."
+  utter_omdena_school_programs_value_proposition:
+    - text: "Upcoming courses on Omdena from here: https://omdena.com/projects/"
+
+  # STARTUPS
+  utter_startup_view_testimonials:
+    - text: "Absolutely! We have received numerous positive testimonials from our satisfied customers. Here are some of them:\n\n'Highly professional and productive – the value is not only the final outcome but also what the team tried and why it was not a good fit for the data.'\nLaura McIntosh, CEO - EmPowerYu (USA), Plug and Play Backed\nhttps://youtu.be/irGpbaqfwMU\n'Scaling your Machine Learning team 20x overnight.'\nJanis Jasko, CEO - Weedbot, DeepTech Startup :\nhttps://youtu.be/irGpbaqfwMU"
+  utter_startup_get_contact_information:
+    - text: "Thank you for your interest in getting in touch with us. Please make sure you have read all the information from this page before applying or contact us.\nhttps://omdena.com/startups/ \nYou can reach us through the following contact information:Fabio Fulci\nVP Business Development at Omdena\nEmail: fabio@omdena.com"
+  utter_startup_share_past_experience:
+    - text: "Thank you for inquiring about our experience. We have successfully completed a range of projects in various industries. Here are some of our success stories:\n1. Omdena Partners with Hanson Robotics and GAIA to Build Compassion AI:\nResults from the research project for GAIA Compassion AI with the partnership of Omdena and Hanson Robotics would be tested on the most advanced human-like robot, Sophia.\nLearn More: https://omdena.com/blog/omdena-hanson-robotics-gaia/\n2. Omdena Deploys Age Prediction Model for Humanity's Mobile App:\nSince launching the AI-enabled app, within 6 months, Humanity Inc gained 75,000 sign-ups with 50,000 actively engaged users!\nLearn More: https://omdena.com/projects/ai-aging/\n3. Incubator alumni Zzapp Malaria wins $5M XPRIZE Challenge:\nIsrael-based Zzapp worked with Omdena to develop an AI solution that helps to identify malaria-breeding sites. Upon completion, their team could claim the prestigious XPRIZE.\nLearn More: https://omdena.com/projects/ai-malaria/\n4. Dryad Raises $10.5M Series A With Wildfire Detection Solution:\nDryad has been working with Omdena for more than 6 months to develop forest fire prediction models which work in almost real-time.\nLearn more: https://omdena.com/blog/dryad-omdena-top-talent-early-wildfire-detection/"
+  utter_startup_explain_product_benefits:
+    - text: "Here are some advantages you can expect:\n1. Rapid: Up to 50 engineers per project\n2. Diverse: Talent from 100+ countries\n3. Cost-Efficient: Startup-friendly budgeting\n4. Vetted: Work with talent before hiring team in-house\n5. Deployed: Deployable solutions\n\nThese are just a few of the many benefits our product/service provides."
+  utter_startup_request_demo:
+    - text: "Absolutely! We offer a comprehensive demo of our service to showcase its features and functionality. If there are specific aspects or use cases you would like us to focus on during the demo, feel free to mention them, and we'll tailor the demonstration to address your specific requirements.\nYou can sign up for a demo using this link: https://omdena.com/demo-organizations/\nLet us build the future of AI together."
+  utter_startup_startup_clients_info:
+    - text: "We have had the privilege of working with a diverse range of startups across various industries. Here are some of our Omdena startup clients:\n\nLearnroll, Envisionit Deep AI, Mavin, WeedBot, Hashiona, Dayrize, APL, DRYAD, Equilo, Remote Symphony, Kanda, Preamble, Solvento, Belyntic, Precure, Mobileuurka, Agreed, Dr CADx, Redactabl, Eyeknow, Croptimise, Think Outside, Finz and many more"
+  utter_startup_project_skills_required:
+    - text: "To participate in Omdena projects:\nCreate an account on the Omdena website: https://omdena.com/.\nBrowse open projects and apply for the one that interests you.\nAnswer some questions about your skills and experience.\nIf selected, join the project team and start contributing to the tasks.\nCollaborate with team members, complete the project, and share your learnings with others."
+  utter_startup_business_success_factors:
+    - text: "Sure, here are key factors for business success:\n\nResearch the market and understand customer needs.\nDevelop a strong business plan with goals and financial projections.\nBuild a talented and dedicated team to support your vision.\nSecure funding through loans, grants, or crowdfunding.\nMarket your business effectively with a website and marketing plan.\nPrioritize excellent customer service to retain customers.\nStay persistent and resilient in the face of challenges."
+  utter_startup_common_business_errors:
+    - text: "Common missteps for new businesses:\n\nLack of research: Know your market and competition.\nUnclear vision: Set clear goals for your business.\nDisorganization: Stay organized in finances and time management.\nIneffective time management: Use time wisely to avoid stress.\nImpatience: Success takes time and dedication."
+  utter_startup_find_cofounder_strategies:
+    - text: "Finding a co-founder on Omdena is easy with these tips:\n\nDefine your needs: Know the skills and experience you require and your business goals.\nUse Omdena's platform: Utilize the co-founder section to search and post your project listing.\nAttend Omdena events: Meet potential co-founders at meetups, hackathons, and conferences.\nNetwork with members: Engage with the Omdena community through forums, Slack, or events.\nBe patient: Finding the right co-founder takes time, so stay persistent and keep networking."
+  utter_startup_create_business_plan_steps:
+    - text: "A business plan is a roadmap that outlines your business goals and how you'll achieve them. Key steps:\n\nExecutive summary: Briefly highlights your goals, target market, and competitive advantage.\nCompany description: Provides business history, products/services, and organizational structure.\nMarket analysis: Analyzes target market size, growth potential, and trends.\nCompetitive analysis: Assesses competitors' strengths, weaknesses, and strategies.\nMarketing plan: Outlines how you'll promote and sell products or services.\nManagement team: Info about your experienced team.\nFinancial plan: Projects revenue, expenses, and cash flow.\nAdditional components may include: product details, sales projections, operational plan, SWOT analysis, customer analysis, funding request, milestones, and risk management.\n\nA well-structured business plan aids funding, attracts investors, and guides your business towards success."
+  utter_startup_raise_startup_funds_strategies:
+    - text: "Steps for funding your startup:\n\nCreate a strong pitch deck with executive summary, business description, market, financial projections, and exit strategy.\nNetwork with potential investors at industry events and on social media.\nResearch funding options like friends & family, angel investors, venture capital firms, and government grants.\nBe prepared to answer investors' questions about your business model and financials.\nStay persistent in your efforts and keep networking and pitching until you find the right investors."
+  utter_startup_startup_digital_marketing_strategies:
+    - text: "There are many different digital marketing strategies that you can use for your startup. Here are a few of the most effective:\n\nSearch engine optimization (SEO): SEO is the process of optimizing your website so that it ranks higher in search engine results pages (SERPs). This is a great way to attract organic traffic to your website.\nPay-per-click (PPC) advertising: PPC advertising is a type of online advertising where you pay a fee each time someone clicks on your ad. This is a great way to reach a targeted audience quickly.\nContent marketing: Content marketing is the process of creating and sharing valuable content with your target audience. This is a great way to build trust and credibility with your audience, and it can also help you drive traffic to your website.\nSocial media marketing: Social media marketing is the process of using social media platforms to connect with your target audience. This is a great way to build relationships with your audience, and it can also help you promote your products or services.\nEmail marketing: Email marketing is the process of sending email messages to your subscribers. This is a great way to stay in touch with your audience, and it can also be a great way to promote your products or services."
+  utter_startup_startup_growth_resources:
+    - text: "Omdena is a global platform that connects startups with data scientists and engineers from around the world. Omdena's mission is to democratize access to AI by providing startups with the resources they need to build and deploy AI solutions.\n\nOmdena's platform allows startups to post challenges that they need help with. These challenges can be anything from building a machine learning model to deploying an AI application. Once a challenge is posted, Omdena's community of data scientists and engineers can submit proposals to solve the challenge.\n\nThe proposals are then evaluated by the startup and the Omdena team. The best proposals are selected, and the data scientists and engineers who submitted the proposals are invited to work on the challenge as a team.\n\nOmdena also offers a variety of other resources to help startups grow and succeed. These resources include:\n\nMentorship: Omdena's mentors are experienced entrepreneurs and professionals who can provide guidance and support to startups.\nWorkshops: Omdena offers a variety of workshops that cover topics such as product development, marketing, and fundraising.\nTraining programs: Omdena offers training programs that teach startups how to use AI and machine learning to solve business problems.\n\nIf you're looking for resources to help your startup grow and succeed, Omdena is a great place to start. With a variety of resources and services available, Omdena can help you take your startup to the next level."
+  utter_startup_omdena_startup_connections:
+    - text: "Omdena offers mentorship opportunities for startups:\n\nOne-on-one mentorship: Get personalized guidance from experienced entrepreneurs.\nGroup mentorship: Learn from mentors and share best practices with other startups.\nMentorship programs: Access mentors, training, and resources to grow your business.\nVisit their website or sign up for their newsletter to learn more."
+  utter_startup_find_startup_mentor_coach:
+    - text: "Sure, here is a short answer on how to find a startup mentor or coach on Omdena:\n\nSearch the Omdena mentor directory: You can search the mentor directory by mentor's name, skills, and experience.\nAttend Omdena events: You can meet mentors and coaches who are interested in working with startups at Omdena events.\nReach out to mentors directly: You can reach out to mentors directly through the Omdena platform or email them directly.\nHere are some tips:\n\nBe clear about your needs: What are you looking for in a mentor or coach? What are your goals for your startup?\nBe specific in your search: What industry are you in? What stage is your startup at? What are your specific needs?\nBe patient: It may take some time to find the right mentor or coach for you.\nI hope this helps!"
+  utter_startup_plan_successful_exit:
+    - text: "Sure! Here are the key steps to plan a successful exit strategy for your startup:\n\nDefine Your Goals: Decide what you want to achieve with your exit – selling to a larger company, going public, or staying independent.\nAssess Your Startup's Value: Understand your startup's worth by talking to investors or using valuation tools.\nIdentify Potential Buyers: Create a list of potential buyers, such as larger companies, venture capital firms, or strategic partners.\nDevelop an Exit Plan: Create a flexible plan with a timeline, tasks, and budget for selling your startup.\nStart Early: Begin planning early to have enough time to evaluate options and create a solid plan.\nSeek Professional Advice: Consider getting help from investment bankers, lawyers, or accountants if needed.\nBe Flexible: Stay adaptable and open to changes in the market or your startup's value.\nRemember, a well-thought-out exit strategy is crucial for the success of your startup's journey!"
+  utter_startup_startup_financial_management:
+    - text: "Sure, here are the tips for ensuring compliance with tax and accounting regulations for your startup:\n\nHire a qualified accountant: They'll help you understand and comply with tax and accounting regulations.\nSet up a bookkeeping system: Keep track of income, expenses, and taxes accurately.\nFile taxes on time: Even if you're not making a profit, timely filing is essential.\nMaintain good records: Keep detailed records of income and expenses for compliance.\nStay updated on tax laws: Be aware of the latest changes and how they affect your startup.\nUse accounting software: Simplify tracking and reporting with accounting software.\nSeek professional advice: If unsure, consult an accountant or lawyer.\nBe proactive: Address compliance early to avoid costly mistakes later.\nComplying with tax and accounting regulations is crucial for your startup's success and financial well-being."
+  utter_startup_protect_startup_intellectual_property:
+    - text: "Types of Intellectual Property:\n\nCopyright: Protects original works like books, music, software, etc.\nTrademark: Identifies and distinguishes your goods or services from others.\nPatent: Protects new inventions or processes.\nTrade Secret: Keeps valuable information confidential for a competitive advantage.\nTips for Protection:\n\nDocument your IP with details like date, author, and description.\nRegister your IP with the appropriate authorities.\nKeep your IP confidential and limit access to authorized personnel.\nUse non-disclosure agreements (NDAs) to safeguard your IP.\nProtecting your intellectual property is vital for your startup's success and competitiveness."
+  utter_startup_data_science_startup_optimization:
+    - text: "how much of your product is needed, so you can avoid running out or having too much in stock.\nEfficient Shipping: Data science helps find the best shipping routes, saving money on transportation and ensuring faster deliveries.\nSmart Inventory: Optimize the right amount of inventory to keep, reducing costs and meeting customer needs.\nReduce Risks: Data science assesses and manages potential risks in the supply chain, keeping things running smoothly.\nDetect Fraud: Use data science to catch any dishonest activity in your supply chain, protecting your business from financial losses."
+  utter_startup_ai_automation_startup_examples:
+    - text: "Tips for Automation:\n\nStart with easy tasks: Identify repetitive and time-consuming tasks that can be easily automated with AI.\nUse cloud-based AI platforms: Explore cloud-based AI tools that make it simple to implement and scale automation.\nGather feedback from your team: Get input from your team on how well AI automation is working and where improvements are needed.\nBy leveraging AI for automation, your startup can streamline processes and increase overall efficiency."
+  utter_startup_machine_learning_product_innovation:
+    - text: "Sure! Here are innovative ways machine learning can inspire new product ideas:\n\nData Analysis: Use machine learning to analyze large datasets, identifying hidden trends and patterns to generate customer-centric product ideas.\nSimulation: Create virtual simulations to test and evaluate new product ideas in real-world scenarios before implementation.\nCreative Content: Leverage machine learning to generate creative content like text, images, and videos for marketing and customer experiences.\nPersonalization: Utilize machine learning to personalize products and services, enhancing customer satisfaction and loyalty.\nTips for Inspiration:\n\nFocus on a Problem: Start with a specific problem you want to solve to guide your machine learning efforts.\nGather Relevant Data: Collect customer feedback, market research, and competitor analysis data to inform your ideas.\nExplore Different Techniques: Experiment with various machine learning techniques to uncover unique product concepts.\nSeek Feedback: Share your ideas with others to gain valuable insights and identify areas for improvement.\nMachine learning can spark innovative product ideas that cater to your customers' needs and preferences."
+  utter_startup_iot_data_collection_applications:
+    - text: "Certainly! Here are some practical applications of IoT for data collection in your business:\n\nProduct Monitoring: Use IoT sensors to monitor product performance in real-time, detecting issues early and preventing costly repairs.\nEnvironmental Monitoring: Deploy IoT sensors to track environmental conditions like temperature and air quality, enhancing efficiency and safety.\nAsset Tracking: Utilize IoT sensors to track the location of assets such as vehicles and inventory, improving efficiency and security.\nCustomer Behavior Tracking: Implement IoT sensors to monitor customer behavior and product usage, enhancing customer experience and targeted marketing.\nFraud Detection: Leverage IoT sensors to detect fraud, safeguarding your business from financial losses.\nTips for Using IoT Data Collection:\n\nIdentify Needs: Determine what data is essential for your business and how you plan to use it.\nChoose Suitable Sensors: Select IoT sensors that align with your data collection requirements.\nSecure Data Collection: Ensure data security through encryption and protection against unauthorized access.\nUtilize Data Wisely: Analyze collected data to make informed decisions and improve business processes.\nBy leveraging IoT for data collection, your business can gain valuable insights, enhance operations, and deliver better experiences for customers."
+  utter_startup_positive_work_environment:
+    - text: "Omdena is a global AI community that supports professional growth through real-world projects and community-driven mentorship. They offer:\n\nReal-World Projects: Collaborators work on AI projects that address real-world problems, gaining valuable experience.\nMentorship: Experienced AI professionals provide guidance and support to help collaborators develop their skills.\nUnique Opportunities: Omdena offers free access to paid courses, writing/speaking opportunities, and paid gigs for experienced collaborators.\nExamples of Success:\n\nEphantus Achebi used Omdena to build an AI chatbot, securing a data scientist job.\nDr. Colton Magnant's project led to a speaking gig at a major conference.\nAnna Koroleva improved machine translation, landing a machine learning engineer job.\nOmdena is an excellent platform for AI enthusiasts seeking to grow professionally through hands-on projects and learning opportunities."
+  utter_startup_team_motivation_retention:
+    - text: "Sure! Here are the tips to keep your team members motivated and engaged on Omdena:\n\nSet clear goals and expectations to keep them focused.\nProvide regular feedback to make them feel valued.\nEncourage collaboration for learning and bonding.\nCelebrate successes to boost motivation and pride.\nMake the work environment enjoyable and supportive.\nAdditional tips specific to Omdena:\n\nAssign meaningful tasks for engagement.\nProvide access to necessary resources and support.\nEmpower team members with decision-making freedom.\nBe supportive and available when needed.\nBy applying these tips, you'll create a motivated and engaged team on Omdena, resulting in increased productivity and a positive work experience."
+  utter_startup_industry_trends_sources:
+    - text: "Sure! Here are some sources to stay informed about industry trends on Omdena:\n\nThe Omdena Blog: Covers a wide range of AI topics and case studies.\nThe Omdena Community: Connect with AI professionals and join discussions.\nThe Omdena Events Calendar: Stay updated on AI-related events and speakers.\nThe Omdena News Feed: Get the latest AI news and trends.\nAdditional ways to stay informed:\n\nFollow AI-related hashtags on social media (#AI, #machinelearning, #deeplearning, #naturallanguageprocessing, #computervision).\nRead industry publications and attend conferences/meetups.\nBy using these sources, you'll keep up with the latest industry trends and developments in the field of AI."
+  utter_startup_long_term_strategy_development:
+    - text: "Sure! Here are simple steps to develop a long-term business strategy on Omdena:\n\nAssess your current situation: Understand your strengths, weaknesses, opportunities, and threats.\nSet clear goals: Define specific and measurable objectives for your strategy.\nIdentify key drivers: Determine factors critical to your business success, like customer demand or technology.\nDevelop a plan: Create a specific, achievable, relevant, and time-bound strategy.\nBe flexible: Adapt your strategy to changing circumstances.\nMeasure progress: Track your achievements and adjust your plan as needed.\nInvolve your team: Get input from your team members for a feasible strategy.\nUse data and analytics: Analyze data to identify trends and opportunities.\nBe open to new ideas: Stay open to collaboration and new technologies.\nBy following these simple steps, you can develop a successful long-term business strategy on Omdena."
+
+  # UNIVERSITIES
+  utter_university_partnership_with_omdena:
+    - text: "Partnering with Omdena is a fantastic opportunity for your university, bootcamp, or AI school to provide your students with real-world experience. We can draft a mutually beneficial partnership agreement to get started. Please connect with our team via email at contact@omdena.com, and they will be happy to discuss partnership opportunities and answer any questions you may have."
+  utter_university_team_expertise:
+    - text: "Omdena has a team of collaborative AI experts, including data scientists, AI experts, domain experts, machine learning engineers, researchers, and data engineers. They work together to build innovative and ethical AI solutions."
+  utter_university_omdena_collaborative_platform:
+    - text: "Omdena's collaborative platform brings together AI engineers and domain experts from 120+ countries to work on real-world projects. With over 15,000 collaborators, 175+ local chapters, and 535+ executed projects, it's a global hub for impactful AI development."
+  utter_university_omdena_project_workflow:
+    - text: "The process is simple. First, your university shares Omdena's AI challenges and projects with your students. Then, the AI engineers and domain experts collaborate virtually to co-create success stories, capturing and promoting your students' learnings."
+  utter_university_omdena_partnership_benefits:
+    - text: "By partnering with Omdena, your university can provide your students with real-world education and make them more hireable. You'll also benefit from shared marketing and PR, while co-creating impactful stories of your students' AI projects."
+  utter_university_omdena_ai_project_success_story:
+    - text: "Absolutely! Check out some of our inspiring success stories here: https://omdena.com/data-science-career-development-stories/ "
+  utter_university_project_university_partners:
+    - text: "Omdena has partnered with various esteemed institutions, including Harvard Undergraduate Data Analytics, allWomen, Prince Sultan University - AIDA, ABLETECH Solutions, WOMEN AI ACADEMY, ESKWELABS, and University of Ladakh."
+  utter_university_newsletter_subscription:
+    - text: "Stay up-to-date with Omdena's press releases and news on our website. Check out what we are currently working on, our initiatives, partnerships, and more here: https://omdena.com/blog/ . You can also subscribe to our newsletter to receive the latest updates on real-world AI case studies, new projects, partner success stories and top events with thought leaders. Follow this link to subscribe: https://omdena.com/press-news# "
+  utter_university_project_domains:
+    - text: "Omdena offers a diverse range of AI projects that address real-world challenges. The projects cover various domains, allowing your students to contribute to solutions that have a positive impact on society. Please follow this link to look at the available projects: https://omdena.com/projects/"
+
+  # AI INNOVATION
+  utter_ai_invo_ai_innovation_challenge:
+    - text: "We are confident that our AI-powered solutions will drive significant impact and address critical challenges across various domains. We look forward to showcasing our innovation and contributing to the advancementof AI technology"
+  utter_ai_invo_pricing_model:
+    - text: "Our pricing model is based on a subscription plan, where customers can choose from different tiers based on their specific needs and usage requirements.we offer flexible pricing options to ensure our ai solutionis accessible to businesses of all sizes."
+  utter_ai_invo_timely_results_8_weeks:
+    - text: "We employ a well-structured project management approach agile methodologies, and efficient resource allocation to ensure timely results within the 8-week time frame. Our experienced team focuses on effective communication, proactive problem-solving, and risk mitigation to meet project deadlines and deliver successful outcomes"
+  utter_ai_invo_participants_innovation_challenge:
+    - text: "Every month, we receive 1000+ applications to join Omdena projects. The selection process involves evaluating various factors such as motivation, skills, and available time to choose individuals who will be part of a project. Additionally, the team selection process considers inputs from you as a client, such as time zone and required skill set. Here, you can catch a glimpse of some of our talented team members. Please note that we do not accept inexperienced students for our projects. However, we offer them the opportunity to upskill through Omdena School or an Omdena Local Chapter Challenge."
+  utter_ai_invo_talk_with_omdena_clients:
+    - text: "As you can imagine, it can easily get overwhelming for past clients to talk to many prospective clients of Omdena. So instead, we provide a list of video testimonials from startup founders NGOs, and other client organizations.  Here is our full portfolio of clients."
+
+  # TOP TALENT
+  utter_top_talent_omdena_top_talent_engineers:
+    - text: "Omdena's Top Talent engineers represent the top 2% of collaborators selected from a pool of more than 30,000 applications. These engineers are chosen based on their exceptional skills, experience, and motivation. To become a part of Omdena's Top Talent Pool, and perform extremely well in both of them.\nOmdena conducts over 300 AI Innovation Challenges, which helps build a strong talent pool of engineers from various locations around the world. These engineers come from diverse technical, industry-related, and cultural backgrounds, bringing a rich array of perspectives and expertise to the projects they work on.\nBy assembling this elite group of engineers, Omdena ensures that its Top Talent projects are staffed with highly capable and motivated individuals, dedicated to solving complex challenges through collaborative and innovative efforts."
+  utter_top_talent_top_talent_project_pricing_model:
+    - text: "The pricing model for running a Top Talent Project with Omdena is based on several factors that can influence the overall cost. Here are the key considerations:\n\nLocation of Engineers: The location of the engineers who will be working on the project can impact the pricing. Engineers from different regions may have different salary expectations and cost of living, which can be reflected in the project cost.\nSeniority and Expertise: The level of experience and expertise required from the engineers involved in the project can also influence the pricing. More experienced and highly skilled engineers may have higher rates.\nTech Stack and Project Complexity: The complexity of the project and the specific tech stack required can affect the pricing. Projects that involve specialized technologies or require specific skillsets may have higher costs.\nProject Duration: The duration of the project can also impact the overall pricing. Longer projects may have different pricing structures compared to shorter ones.\nTeam Size: The size of the team working on the project can also be a factor in determining the cost. Larger teams may require more resources and can affect the overall pricing.\nAccess to Global Talent: Omdena's unique advantage lies in its access to talent from around the world. This global talent pool allows Omdena to accommodate different budget requirements more effectively, as the cost can vary based on the location of the engineers.\nTo get a precise quote for running a Top Talent Project with Omdena, it's best to discuss your project details and specific requirements with Omdena's team directly. They will be able to provide you with a customized pricing plan tailored to your project needs and budget constraints."
+  utter_top_talent_top_talent_vs_outsourcing_company:
+    - text: "Omdena = Problem-driven talent, motivated & diverse engineers. Outsourcing Co. = Developers assigned based on availability, not problem-driven.\nOmdena = Vetted Top 2% of 30k+ applications, experienced. Outsourcing Co. = Varies in expertise, may not be as vetted.\nOmdena = Flexible team size, up to 5 engineers. Outsourcing Co. = Fixed team sizes, less flexible.\nOmdena = Aims for engineers to be hired full-time by other companies. Outsourcing Co. = Can't hire developers directly.\nOmdena = Access to hidden top talent, cost-effective. Outsourcing Co. = Traditional hiring process, costlier.\nOmdena = Selects team for you based on experience. Outsourcing Co. = Can't speed up team selection process.\nOmdena = Potential to hire top-performing engineers in-house. Outsourcing Co. = No option to hire engineers directly.\nOmdena = Global talent pool, accommodates budget better. Outsourcing Co. = Limited to specific locations."
+  utter_top_talent_hiring_inhouse_after_project:
+    - text: "Yes, you can hire people in-house during or at the end of the project. It's quite common for companies to choose to hire the top-performing engineers from the project team as their full-time employees. If you successfully hire an engineer through Omdena, a one-off 10% recruitment fee of the annual salary you offer to the engineer will be requested. This allows you to identify and onboard potential future employees during or after the project's completion."
+  utter_top_talent_team_selection_process:
+    - text: "Omdena follows a three-step process to select teams of engineers for Top Talent Projects: Agreement: In the first step, Omdena and the client define the project budget, team requirements (such as time zone compatibility, technical expertise, etc.), and the desired team size. Team Selection: After the agreement is signed, Omdena takes on the responsibility of selecting the team of engineers within two weeks. However, before the team selection, there is often a second call between Omdena’s Head of Projects and the client's CTO to ensure alignment with the specific requirements. Project Kick-off: Once the project team has been confirmed, Omdena organizes a kick-off meeting with the client, and the project begins. While Omdena is experienced in selecting the best teams based on its knowledge of the engineers who have worked with them for months or years, clients do not have the option to select the engineers on their own during the initial team formation process. However, clients are given a 14-day period after the project kick-off to request a full refund if they are not satisfied with the team of engineers that Omdena has selected. This ensures that clients have an opportunity to assess the team's fit for their project and make a decision accordingly."
+  utter_top_talent_week_money_back_guarantee:
+    - text: "The 2-week money-back guarantee offered by Omdena works as follows:\n\nOnce a Top Talent Project is initiated, the client has a period of 14 days from the kick-off call to evaluate the team of engineers that Omdena has selected for the project. If, within these 14 days, the client is not satisfied with the team's performance or feels that they are not the right fit for the project, they have the option to request a full refund of the amount paid for the project.\n\nOmdena provides this money-back guarantee as a reassurance to clients, allowing them to thoroughly assess the team's capabilities and suitability for their project during the initial stages. If the client decides to discontinue the project within the specified period, Omdena will refund the full amount without asking any questions.\n\nIt's worth noting that, as of the given data, Omdena has successfully run over 80 top talent projects and has not encountered any cases where someone asked for a refund during the 2-week period. This indicates a high level of satisfaction and confidence in the team selection process and the quality of work delivered by Omdena's top talent engineers."
+
+  # PROJECTS
+  utter_projects_available_projects_details:
+    - text: "Sure! You can explore the list and type of projects by visiting our website at https://omdena.com/projects. Under the 'Explore Projects' section, you can enter keywords and apply filters for Status, Domain, and Industry to narrow down your search based on your interests."
+  utter_projects_completed_projects_details:
+    - text: "Absolutely! To check out the projects, visit our website at https://omdena.com/projects. In the 'Explore Projects' section, you can enter keywords and utilize the available filters for Status, Domain, and Industry to refine your search according to your preferences."
+  utter_projects_ongoing_projects_details:
+    - text: "Of course! Head over to https://omdena.com/projects to access the list of projects. Under 'Explore Projects', you can enter specific keywords and take advantage of the filters for Status, Domain, and Industry to customize your search and find projects that align with your interests."
+  utter_projects_all_projects_details:
+    - text: "Absolutely! You can find the list of projects at https://omdena.com/projects . Simply navigate to the 'Explore Projects' section, where you can enter keywords and utilize the filters for Status, Domain, and Industry to narrow your search based on your specific interests."
+  utter_projects_apply_to_join:
+    - text: "Head over to https://omdena.com/projects to access the list of projects. Under the 'Explore Projects' section, please enter specific keywords and filter projects on 'Upcoming' Status to view all the upcoming challenges and projects. You can further refine projects using Domain and Industry you are interested in. Once you have selected you intereste project please apply to participate on the project details page."
+  utter_projects_host_a_project:
+    - text: "Please navigate to https://omdena.com/projects and click on Host a Project button. This will take you to page with details on process of partenering with us to host a project."
+  utter_projects_categories_details:
+    - text: "We have broadly 3 categories of projects based on skills required and complexity level. These are AI Innovation Challenges, Top Talent Projects & Local Chapter Challenges. For more details please visit https://omdena.com/projects "
+  utter_projects_recommendation_for_newcomer:
+    - text: "We reccommed Local Chapter Challenges, which are beginner friendly. For more details please visit https://omdena.com/projects"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
