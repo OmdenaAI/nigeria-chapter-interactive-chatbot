@@ -1,0 +1,103 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+# Local Chapters
+  - local_chapter_inquire_local_chapter_programs
+  - local_chapter_cost
+  - local_chapter_participation_eligibility
+  - local_chapter_join_collaborator
+  - local_chapter_collaborator_benefit
+  - local_chapter_lead_local_chapter
+  - local_chapter_lead_benefit
+  - local_chapter_find_challenges
+  - local_chapter_contact_organizers
+
+# Projects
+  - projects_available_projects_details
+  - projects_completed_projects_details
+  - projects_ongoing_projects_details
+  - projects_all_projects_details
+  - projects_apply_to_join
+  - projects_host_a_project
+  - projects_categories_details
+  - projects_recommendation_for_newcomer
+
+########################################################################################################################################
+
+responses:
+# General
+  utter_greet:
+  - text: "Hey! How are you?"
+  - text: Hey there, I'm Omdi, your virtual assistant. How can I help you ?
+  - text: Hi, I'm Omdi, your virtual assistant.
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great !"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+# Local Chapters
+  utter_local_chapter_inquire_local_chapter_programs:
+  - text: "Our local chapter program aims to establish local communities who provide AI education and collaborate together on solving issues important for locals in their respective regions. It aims: To promote real-world AI through running open-source projects, To provide case study-based education and To bring AI services to local AI enthusiasts and businesses around the world. "
+  utter_local_chapter_cost:
+  - text: "Yes, joining an Omdena local chapter is free of charge. It's an inclusive community initiative aimed at fostering collaboration and knowledge sharing among AI enthusiasts and professionals."
+  utter_local_chapter_participation_eligibility:
+  - text: "Omdena local chapters are open to anyone interested in AI, regardless of their level of expertise. Whether you're a beginner or an experienced practitioner, you're welcome to join and contribute to the local AI community."
+  utter_local_chapter_join_collaborator:
+  - text: "To join one of our local chapter, visit the Local Chapters page on our website and find the chapter nearest to your location. Then, follow the instructions provided to get involved and connect with other members."
+  utter_local_chapter_collaborator_benefit:
+  - text: "Joining an Omdena local chapter offers numerous benefits, including opportunities for networking, collaborating on AI projects, gaining industry insights, and participating in local events and workshops."
+  utter_local_chapter_lead_local_chapter:
+  - text: "Absolutely! We encourage individuals passionate about AI and community building to start their own local chapters. Visit the Local Chapters page on our website and go to the https://omdena.com/application-page-omdena-chapter-lead/ to learn more about the requirements and process for starting a chapter."
+  utter_local_chapter_lead_benefit:
+  - text: "By becoming a chapter lead you understand the technical approaches and the skills needed in solving a problem using data science/artificial intelligence, Get the work experience needed in becoming a product owner/developerLearn and develop your AI skills through collaboration with other AI engineers, Showcase your work and impact to obtain grants or scholarships at international conferences, universities or global communities, Make contacts and get help from Omdena AI community experts to organise workshops and Develop your non-technical skills like communication, team building, analytical and problem solving skills."
+  utter_local_chapter_find_challenges:
+  - text: "You can find a list of all challenges on the Local Chapter Section on our Website (https://omdena.com/local-chapters/). In the Local Chapter Challenges section you can scroll through the different challenges, search according to interest words or filter according to domain, phase country or city. "
+  utter_local_chapter_contact_organizers:
+  - text: "To contact the organizers of a specific Omdena local chapter, you can find their contact information on the Local Chapters page of our website (https://omdena.com/local-chapters/). Reach out to them directly for any inquiries, suggestions, or collaboration opportunities. Also visit our Growth stories of Local Chapter Leads section to get inspired by their stories and path with us."
+
+# Projects
+  utter_projects_available_projects_details:
+  - text: "Sure! You can explore the list and type of projects by visiting our website at https://omdena.com/projects. Under the 'Explore Projects' section, you can enter keywords and apply filters for Status, Domain, and Industry to narrow down your search based on your interests."
+  utter_projects_completed_projects_details:
+  - text: "Absolutely! To check out the projects, visit our website at https://omdena.com/projects. In the 'Explore Projects' section, you can enter keywords and utilize the available filters for Status, Domain, and Industry to refine your search according to your preferences."
+  utter_projects_ongoing_projects_details:
+  - text: "Of course! Head over to https://omdena.com/projects to access the list of projects. Under 'Explore Projects', you can enter specific keywords and take advantage of the filters for Status, Domain, and Industry to customize your search and find projects that align with your interests."
+  utter_projects_all_projects_details:
+  - text: "Absolutely! You can find the list of projects at https://omdena.com/projects . Simply navigate to the 'Explore Projects' section, where you can enter keywords and utilize the filters for Status, Domain, and Industry to narrow your search based on your specific interests."
+  utter_projects_apply_to_join:
+  - text: "Head over to https://omdena.com/projects to access the list of projects. Under the 'Explore Projects' section, please enter specific keywords and filter projects on 'Upcoming' Status to view all the upcoming challenges and projects. You can further refine projects using Domain and Industry you are interested in. Once you have selected you intereste project please apply to participate on the project details page."
+  utter_projects_host_a_project:
+  - text: "Please navigate to https://omdena.com/projects and click on Host a Project button. This will take you to page with details on process of partenering with us to host a project."
+  utter_projects_categories_details:
+  - text: "We have broadly 3 categories of projects based on skills required and complexity level. These are AI Innovation Challenges, Top Talent Projects & Local Chapter Challenges. For more details please visit https://omdena.com/projects "
+  utter_projects_recommendation_for_newcomer:
+  - text: "We reccommed Local Chapter Challenges, which are beginner friendly. For more details please visit https://omdena.com/projects"
+
+
+
+########################################################################################################################################
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
