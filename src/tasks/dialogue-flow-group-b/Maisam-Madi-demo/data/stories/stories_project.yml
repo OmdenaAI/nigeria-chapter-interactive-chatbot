@@ -1,0 +1,43 @@
+version: "3.1"
+
+stories:
+
+- story: projects available projects details
+  steps:
+  - intent: projects_available_projects_details
+  - action: utter_projects_available_projects_details 
+
+- story: projects completed projects details
+  steps:
+  - intent: projects_completed_projects_details
+  - action: utter_projects_completed_projects_details 
+
+- story: projects ongoing projects details
+  steps:
+  - intent: projects_ongoing_projects_details
+  - action: utter_projects_ongoing_projects_details 
+
+- story: projects all projects details
+  steps:
+  - intent: projects_all_projects_details
+  - action: utter_projects_all_projects_details 
+
+- story: projects apply to join
+  steps:
+  - intent: projects_apply_to_join
+  - action: utter_projects_apply_to_join
+
+- story: projects host a project
+  steps:
+  - intent: projects_host_a_project
+  - action: utter_projects_host_a_project
+
+- story: projects categories details
+  steps:
+  - intent: projects_categories_details
+  - action: utter_projects_categories_details
+
+- story: projects recommendation for newcomer
+  steps:
+  - intent: projects_recommendation_for_newcomer
+  - action: utter_projects_recommendation_for_newcomer

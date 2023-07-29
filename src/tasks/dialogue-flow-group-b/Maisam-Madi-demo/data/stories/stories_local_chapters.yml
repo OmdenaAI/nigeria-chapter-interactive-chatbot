@@ -1,0 +1,49 @@
+version: "3.1"
+
+stories:
+
+- story: inquire local chapter program
+  steps:
+  - intent: local_chapter_inquire_local_chapter_programs
+  - action: utter_local_chapter_inquire_local_chapter_programs
+
+- story: local chapter cost
+  steps:
+  - intent: local_chapter_cost
+  - action: utter_local_chapter_cost
+
+- story: local chapter participation eligibility
+  steps:
+  - intent: local_chapter_participation_eligibility
+  - action: utter_local_chapter_participation_eligibility
+
+- story: local chapter join collaborator
+  steps:
+  - intent: local_chapter_join_collaborator
+  - action: utter_local_chapter_join_collaborator
+
+- story: local chapter collaborator benefit
+  steps:
+  - intent: local_chapter_collaborator_benefit
+  - action: utter_local_chapter_collaborator_benefit
+
+- story: local chapter lead local chapter
+  steps:
+  - intent: local_chapter_lead_local_chapter
+  - action: utter_local_chapter_lead_local_chapter
+
+- story: local chapter lead benefit
+  steps:
+  - intent: local_chapter_lead_benefit
+  - action: utter_local_chapter_lead_benefit
+
+- story: local chapter find challenges
+  steps:
+  - intent: local_chapter_find_challenges
+  - action: utter_local_chapter_find_challenges
+
+- story: local chapter contact organizers
+  steps:
+  - intent: local_chapter_contact_organizers
+  - action: utter_local_chapter_contact_organizers
+

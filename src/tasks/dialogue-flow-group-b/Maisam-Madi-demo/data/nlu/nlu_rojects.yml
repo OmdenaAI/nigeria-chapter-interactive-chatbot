@@ -1,0 +1,100 @@
+version: "3.1"
+
+nlu:
+- intent: projects_available_projects_details
+  examples: |
+    - "Can you please share details of the projects available on your site?"
+    - "Where can I find projects that are available for participation?"
+    - "How can I find projects I can join?"
+    - "I'm curious about the projects you have available. Can you give me more details about them?"
+    - "Can you provide me with an overview of the upcoming projects I can join?"
+    - "I'm eager to contribute to a project. What kind of projects are currently open for participation?"
+    - "I want to get involved in a project. What options do you have, and what are their details?"
+    - "Could you please share some information about the upcoming projects and how I can join them?"
+    - "I'm looking for opportunities to collaborate on real-world challenges. Can you tell me more about the projects I can join?"
+    - "What are the available projects that I can participate in? I'd like to know more about them."
+    - "I'm interested in joining one of your collaborative projects. Can you provide me with more information about them?"
+    - "I'm keen on contributing my skills to a meaningful project. Could you share details about the available projects I can be a part of?"
+
+- intent: projects_completed_projects_details
+  examples: |
+    - "Can you provide me with information about your past completed projects? I'm interested in learning about the impact they made."
+    - "I'd like to know more about the projects that have been successfully completed. Can you share some details about them?"
+    - "What are some notable projects that have been completed in the past? I'd love to understand the solutions developed by the teams."
+    - "Can you give me an overview of the past projects and the real-world challenges they addressed?"
+    - "I'm curious about the outcomes of your previous projects. Can you provide some insights into the solutions they generated?"
+    - "Could you share success stories or case studies from the projects that have been completed? I'm interested in learning about the achievements."
+    - "Are there any past projects that have had a significant impact or garnered recognition? I'd like to know more about them."
+    - "Can you provide examples of the kind of projects your teams have successfully completed in the past?"
+    - "I'm interested in understanding the range of industries or domains that your completed projects have covered. Could you provide some information?"
+
+- intent: projects_ongoing_projects_details
+  examples: |
+    - "Can you provide me with information about the ongoing projects? I'm interested in learning about the challenges being addressed."
+    - "I'd like to know more about the projects that are currently ongoing. Can you share some details about them?"
+    - "What are some notable projects that are currently in progress? I'd love to understand the solutions being developed by the teams."
+    - "Can you give me an overview of the ongoing projects and the real-world challenges they are addressing?"
+    - "I'm curious about the projects currently being worked on. Can you provide some insights into the objectives and progress of these projects?"
+    - "Could you share details about the ongoing projects and the technologies being utilized?"
+    - "Are there any ongoing projects that have had a significant impact or received recognition? I'd like to know more about them."
+    - "Can you provide examples of the kind of projects your teams are currently working on?"
+    - "I'm interested in understanding the range of industries or domains covered by the ongoing projects. Could you provide some information?"
+    - "What are the key focus areas of the projects currently in progress?"
+
+- intent: projects_all_projects_details
+  examples: |
+    - "Can you provide me with information about all the projects? I want to explore the various initiatives undertaken."
+    - "I'm interested in knowing about all the projects available. Can you give me an overview of each project?"
+    - "Could you provide details about all the projects, regardless of their status? I want to get a comprehensive understanding."
+    - "I'd like to learn about all the projects. Can you share information about each project?"
+    - "Can you give me an overview of all the projects, irrespective of their current status? I'm curious to know the breadth of the initiatives."
+    - "I want to know about all the projects. Can you provide a summary of each project?"
+    - "Could you share information about every project listed on your website? I want to explore all the opportunities available."
+    - "I'm interested in understanding the scope of all the projects. Can you provide detailed information about each project?"
+    - "Can you provide an overview of all the projects, including their status and the real-world challenges they address?"
+    - "I want to get a complete picture of all the projects you offer. Can you provide me with details about each project, regardless of its status?"
+
+- intent: projects_apply_to_join
+  examples: |
+    - "How can I apply to join a project?"
+    - "I'm interested in joining a project. How do I apply to become a part of one?"
+    - "Can you guide me through the process of applying to join a project?"
+    - "What steps do I need to follow in order to apply for a project and join the team?"
+    - "I want to contribute to a project. How can I submit my application to join?"
+    - "How do I go about applying for a project and becoming a member of the team?"
+    - "Can you provide me with information on how to submit an application and join a project?"
+    - "I'm eager to participate in a project. What is the procedure for applying and joining the team?"
+    - "How can I express my interest and apply to join a project as a team member?"
+    - "What is the application process like for joining a project? Can you walk me through it?"
+    - "Can you provide step-by-step instructions on how to apply and join a project as a team member?"
+
+- intent: projects_host_a_project
+  examples: |
+    - "How can I host a project?"
+    - "I have an idea for a project. What are the steps to host it on Omdena?"
+    - "Can you guide me through the process of hosting a project on Omdena?"
+    - "How do I go about hosting a project and collaborating with a team on Omdena?"
+    - "What is the procedure for hosting a project and leading a team of AI engineers and data scientists?"
+    - "I want to initiate a project. How can I submit a proposal and host it on Omdena?"
+    - "I want to initiate a project. How can I do that on Omdena?"
+    - "Can you provide me with information on how to host a project and engage with a talented team?"
+    - "I'm interested in leading a collaborative project. What are the steps involved in hosting it on Omdena?"
+    - "How can I express my interest
+
+- intent: projects_categories_details
+  examples: |
+    - "Can you tell me more about the different categories of projects you offer? I'm curious about the types of challenges available."
+    - "What are the main project categories on Omdena's platform? I'd like to know more about the different types of challenges."
+    - "I'm interested in participating in a project, but I'm not sure which category would be the best fit for me. Can you explain the different project categories?"
+    - "Could you provide details about the AI Innovation Challenges, Top Talent Projects, and Local Chapter Challenges? I want to understand the distinctions between them."
+    - "I'm new to Omdena and would like to know about the different project types available. Can you give me an overview of each category?"
+    - "How are the AI Innovation Challenges, Top Talent Projects, and Local Chapter Challenges different from one another? I'd like to learn about their unique aspects."
+    - "I see there are three categories of projects, but I'm not sure which one suits me best. Can you help me understand the differences between them?"
+    - "I want to explore the various project categories you offer. Can you please share the details?"
+    - "I'm interested in learning about the various types of challenges available. Can you provide more information about it?"
+
+- intent: projects_recommendation_for_newcomer
+  examples: |
+    - "I'm new to Omedena, which project is a good fit for me?"
+    - "I'm a data science student, haven't done any real-world projects, which types of challenges should I start with?"
+    - "I'm a machine learning student, haven't done any real-world projects, which types of challenges should I participate?"
