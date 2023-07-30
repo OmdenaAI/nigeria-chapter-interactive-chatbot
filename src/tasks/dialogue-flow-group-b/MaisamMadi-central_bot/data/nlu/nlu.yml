@@ -1,0 +1,121 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - no way
+    - not really
+    - no thanks
+    - dont need help
+    - actually, I dont
+    - I'm done
+    - thats it
+
+- intent: gratitude
+  examples: |
+    - thanks
+    - thank you
+    - thats great
+    - that was helpful
+    - thank
+    - thanks alot
+    - much thanks
+    - you helped me
+    - helpful
+
+- intent: misunderstood
+  examples: |
+    - That's not what I meant
+    - I meant something else
+    - that was not what I asked
+    - The answer doesnt make sense
+    - I asked something else
+
+- intent: question
+  examples: |
+    - I have a question
+    - can you answer my question ?
+    - I need information.
+    - can you help me ?
+    - can you give me information ?
+    - tell me more
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who is this ?
+    - is this live chat ?
+    - is this customer service ?
+    - what are you ?
+
+- intent: greet+general_question
+  examples: |
+    - Hallo, I have a question
+    - Hey There, I have a question
+    - Hi, I have a question
+    - good evening, I have a question
+    - moin, I have a question
+    - good afternoon, I have a question
+    - Hallo, I need information
+    - Hey There, I need information.
+    - Hi, I need information.
+    - good evening, I need information.
+    - moin, I need information.
+    - good afternoon, I need information.
+    - Hallo, can you help me ?
+    - Hey There, can you help me ?
+    - Hi, can you help me ?
+    - good evening, can you help me ?
+    - moin, can you help me ?
+    - good afternoon, can you help me ?
+    - Hallo, can you give me information ?
+    - Hey There, can you give me information ?
+    - Hi, can you give me information ?
+    - good evening, can you give me information ?
+    - moin, can you give me information ?
+    - good afternoon, can you give me information ?
+

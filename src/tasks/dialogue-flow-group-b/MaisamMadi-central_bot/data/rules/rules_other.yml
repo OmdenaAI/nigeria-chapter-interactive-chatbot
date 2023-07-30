@@ -1,0 +1,63 @@
+version: "3.1"
+
+rules:
+
+- rule: Give link anytime the user asks about challenges
+  steps:
+  - intent: about_us_omdena_challenges
+  - action: utter_about_us_omdena_challenges
+  - action: utter_folow_question
+
+- rule: Give link anytime the user asks about chapters
+  steps:
+  - intent: about_us_omdena_chapters
+  - action: utter_about_us_omdena_chapters
+  - action: utter_folow_question
+
+- rule: Give link anytime the user asks about school
+  steps:
+  - intent: about_us_omdena_school
+  - action: utter_about_us_omdena_school
+  - action: utter_folow_question
+
+- rule: Give link anytime the user asks about top_talent
+  steps:
+  - intent: about_us_omdena_top_talent
+  - action: utter_about_us_omdena_top_talent
+  - action: utter_folow_question
+
+- rule: Give link anytime the user asks about community
+  steps:
+  - intent: about_us_omdena_community
+  - action: utter_about_us_omdena_community
+  - action: utter_folow_question
+
+- rule: Give link anytime the user asks about career path
+  steps:
+  - intent: about_us_omdena_career_path
+  - action: utter_about_us_omdena_career_path
+  - action: utter_folow_question
+
+- rule: Give link anytime the user asks about organizations
+  steps:
+  - intent: about_us_omdena_organizations
+  - action: utter_about_us_omdena_organizations
+  - action: utter_folow_question
+
+- rule: Give link anytime the user asks about universities
+  steps:
+  - intent: about_us_omdena_universities
+  - action: utter_about_us_omdena_universities
+  - action: utter_folow_question
+
+- rule: Give link anytime the user asks about civil society
+  steps:
+  - intent: about_us_omdena_civil_society
+  - action: utter_about_us_omdena_civil_society
+  - action: utter_folow_question
+
+- rule: Give link anytime the user asks about startups
+  steps:
+  - intent: about_us_omdena_startups
+  - action: utter_about_us_omdena_startups
+  - action: utter_folow_question

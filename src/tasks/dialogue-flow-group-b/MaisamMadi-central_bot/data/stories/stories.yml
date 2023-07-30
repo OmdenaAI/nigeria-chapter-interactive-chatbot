@@ -1,0 +1,53 @@
+version: "3.1"
+
+stories:
+
+# Start with greet only
+- story: greet no Q path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: deny
+  - action: utter_goodbye
+
+- story: greet Q not specific, then no Q
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: question
+  - action: utter_specific_question
+  - intent: deny
+  - action: utter_goodbye
+
+- story: greet Q not specific, then goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: question
+  - action: utter_specific_question
+  - intent: goodbye
+  - action: utter_goodbye
+
+# Start with greet and generic Q
+- story: greet no Q path
+  steps:
+  - intent: greet+general_question
+  - action: utter_specific_question
+  - intent: deny
+  - action: utter_goodbye
+
+- story: greet Q not specific, then no Q
+  steps:
+  - intent: greet+general_question
+  - action: utter_specific_question
+  - intent: deny
+  - action: utter_goodbye
+
+- story: greet Q not specific, then goodbye
+  steps:
+  - intent: greet+general_question
+  - action: utter_specific_question
+  - intent: question
+  - action: utter_specific_question
+  - intent: goodbye
+  - action: utter_goodbye

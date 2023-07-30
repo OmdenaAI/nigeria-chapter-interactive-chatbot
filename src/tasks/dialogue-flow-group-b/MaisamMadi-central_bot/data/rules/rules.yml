@@ -1,0 +1,26 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say happy to help when user thanks you
+  steps:
+  - intent: gratitude
+  - action: utter_happy_help
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: bot_answer out of scope intents
+  steps:
+  - or:
+    - intent: out_of_scope_non_english
+    - intent: out_of_scope_other
+  - action: utter_out_of_scope
+  - action: utter_folow_question

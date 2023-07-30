@@ -1,0 +1,70 @@
+version: "3.1"
+
+nlu:
+- intent: about_us_omdena_challenges
+  examples: |
+    - Which challenges do you have ?
+    - How can I join a challenge ?
+    - Tell me about your challenges ?
+    - can I join a challenge ?
+    - can I join a project ?
+    - which projects do you have ?
+
+- intent: about_us_omdena_chapters
+  examples: |
+    - what are local chapters ?
+    - can i join a chapter ?
+    - how can i jopin a chapter ?
+    - where do you have local chapters ?
+    - can I open a chapter ?
+
+- intent: about_us_omdena_school
+  examples: |
+    - what is omdena school ?
+    - what can I learn in omdena school ?
+    - which courses does the school offer ?
+    - how much does a course cost ?
+    - how can i register for a course ?
+    - are the courses online ?
+
+- intent: about_us_omdena_top_talent
+  examples: |
+    - what is the top talent program ?
+    - how can I become a top talent ?
+    - who is considered top talent ?
+    - can I earn money in the top talent program ?
+
+- intent: about_us_omdena_community
+  examples: |
+    - tell me more about the communities
+    - how are you involved with communities ?
+    - which communities do you have ?
+
+- intent: about_us_omdena_career_path
+  examples: |
+    - how can I advance my career ?
+    - which career paths do you offer ?
+    - how can I advance my career with you ?
+
+- intent: about_us_omdena_organizations
+  examples: |
+    - How can I join as an organization ?
+    - Can my organization collaborate with you ?
+    - can our organization publish a project on your platform ?
+
+- intent: about_us_omdena_universities
+  examples: |
+    - How can I join as a university ?
+    - Can my university collaborate with you ?
+    - can our university publish a project on your platform ?
+
+- intent: about_us_omdena_civil_society
+  examples: |
+    - How are you involved with civil society ?
+    - do you work with civil society ?
+
+- intent: about_us_omdena_startups
+  examples: |
+    - How can I join as a start up ?
+    - Can my startup collaborate with you ?
+    - can ourstartup publish a project on your platform ?
