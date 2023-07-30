@@ -7,3 +7,7 @@ In addition this bot includes training data on how to handle differen interactio
 Next Development step:
 * Testing the Bot
 * handeling complex input that includes multiple intents
+
+
+Here is an example interaction with the bot:
+<img width="637" alt="chat_example" src="https://github.com/OmdenaAI/nigeria-chapter-interactive-chatbot/assets/99167342/3f68deb2-8168-4f34-87d3-6a109860329f">
