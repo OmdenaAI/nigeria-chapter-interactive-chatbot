@@ -1,0 +1,119 @@
+version: "3.1"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - gratitude
+  - misunderstood
+  - bot_challenge
+  - question
+  - greet+general_question
+
+  - out_of_scope_non_english
+  - out_of_scope_other
+  
+  # About us
+  - about_us_inquire_omdena
+  - about_us_omdena_components
+  - about_us_omdena_values
+  - about_us_omdena_history
+
+  # Other
+  - about_us_omdena_challenges
+  - about_us_omdena_chapters
+  - about_us_omdena_school
+  - about_us_omdena_top_talent
+  - about_us_omdena_community
+  - about_us_omdena_career_path
+  - about_us_omdena_organizations
+  - about_us_omdena_universities
+  - about_us_omdena_civil_society
+  - about_us_omdena_startups
+
+
+
+responses:
+  # General
+  utter_greet:
+  - text: "Hey! How can I assist you today?"
+  - text: Hey there, I'm Omdi, your virtual assistant. How can I help ?
+  - text: Hi, I'm Omdi, your virtual assistant. I'd be happy to answer your Omdena related questions.
+
+  utter_goodbye:
+  - text: "I'll be here in case you have more questions. Goodbye !"
+  - text: "Always happy to answer your questions. Goodbye for now !"
+
+  utter_iamabot:
+  - text: "I am a virtual assistant, here to answer all of your Omdena related questions"
+  - text: "I am a bot. I would be happy to give you information about Omdena"
+
+  utter_happy_help:
+  - text: "Happy to help. Let me know if you need anything else"
+
+  # Out_of_scope and Fallback
+  utter_out_of_scope:
+  - text: "Sorry, I can't handle that request. I am a bot designed to assist with all of your Omdena related questions."
+
+  # Prompt for Questions
+  utter_question_prompt:
+  - text: "How can I help ?"
+  - text: "I'd be happy to answer your Omdena related questions. What would you like to know ?"
+
+  utter_specific_question:
+  - text: "What would you like to know ?"
+  - text: "Which information do you need ?"
+  - text: "What is your question ?"
+
+  utter_folow_question:
+  - text: "Can I help with anything else ?"
+  - text: "Do you have other questions ?"
+  - text: "Do you need information on other topics ?"
+
+  # Apologize, and prompt for Q:
+  utter_apology_Q_prompt:
+  - text: "I must have missunderstood your question. Could you please repeat it ?"
+  - text: "Appologies. What was it exactly that you wanted to know ?"
+  - text: "I'd be happy to try again. What exactly is the information you are looking for?"
+
+
+  # About us
+  utter_about_us_inquire_omdena:
+  - text: "Omdena's mission is to provide the global community of AI engineers with a platform to gather and collaboratively build solutions to real-world problems. Omdena is a community-first organization that is making this world a better place for everyone and giving opportunities to individuals, communities, and impact organizations to grow and make a positive impact in the world. We help organizations and individuals come up with solutions to problems. Our community of talented AI engineers from all over the world works with both small and big organizations to find the answers by embracing learning and networking. "
+
+  utter_about_us_omdena_components:
+  - text: "To support Omdena's passion for collaboration, 3 main components help the community grow: Challenges where AI engineers come up with a solution to real-world problems, Local Chapters that work with case studies close to the local communities worldwide, Omdena School where the less experienced can gain knowledge and develop their skills and Top Talent where top performers can develop their career, get job opportunities and make impact."
+
+  utter_about_us_omdena_values:
+  - text: "Omdena's Core values are - Curiosity, Compassion, Collaboration and Consciousness. Combining the four C's we serve the long-term interests of the planet and create long-lasting positive impact. Our motto is - 'it is ourselves we are helping. it is ourselves we are healing'."
+
+  utter_about_us_omdena_history:
+  - text: "Omdena was founded in late 2018 by Rudradeb Mitra, that after more than 10 years in AI and entrepreneurship had the opportunity to work with a cleantech startup in his home country India. Within a couple of weeks 50 AI engineers, from remote areas in India, came together in an online environment to build a solution for clean energy. The collaboration proved to be very powerful, which inspired Rudradeb to found Omdena. Michael Burkhardt then joined as a Founding Member and Chief Marketing Officer. Since then, the Omdena platform has grown to more than 15,000 collaborators in over 120 countries and established over 175 local chapters."
+
+
+  # Other
+  utter_about_us_omdena_challenges:
+  - text: "For more information about our challenges, visit: https://omdena.com/projects/"
+  utter_about_us_omdena_chapters:
+  - text: "For more information about our chapters, visit: https://omdena.com/local-chapters/"
+  utter_about_us_omdena_school:
+  - text: "For more information about Omdena school, visit: https://omdena.com/omdena-school/"
+  utter_about_us_omdena_top_talent:
+  - text: "For more information about our Top-Talent program, visit: https://omdena.com/top-talent/"
+  utter_about_us_omdena_community:
+  - text: "For more information about Omdena community, visit: https://omdena.com/community/"
+  utter_about_us_omdena_career_path:
+  - text: "For more information about our career paths, visit: https://omdena.com/career-paths/"
+  utter_about_us_omdena_organizations:
+  - text: "For more information about our collaboration with organizations, visit: https://omdena.com/offerings/"
+  utter_about_us_omdena_universities:
+  - text: "For more information about our collaboration with universities, visit: https://omdena.com/universities/"
+  utter_about_us_omdena_civil_society:
+  - text: "For more information about our collaboration with civil society, visit: https://omdena.com/civil-society/"
+  utter_about_us_omdena_startups:
+  - text: "For more information about our collaboration with startups, visit: https://omdena.com/startups/"
