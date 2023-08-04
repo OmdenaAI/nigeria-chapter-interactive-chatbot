@@ -1,0 +1,75 @@
+version: "3.1"
+
+stories:
+
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: Story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: top_talent_general_info
+  - action: utter_top_talent_general_info
+  - intent: process_top_talent
+  - action: utter_process_top_talent
+  - intent: omadena_enroll_process
+  - action: utter_enroll_process
+  - intent: top_talent_benefits
+  - action: utter_top_talent_benefits
+  - intent: top_talent_duration
+  - action: utter_top_talent_duration
+  - intent: top_talent_projects
+  - action: utter_top_talent_projects
+  - intent: top_talent_past_examples
+  - action: utter_top_talent_past_examples
+  - intent: top_talent_application
+  - action: utter_top_talent_application
+  - intent: top_talent_member_selection
+  - action: utter_top_talent_member_selection
+  - intent: becoming_top_talent
+  - action: utter_becoming_top_talent
+  - intent: stand_out_in_interview
+  - action: utter_stand_out_in_interview
+  - intent: top_talent_benefits
+  - action: utter_top_talent_benefits
+  - intent: top_talent_success_stories
+  - action: utter_top_talent_success_stories
+
+- story: story_2
+  steps:
+  - intent: top_talent_difference_from_outsourcing
+  - action: utter_top_talent_difference_from_outsourcing
+  - intent: selecting_top_talent_engineers
+  - action: utter_selecting_top_talent_engineers
+  - intent: top_talent_pricing_model
+  - action: utter_top_talent_pricing_model
+  - intent: top_talent_hiring_members
+  - action: utter_top_talent_hiring_members
+
+
