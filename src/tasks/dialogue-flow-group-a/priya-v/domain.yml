@@ -43,60 +43,60 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_greet:
-    - text: "Hey! I will be your personal assistant and would love to answer your questions about Omdena! would you like to hear what Omdena is about?"
-    utter_top_talent_application:
-      - text: 'Each announced project has an application form linked to it with all the information required to apply.'
+  - text: "Hey! I will be your personal assistant and would love to answer your questions about Omdena! would you like to hear what Omdena is about?"
+  utter_top_talent_application:
+  - text: 'Each announced project has an application form linked to it with all the information required to apply.'
 
-    utter_top_talent_difference_from_outsourcing:
-      - text: 'There are several key differences such as the following: 1. Problem-driven talent: Omdena is a community-driven organization with intrinsically motivated engineers from diverse technical, industry-related, and cultural backgrounds. In other words, we match the most motivated and suitable engineers to your problem. “Omdena engineers are enthusiasts and interested in the problem of the company. This is key for complex projects to be successful, which almost no other company can offer as Omdena can”, says Abhimanyu Bhargava, CEO, Farm-Hand (UK); 2. Vetted: The Top 2% among more than 30.000 applications per year who have worked on similar projects and engagements; 3. Flexibility: You can work with solo engineers or teams of up to five engineers. Up and downscale according to your needs; 4. Hiring: The most important difference is that we want our top talent to be hired and get full-time jobs by other companies. When you work with an outsourcing company, you will not be able to hire developers directly. However, we know, in the mid to long term most organizations want to build in-house teams so through Omdena you can already start identifying your potential future employees.'
+  utter_top_talent_difference_from_outsourcing:
+  - text: 'There are several key differences such as the following: 1. Problem-driven talent: Omdena is a community-driven organization with intrinsically motivated engineers from diverse technical, industry-related, and cultural backgrounds. In other words, we match the most motivated and suitable engineers to your problem. “Omdena engineers are enthusiasts and interested in the problem of the company. This is key for complex projects to be successful, which almost no other company can offer as Omdena can”, says Abhimanyu Bhargava, CEO, Farm-Hand (UK); 2. Vetted: The Top 2% among more than 30.000 applications per year who have worked on similar projects and engagements; 3. Flexibility: You can work with solo engineers or teams of up to five engineers. Up and downscale according to your needs; 4. Hiring: The most important difference is that we want our top talent to be hired and get full-time jobs by other companies. When you work with an outsourcing company, you will not be able to hire developers directly. However, we know, in the mid to long term most organizations want to build in-house teams so through Omdena you can already start identifying your potential future employees.'
 
-    utter_top_talent_projects:
-      - text: 'Please follow the list on https://omdena.com/projects to find information about the different projects, including Top Talent'
+  utter_top_talent_projects:
+  - text: 'Please follow the list on https://omdena.com/projects to find information about the different projects, including Top Talent'
 
-    utter_process_top_talent:
-      - text: '1.Join Omadena to grow skills.
+  utter_process_top_talent:
+  - text: '1.Join Omadena to grow skills.
           2.Become a leader
           3.Get Paid as Top Talent'
 
-    utter_top_talent_past_examples:
-      - text: 'You can find information about Top Talent projects as they are announced. As such projects are not owned by Omdena, the information about past projects is not public.'
+  utter_top_talent_past_examples:
+  - text: 'You can find information about Top Talent projects as they are announced. As such projects are not owned by Omdena, the information about past projects is not public.'
 
-    utter_top_talent_duration:
-      - text: 'This may depend on the project. Find information about top talent challenges on https://omdena.com/projects '
+  utter_top_talent_duration:
+  - text: 'This may depend on the project. Find information about top talent challenges on https://omdena.com/projects '
 
-    utter_enroll_process:
-      - text: 'You can join us in various ways.
+  utter_enroll_process:
+  - text: 'You can join us in various ways.
           ->Real World Projects
           ->Local Projects
           ->Omadena School '
 
-    utter_top_talent_member_selection:
-      - text: 'Omdena''s Top Talent program members are selected for paid projects by being chosen from the pool of top performers in Omdena''s AI Innovation Challenges1. To be selected for the Top Talent program, an engineer must complete at least ine Omdena AI Innovation Challenges and perform extremely well in it.'
+  utter_top_talent_member_selection:
+  - text: 'Omdena''s Top Talent program members are selected for paid projects by being chosen from the pool of top performers in Omdena''s AI Innovation Challenges1. To be selected for the Top Talent program, an engineer must complete at least ine Omdena AI Innovation Challenges and perform extremely well in it.'
 
-    utter_becoming_top_talent:
-      - text: 'You should complete at least one AI innovation challenge and perform well in it. This can make you eligible to apply for top talent projects. Applications are reviewed based on the requirements of each project.'
+  utter_becoming_top_talent:
+  - text: 'You should complete at least one AI innovation challenge and perform well in it. This can make you eligible to apply for top talent projects. Applications are reviewed based on the requirements of each project.'
 
-    utter_selecting_top_talent_engineers:
-      - text: 'The top 2% of Omdena’s collaborators. They are selected from more than 30,000 applications. To be selected for Omdena Top Talent Pool an engineer must work on at least two Omdena AI Innovation Challenges and perform extremely well in both of them. Through running over 300 AI Innovation Challenges we have built a strong talent pool of engineers from all around the world.'
+  utter_selecting_top_talent_engineers:
+  - text: 'The top 2% of Omdena’s collaborators. They are selected from more than 30,000 applications. To be selected for Omdena Top Talent Pool an engineer must work on at least two Omdena AI Innovation Challenges and perform extremely well in both of them. Through running over 300 AI Innovation Challenges we have built a strong talent pool of engineers from all around the world.'
 
-    utter_top_talent_hiring_members:
-      - text: 'Yes, it happens very often that the company decides to hire the top-performing engineers in-house from the project team. If you end up successfully hiring an engineer through Omdena we would ask you for a one-off 10% recruitment fee of the annual salary you offer to the engineer. The Top Talent Projects are a unique opportunity for you to acquire ‘hidden’ top talent in a very cost-effective compared to traditional hiring processes (like job ads + scanning through CVs + interviews).'
+  utter_top_talent_hiring_members:
+  - text: 'Yes, it happens very often that the company decides to hire the top-performing engineers in-house from the project team. If you end up successfully hiring an engineer through Omdena we would ask you for a one-off 10% recruitment fee of the annual salary you offer to the engineer. The Top Talent Projects are a unique opportunity for you to acquire ‘hidden’ top talent in a very cost-effective compared to traditional hiring processes (like job ads + scanning through CVs + interviews).'
 
-    utter_top_talent_general_info:
-      - text: 'Omdena''s top challenge projects are payed projects that involve teams of up to 5 people who work on MLOps and software development. Previous project experience with Omdena is required for these projects. Omdena''s website provide information on specific projects that are currently ongoing or have been completed. Some examples of Omdena''s past projects include building a stand-out data science project portfolio, helping NGOs with disaster response, and developing AI solutions for healthcare and education.'
+  utter_top_talent_general_info:
+  - text: 'Omdena''s top challenge projects are payed projects that involve teams of up to 5 people who work on MLOps and software development. Previous project experience with Omdena is required for these projects. Omdena''s website provide information on specific projects that are currently ongoing or have been completed. Some examples of Omdena''s past projects include building a stand-out data science project portfolio, helping NGOs with disaster response, and developing AI solutions for healthcare and education.'
 
-    utter_stand_out_in_interview:
-      - text: 'To stand out as a candidate during the Omdena interview process, the following tips were provided: 1. Research Omdena 2. Showcase your previous experiences 3. Demonstrate motivation 4. Commitment and availability 5. Gain first-hand experience 6. Build a strong portfolio. Good luck!'
+  utter_stand_out_in_interview:
+  - text: 'To stand out as a candidate during the Omdena interview process, the following tips were provided: 1. Research Omdena 2. Showcase your previous experiences 3. Demonstrate motivation 4. Commitment and availability 5. Gain first-hand experience 6. Build a strong portfolio. Good luck!'
 
-    utter_top_talent_benefits:
-      - text: 'By working with Omdena you can develop your career, earn money, get job opportunities, and make an impact. By Joining Top Talent program and you get to access to paid projects. Earn money in special paid projects '
-      - text: 'The Top Talent program provides opportunities for developers to work on real-life problems, make an impact and develop a portfolio- while eaning money. Work is flexible as you can work from anywhere in the world at flexible times and you will enjoy the opportunity to work with people across the globe. In addition, these projects provide opprtunities for being hired by various organizations as a full-time job.'
+  utter_top_talent_benefits:
+  - text: 'By working with Omdena you can develop your career, earn money, get job opportunities, and make an impact. By Joining Top Talent program and you get to access to paid projects. Earn money in special paid projects '
+  - text: 'The Top Talent program provides opportunities for developers to work on real-life problems, make an impact and develop a portfolio- while eaning money. Work is flexible as you can work from anywhere in the world at flexible times and you will enjoy the opportunity to work with people across the globe. In addition, these projects provide opprtunities for being hired by various organizations as a full-time job.'
 
-    utter_top_talent_pricing_model:
-      - text: 'Due to our access to talent from around the world, we have a higher chance to accommodate your budget. The cost could vary a lot depending on the location of the engineers, the seniority, the tech stack required, and other factors.'
+  utter_top_talent_pricing_model:
+  - text: 'Due to our access to talent from around the world, we have a higher chance to accommodate your budget. The cost could vary a lot depending on the location of the engineers, the seniority, the tech stack required, and other factors.'
 
-    utter_top_talent_success_stories:
-      - text: 'You can find information about personal success stories of developers who participated in the Top Talent program in the following link: https://omdena.com/top-talent/ '
+  utter_top_talent_success_stories:
+  - text: 'You can find information about personal success stories of developers who participated in the Top Talent program in the following link: https://omdena.com/top-talent/ '
 
 
 session_config:
