@@ -1,16 +1,10 @@
-# Central Bot Component (Demo)
+# Central-bot+Arpit+Anand+Pankaj
 
-This library contains a suggestion for a central bot component. This central bot is trained to answer general information about Omdena (based on the "about us" section) and is designed to provide a link whenever the user asks about any one of the other sections of the website (for example: local chapters). 
-Once the other bots specialised on the other sections are developed, the files ending with _other will be replaced by dedicated files for each website section.
-In addition this bot includes training data on how to handle differen interactions with the user, such as greetings, expression of gratitude, feeling of being misunderstood and out of scope input.
+You can clone this folder to your PC
+1. Add additional questions
+2. Run--> rasa data validate
+3. Run--> rasa train
+4. Run--> rasa interactive (to add additional questions to nlu.yml by chatting)
+5. Upload a separate rasa folder with a version increment
 
-Next Development step:
-* Testing the Bot
-* handeling complex input that includes multiple intents
-
-
-Here is an example interaction with the bot:
-
-
-
-<img width="637" alt="chat_example" src="https://github.com/OmdenaAI/nigeria-chapter-interactive-chatbot/assets/99167342/3f68deb2-8168-4f34-87d3-6a109860329f">
+Test this bot here: https://huggingface.co/spaces/OmdenaLC/omdena-ng-lagos-chatbot-interface
