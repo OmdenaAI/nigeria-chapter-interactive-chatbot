@@ -1,0 +1,97 @@
+version: "3.1"
+
+stories:
+
+- story: story_1
+  steps:
+  - intent: about_omdena
+  - action: utter_about_omdena
+
+- story: story_2
+  steps:
+  - intent: join_omdena
+  - action: utter_join_omdena
+  - intent: develop_portfolio
+  - action: utter_develop_portfolio
+
+- story: story_3
+  steps:
+  - intent: join_local_chapter
+  - action: utter_join_local_chapter
+  - intent: join_ai_innovation_challenge
+  - action: utter_join_ai_innovation_challenge
+  - intent: join_omdena_school
+  - action: utter_join_omdena_school
+  - intent: beginner_join
+  - action: utter_beginner_join
+  - intent: benefits_of_joining_community
+  - action: utter_benefits_of_joining_community
+
+- story: story_4
+  steps:
+  - intent: access_courses
+  - action: utter_access courses
+
+- story: story_5
+  steps:
+  - intent: about_omdena
+  - action: utter_about_omdena
+
+- story: story_6
+  steps:
+  - intent: join_collaborator
+  - action: utter_join_collaborator
+  - intent: about_project
+  - action: utter_about_project
+  - intent: application_period
+  - action: utter_application_period
+  - intent: commitment
+  - action: utter_commitment
+
+- story: story_7
+  steps:
+  - intent: support
+  - action: utter_support
+  - intent: project_completion
+  - action: utter_project_completion
+
+- story: story_7.1
+  steps:
+  - intent: join_company
+  - action: utter_join_company
+  - intent: partnership
+  - action: utter_partnership
+  - intent: additional_info
+  - action: utter_additional_info
+
+- story: story_7.2
+  steps:
+  - intent: resources
+  - action: utter_resources
+  - intent: events
+  - action: utter_events
+  - intent: omdena_support
+  - action: utter_omdena_support
+  - intent: technical_help
+  - action: utter_technical_help
+
+- story: story_7.3
+  steps:
+  - intent: technical_help
+  - action: utter_technical_help
+
+- story: story_7.4
+  steps:
+  - intent: events
+  - action: utter_events
+
+- story: story_8
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: story_9
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+

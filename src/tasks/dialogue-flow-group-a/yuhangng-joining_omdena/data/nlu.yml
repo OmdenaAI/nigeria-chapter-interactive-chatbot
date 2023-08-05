@@ -1,0 +1,199 @@
+version: "3.1"
+
+nlu:
+
+- intent: about_omdena
+  examples: |
+    - What is Omdena's main focus?
+    - Hi, I'd like to know more about Omdena projects.
+    - Can you tell me about Omdena's mission?
+    - What kind of work does Omdena do?
+    - I'm curious about Omdena's objectives.
+
+- intent: join_omdena
+  examples: |
+    - How do I join Omdena?
+    - What's the process to become a member of Omdena?
+    - I want to be a part of Omdena, how can I join?
+    - Can you guide me through the steps to join Omdena?
+    - Where can I sign up to become a member of Omdena?
+
+- intent: develop_portfolio
+  examples: |
+    - How can I develop my AI portfolio with Omdena?
+    - What opportunities does Omdena provide for building an AI portfolio?
+    - Can Omdena help me enhance my AI portfolio?
+    - How does contributing to Omdena projects benefit my AI portfolio?
+    - Tell me more about using Omdena to strengthen my AI portfolio.
+
+- intent: join_local_chapter
+  examples: |
+    - How do Omdena Local Chapters work, and how can I join one?
+    - Can you explain the concept of Local Chapters in Omdena?
+    - What's the process to become a member of an Omdena Local Chapter?
+    - How can I get involved with Omdena's Local Chapters?
+    - Tell me about joining a Local Chapter in Omdena.
+
+- intent: join_ai_innovation_challenge
+  examples: |
+    - How do I join an AI Innovation challenge?
+    - What's the procedure for participating in an AI Innovation challenge with Omdena?
+    - Can you guide me on how to get involved in Omdena's AI Innovation challenges?
+    - How can I sign up for an AI Innovation challenge at Omdena?
+    - Tell me more about joining and competing in Omdena's AI Innovation challenges.
+
+- intent: join_omdena_school
+  examples: |
+    - What is the Omdena School, and what courses does it offer?
+    - Can you tell me about Omdena School's courses?
+    - I'm interested in learning more about Omdena School. What can you tell me?
+    - How can I enroll in courses at Omdena School?
+    - Tell me about the curriculum of Omdena School.
+
+- intent: beginner_join
+  examples: |
+    - Can I join as a beginner?
+    - Is this program suitable for someone with no experience?
+    - I'm new to this field. Can I still participate?
+    - Are beginners welcome to join?
+    - What if I have little to no prior knowledge?
+
+- intent: benefits_of_joining_community
+  examples: |
+    - What are the benefits of joining the Omdena community?
+    - How can being part of the Omdena community help me?
+    - What advantages do I get from joining the Omdena community?
+    - Tell me about the perks of being an Omdena community member.
+    - How does joining the community enhance my AI journey?
+
+- intent: access_courses
+  examples: |
+    - Are the courses paid or free?
+    - Do I need to pay for the courses?
+    - Are the courses offered at Omdena School free of charge?
+    - What's the cost of enrolling in Omdena School's courses?
+    - Are there any fees associated with the courses?
+
+- intent: join_collaborator
+  examples: |
+    - I'm interested in becoming a collaborator. How can I join a project?
+    - How do I get involved as a collaborator in a project?
+    - Can you guide me through the process of joining a project as a collaborator?
+    - What's the procedure for becoming a project collaborator?
+    - I want to contribute to a project. What steps should I take?
+
+- intent: about_project
+  examples: |
+    - I found a project that interests me. What should I do next?
+    - Can you tell me more about the project I'm interested in?
+    - What's the next step after finding a project I like?
+    - How do I proceed after finding an interesting project?
+    - I'm curious about a project. What's the next course of action?
+
+- intent: application_period
+  examples: |
+    - I've submitted my application. What's the next step in the process?
+    - After applying, what happens next in the process?
+    - I completed the application. What's the follow-up procedure?
+    - What comes after sending in my application?
+    - What's the next stage after submitting my application?
+
+- intent: commitment
+  examples: |
+    - What kind of commitment is expected from participants during the project?
+    - What level of dedication is required from participants?
+    - How much time commitment is needed for the project?
+    - What's the expected time investment from project participants?
+    - Can you explain the commitment expectations for participants?
+
+- intent: support
+  examples: |
+    - Is there any support or guidance provided during the project?
+    - Do participants receive assistance or guidance during the project?
+    - What kind of support can I expect while working on the project?
+    - Are there mentors available to provide guidance during the project?
+    - How is support offered to participants throughout the project?
+
+- intent: project_completion
+  examples: |
+    - What happens after the project is completed?
+    - What's the process after finishing a project?
+    - After the project is done, what comes next?
+    - What's the follow-up after completing the project?
+    - What should I expect at the conclusion of the project?
+
+- intent: join_company
+  examples: |
+    - I represent a company and would like to partner with Omdena. How can we collaborate?
+    - How can my company collaborate with Omdena?
+    - What's the process for companies to partner with Omdena?
+    - How can our organization join forces with Omdena?
+    - Can you provide information on partnering with Omdena for companies?
+
+- intent: partnership
+  examples: |
+    - What are the key elements included in the partnership agreement?
+    - Can you tell me about the components of the partnership agreement?
+    - What's covered in the partnership agreement?
+    - What should we expect from the partnership agreement?
+    - Can you provide an overview of the partnership agreement?
+
+- intent: additional_info
+  examples: |
+    - Is there anything else we need to know?
+    - Do you have any additional information to share?
+    - Is there more information available on this topic?
+    - Can you provide any other relevant details?
+    - Are there any other important points we should be aware of?
+
+- intent: resources
+  examples: |
+    - Are there any AI learning resources available on the website?
+    - Can you point me to AI learning materials on the site?
+    - Where can I find resources for learning about AI on your website?
+    - Do you offer any educational AI materials on your website?
+    - Are there AI-related resources I can access through your website?
+
+- intent: events
+  examples: |
+    - Do you host events or webinars related to AI?
+    - Are there any upcoming AI-related events or webinars?
+    - Can you provide information about AI events or webinars?
+    - Are there any scheduled AI-related events or webinars?
+    - Do you organize events or webinars focusing on AI topics?
+
+- intent: omdena_support
+  examples: |
+    - How can I get in touch with someone from Omdena?
+    - What's the best way to contact Omdena's team?
+    - How do I reach out to Omdena for assistance?
+    - Can you provide contact information for Omdena?
+    - What are the contact options for getting in touch with Omdena?
+
+- intent: technical_help
+  examples: |
+    - I need technical support for a project I'm working on with Omdena.
+    - How can I get technical assistance for my Omdena project?
+    - What's the process for receiving technical help during a project?
+    - Can you guide me on obtaining technical support for my project?
+    - Where do I go to get technical assistance while working on a project?
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

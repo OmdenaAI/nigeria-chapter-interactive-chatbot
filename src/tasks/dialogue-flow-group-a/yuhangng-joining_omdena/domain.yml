@@ -1,0 +1,142 @@
+version: "3.1"
+
+intents:
+  - additional_info
+  - join_omdena
+  - about_omdena
+  - commitment
+  - about_project
+  - join_ai_innovation_challenge
+  - join_company
+  - join_omdena_school
+  - join_local_chapter
+  - access_courses
+  - application_period
+  - support
+  - join_collaborator
+  - project_completion
+  - resources
+  - technical_help
+  - develop_portfolio
+  - events
+  - partnership
+  - beginner_join
+  - benefits_of_joining_community
+  - omdena_support
+  - goodbye
+  - bot_challenge
+
+responses:
+  utter_join_omdena_school:
+    - text: 'Omdena School empowers learners with quality education in Machine Learning, Artificial Intelligence, Data Science and Data Engineering courses. Sign up as a student or instructor https://omdena.com/omdena-school/'
+
+  utter_application_period:
+    - text: 'Great job! Now, our team will review your application and get back to you within a few days. 
+        If your application is shortlisted, you''ll receive an email with further instructions for the next 
+        steps. Once accepted, you''ll be added to the project''s collaborative workspace. Here, 
+        you''ll work with a diverse team of AI enthusiasts, data scientists, and experts from around 
+        the world.'
+
+  utter_about_project:
+    - text: 'Fantastic! Once you''ve selected a project, click on it to view more details. You''ll find information 
+        about the project''s timeline, objectives, and the skills required. If it seems like a good fit, 
+        proceed to the next step. Apply to Join: On the project page, you''ll see an "Apply Now" button. 
+        Click on it to fill out the application form. Make sure to provide relevant details about your 
+        background, expertise, and why you''re interested in joining the project.'
+
+  utter_additional_info:
+    - text: 'Just a friendly reminder to ensure that you have the necessary  infrastructure and 
+        resources to actively participate in the project.  Collaboration and commitment are key 
+        to a successful partnership.'
+
+  utter_benefits_of_joining_community:
+    - text: 'You get opportunities to build your portfolio, mentoring support, free access to paid courses, access to paid projects, certificates of completion, access to writing and speaking opportunities, and recommendations.'
+
+  utter_omdena_support:
+    - text: 'You can reach out to us by filling out the contact form on our website''s "Contact" page. Alternatively, 
+         you can also connect with us through our social media channels like Twitter and LinkedIn. Our team will be 
+         happy to assist you with any inquiries you may have.'
+
+  utter_join_omdena:
+    - text: 'You can join Omdena through the Local Chapters, AI Innovation Challenge or the Omdena School '
+
+  utter_about_omdena:
+    - text: 'To provide a platform for a global community of AI engineers to solve real world challenges and develop their portfolio.'
+    - text: 'Sure! Omdena hosts various AI projects that tackle real-world challenges. These projects involve diverse teams 
+        working together to build solutions. You can find more details about our ongoing and past projects on our website. 
+        Is there a specific project you''re interested in?'
+
+  utter_join_local_chapter:
+    - text: 'Local Chapters enable you to work on projects related to your local communities. You can submit project ideas from your local communities or join challenges of other chapters. Find out more https://omdena.com/projects/.'
+
+  utter_support:
+    - text: 'Absolutely! Throughout the project, you''ll receive guidance from experienced mentors and experts 
+        who will help you with technical challenges and provide valuable insights. Collaboration is at the 
+        heart of Omdena, and we encourage a supportive environment for all participants.'
+
+  utter_join_collaborator:
+    - text: 'Visit our website''s "Projects" section to see the list of ongoing and upcoming projects. You can 
+        browse through various topics and find one that aligns with your interests and skills. 
+        If you need any guidance or have specific questions, feel free to ask!'
+
+  utter_resources:
+    - text: 'Absolutely! Omdena values learning and knowledge-sharing. We offer AI-related resources, including articles, 
+         tutorials, and webinars on our website''s "Resources" section. Whether you''re a beginner or an experienced 
+         professional, you''ll find valuable insights there.'
+
+  utter_develop_portfolio:
+    - text: 'Collaborate to solve real-world challenges through Local Chapters or AI Innovation Challenges.'
+
+  utter_events:
+    - text: 'Yes, we do! Omdena regularly organizes webinars, workshops, and AI-related events. You can find the 
+         schedule and registration details on our website''s "Events" page. Make sure to check back frequently as 
+         we update the information regularly.'
+
+  utter_access courses:
+    - text: 'As a collaborator, you could be considered for free access to paid data science courses'
+
+  utter_project_completion:
+    - text: 'At the end of the project, your team will present the AI solution you''ve developed. Omdena 
+        showcases the project''s outcomes on our website and social media channels, giving you 
+        exposure and recognition for your hard work.'
+
+  utter_partnership:
+    - text: 'If your project is selected for collaboration, we''ll work together to  formalize the 
+        partnership through a mutually agreed-upon agreement. The partnership agreement 
+        will outline the project scope, roles and responsibilities, data sharing agreements 
+        (if applicable), timeline, and any other relevant details. It will serve as a foundation 
+        for our collaboration.'
+
+  utter_join_company:
+    - text: 'Fantastic! Omdena welcomes collaborations with organizations. Please visit our 
+        website''s "Partner With Us" page, where you can find more information about 
+        potential partnerships and how to get in touch with our team. We''d love to 
+        explore collaboration opportunities with you!'
+
+  utter_technical_help:
+    - text: 'I apologize for any inconvenience. For technical support, please contact the project lead or your team 
+         members. They can provide the necessary assistance related to the project. If you''re facing website-related 
+         technical issues, please e-mail to support@omdena.com.'
+
+  utter_commitment:
+    - text: 'Omdena projects usually run for 8 weeks, and we expect active participation during this period. 
+        The time commitment may vary based on the project''s complexity and your role. However, 
+        we understand that life can be busy, so we''re flexible as long as you communicate with your 
+        team. During the project, you''ll collaborate on solving real-world challenges using AI techniques. 
+        It''s an excellent opportunity to learn, share knowledge, and network with industry professionals.'
+
+  utter_join_ai_innovation_challenge:
+    - text: 'Explore real world challenges and develop real-world solutions with diverse teams of up to 50 AI engineers and data scientists. Check out more https://omdena.com/projects/'
+
+  utter_beginner_join:
+    - text: 'You can join whether you are just in the beginning of your career or you are an experienced professional'
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: True
