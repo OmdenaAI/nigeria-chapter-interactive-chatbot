@@ -1,4 +1,4 @@
-# Central-bot+Arpit+Anand+Pankaj
+# combined-bot-v1.0
 
 You can clone this folder to your PC
 1. Add additional questions
