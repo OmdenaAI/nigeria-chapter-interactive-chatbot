@@ -31,13 +31,13 @@ nlu:
     - bye bye
     - see you later
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - correct
+#- intent: affirm
+#  examples: |
+#   - yes
+#    - y
+#    - indeed
+#    - of course
+#    - correct
 
 - intent: deny
   examples: |
@@ -65,13 +65,13 @@ nlu:
     - you helped me
     - helpful
 
-- intent: misunderstood
-  examples: |
-    - That's not what I meant
-    - I meant something else
-    - that was not what I asked
-    - The answer doesnt make sense
-    - I asked something else
+#- intent: misunderstood
+#  examples: |
+#    - That's not what I meant
+#    - I meant something else
+#    - that was not what I asked
+#    - The answer doesnt make sense
+#    - I asked something else
 
 - intent: question
   examples: |
@@ -182,21 +182,6 @@ nlu:
     - What is the process to join the team at Omdena?
     - how to apply for open jobs
     - how can i apply for a job at omdena
-- intent: product_manager_role
-  examples: |
-    - Product Manager role at Omdena?
-    - What does a Product Manager do at Omdena?
-    - Tell me about Product Manager position.
-- intent: marketing_growth_manager_position
-  examples: |
-    - Responsibilities of Marketing Growth Manager at Omdena?
-    - What does the Marketing Growth Manager do?
-    - Tell me about Marketing Growth Manager role.
-- intent: content_marketer_position
-  examples: |
-    - Describe the Content Marketer role.
-    - Is the Content Marketer position full-time?
-    - Content Marketer responsibilities?
 - intent: become_community_manager
   examples: |
     - How to become a Community Manager at Omdena?
@@ -280,6 +265,15 @@ nlu:
     - Explain the job of an AI Researcher.
     - explain the role of ai researcher
     - what is an ai researcher
+- intent: requirements_ai_researcher
+  examples: |
+    - What are the requirements of an AI Researcher?
+    - What skills do I need to become an AI Researcher?
+    - tell me about the qualifications for an AI Researcher?
+    - prerequisites for an AI Researcher position?
+    - qualifications are necessary for an AI Researcher role?
+    - requirements for becoming an AI Researcher?
+    - What background is expected for an AI Researcher?
 
 
 ##### GENERAL QUESTIONS--ANAND SIVA----###
@@ -1442,13 +1436,6 @@ nlu:
     - How do I enroll in Omdena to learn new skills?
     - What is the process to join Omdena and learn new skills?
     - Can you guide me through the enrollment process for Omdena?
-
-- intent: leader_collaborator
-  examples: |
-    - How to become a leader in the Omdena Projects?
-    - What is the path to becoming a leader in Omdena projects?
-    - How can I become a leader while collaborating in Omdena projects?
-    - Tell me about leadership opportunities in Omdena projects.
 
 - intent: top_talent_benefits
   examples: |
