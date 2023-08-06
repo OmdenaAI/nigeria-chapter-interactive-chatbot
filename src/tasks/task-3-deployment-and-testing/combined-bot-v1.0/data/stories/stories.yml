@@ -782,12 +782,7 @@ stories:
   - intent: projects_recommendation_for_newcomer
   - action: utter_projects_recommendation_for_newcomer
 
-# priya's work
-version: "3.1"
-
-stories:
-
-
+# priya's work top talent
 - story: story_1
   steps:
   - intent: greet
