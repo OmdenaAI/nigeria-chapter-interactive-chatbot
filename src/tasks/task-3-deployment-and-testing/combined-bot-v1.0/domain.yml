@@ -7,13 +7,13 @@ session_config:
 intents:
 - greet
 - goodbye
-- affirm
+#- affirm
 - deny
 - gratitude
 - bot_challenge
 - question
 - greet+general_question
-- misunderstood
+#- misunderstood
 
 # About us
 - about_us_inquire_omdena
@@ -37,12 +37,9 @@ intents:
 - careers_page_link
 - community_manager_role
 - community_manager_skills
-- content_marketer_position
 - leadership_in_omdena_challenge
-- marketing_growth_manager_position
 - omdena_open_positions
 - process_ai_product_carreer
-- product_manager_role
 - requirements_ai_engineer
 - requirements_ai_product_carreer
 - requirements_ai_researcher
@@ -237,9 +234,9 @@ responses:
   # Out_of_scope and Fallback
   # removed
   # Prompt for Questions
-  utter_question_prompt:
-  - text: "How can I help ?"
-  - text: "I'd be happy to answer your Omdena related questions. What would you like to know ?"
+ # utter_question_prompt:
+ # - text: "How can I help ?"
+ # - text: "I'd be happy to answer your Omdena related questions. What would you like to know ?"
 
   utter_specific_question:
   - text: "What would you like to know ?"
@@ -251,11 +248,11 @@ responses:
   - text: "Do you have other questions ?"
   - text: "Do you need information on other topics ?"
 
-  # Apologize, and prompt for Q:
-  utter_apology_Q_prompt:
-  - text: "I must have missunderstood your question. Could you please repeat it ?"
-  - text: "Appologies. What was it exactly that you wanted to know ?"
-  - text: "I'd be happy to try again. What exactly is the information you are looking for?"
+#  # Apologize, and prompt for Q:
+#  utter_apology_Q_prompt:
+#  - text: "I must have missunderstood your question. Could you please repeat it ?"
+#  - text: "Appologies. What was it exactly that you wanted to know ?"
+#  - text: "I'd be happy to try again. What exactly is the information you are looking for?"
 
   # About us
   utter_about_us_inquire_omdena:
@@ -285,8 +282,6 @@ responses:
   - text: 1.Either join a Local Chapter Challenge or an AI Innovation Challenge to experience first-hand how Omdena projects work. 2.By opening a new Local Chapter in your country, you will have the opportunity to build a community, supported by Omdena. 3.In the Omdena Impact Program, you will be collaborating with leading partner organizations so you can make things happen for real! 4.Once a month, Omdena highlights the lead of the month. If you commit to your Local Chapter, you will get special recognition for your impact.
   utter_ai_researcher_role:
   - text: The role of an AI Researcher at Omdena involves implementing machine learning algorithms and collaborating with peers to organize research ideas into action. AI Researchers work on real-world AI projects with teams of up to 50 AI engineers and data scientists who collaboratively develop real-world solutions. They are responsible for developing cutting-edge AI models and may work on closed-source or open-source projects, depending on project requirements. AI Researchers at Omdena have product ownership skills and are passionate about building AI for social good and making an impact. They work collaboratively with other team members, including project managers and AI product owners. Overall, the role of an AI Researcher at Omdena is to use their skills and expertise to develop AI solutions that address real-world challenges and make a positive impact on society.
-  utter_product_manager_role:
-  - text: ' The Product Manager role at Omdena involves overseeing the development of AI projects from ideation to execution'
   utter_become_ai_engineer:
   - text: 1.By joining an AI Innovation Challenge you will work with a team of 50 collaborators to develop AI solutions for real-world problems. 2.During the Innovation Challenge, lead a key task and drive progress with the team to showcase your willingness to take the lead. 3.Complete at least two AI Innovation Challenges and have the opportunity to work on paid projects as an Omdena Top Talent. 4.Now, you have built the skills and project portfolio to stand out in the data science job market.
   utter_ai_engineer_role:
@@ -303,10 +298,6 @@ responses:
   - text: Individuals can apply for open positions at Omdena by visiting the organization's website and submitting their resume and cover letter. The process for joining the team involves a series of interviews and assessments to ensure that candidates are a good fit for the organization's culture and values.
   utter_careers_in_omdena:
   - text: 'Omdena offers several career paths for individuals interested in AI and machine learning. These career paths include: AI Product Development: This path involves developing AI products and solutions for businesses and organizations Community Development: This path involves building and growing the Omdena community, as well as supporting and mentoring other members AI Engineering: This path involves designing and implementing AI systems and infrastructure AI Research: This path involves conducting research in AI and machine learning, as well as developing new algorithms and models'
-  utter_content_marketer_position:
-  - text: |-
-      A content marketer is responsible for researching, planning, creating, and distributing content for businesses of all sizes with the goal of attracting leads and turning them into customers through educational, valuable content. They are both storytellers and data analysts, and their ultimate goal is to work as part of the company's overall digital marketing strategy by identifying and engaging with the target audience in a way that is meaningful to them.
-      At Omdena, a content marketer is a full-time position. As a content marketer at Omdena, one would have the opportunity to shape the narrative, analyze content distribution performance, and play a crucial role in promoting AI products and engaging the target audience.
   utter_requirements_community_manager_role:
   - text: 1..Basic knowledge of programming 2.Curiosity and willingness to learn 3.Project management interest
   utter_community_manager_skills:
