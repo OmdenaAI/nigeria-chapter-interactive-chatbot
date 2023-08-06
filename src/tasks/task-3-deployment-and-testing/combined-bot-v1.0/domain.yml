@@ -1,9 +1,7 @@
 version: "3.1"
 
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
 
+  
 intents:
 - greet
 - goodbye
@@ -186,29 +184,29 @@ intents:
 - tools_used
 - working_process
 # top talent
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - top_talent_duration
-  - top_talent_pricing_model
-  - top_talent_past_examples
-  - top_talent_projects
-  - top_talent_difference_from_outsourcing
-  - selecting_top_talent_engineers
-  - top_talent_benefits
-  - omadena_enroll_process
-  - top_talent_member_selection
-  - top_talent_hiring_members
-  - stand_out_in_interview
-  - top_talent_success_stories
-  - process_top_talent
-  - top_talent_application
-  - becoming_top_talent
-  - top_talent_general_info
+- greeet
+- goodbyee
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- top_talent_duration
+- top_talent_pricing_model
+- top_talent_past_examples
+- top_talent_projects
+- top_talent_difference_from_outsourcing
+- selecting_top_talent_engineers
+- top_talent_benefits
+- omadena_enroll_process
+- top_talent_member_selection
+- top_talent_hiring_members
+- stand_out_in_interview
+- top_talent_success_stories
+- process_top_talent
+- top_talent_application
+- becoming_top_talent
+- top_talent_general_info
 
 responses:
   # General
@@ -766,7 +764,7 @@ responses:
       7. Completion. After successful completion of the project, you can join Omdena's 8.week core challenges, which are professional projects with organizations aiming at solving real.world problems
       You can find the guidelines for working in a project here.https.//omdena.com/open.education.onboarding/ 
 # top talent 
-utter_cheer_up:
+  utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
@@ -776,13 +774,13 @@ utter_cheer_up:
   utter_happy:
   - text: "Great, carry on!"
 
-  utter_goodbye:
+  utter_goodbyee:
   - text: "Bye"
 
-  utter_iamabot:
+  utter_iamabott:
   - text: "I am a bot, powered by Rasa."
 
-  utter_greet:
+  utter_greeet:
   - text: "Hey! I will be your personal assistant and would love to answer your questions about Omdena! would you like to hear what Omdena is about?"
   utter_top_talent_application:
   - text: 'Each announced project has an application form linked to it with all the information required to apply.'
@@ -837,5 +835,13 @@ utter_cheer_up:
 
   utter_top_talent_success_stories:
   - text: 'You can find information about personal success stories of developers who participated in the Top Talent program in the following link: https://omdena.com/top-talent/ '
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+
 
 
