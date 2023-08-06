@@ -1,0 +1,118 @@
+version: "3.1"
+
+stories:
+
+- story: short_story_0
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: story_1
+  steps:
+  - intent: top_talent_general_info
+  - action: utter_top_talent_general_info
+  - intent: top_talent_benefits
+  - action: utter_top_talent_benefits
+
+- story: story_2
+  steps:
+  - intent: top_talent_general_info
+  - action: utter_top_talent_general_info
+  - intent: becoming_top_talent
+  - action: utter_becoming_top_talent
+  - intent: top_talent_projects
+  - action: utter_top_talent_projects
+  - intent: apply_for_top_talent_project
+  - action: utter_top_talent_application
+  - intent: top_talent_member_selection
+  - action: utter_top_talent_member_selection
+
+- story: story_3
+  steps:
+  - intent: top_talent_general_info
+  - action: utter_top_talent_general_info
+  - intent: top_talent_projects
+  - action: utter_top_talent_projects
+  - intent: apply_for_top_talent_project
+  - action: utter_top_talent_application
+  - intent: top_talent_member_selection
+  - action: utter_top_talent_member_selection
+
+- story: story_4
+  steps:
+  - intent: top_talent_general_info
+  - action: utter_top_talent_general_info
+  - intent: becoming_top_talent
+  - action: utter_becoming_top_talent
+  - intent: top_talent_projects
+  - action: utter_top_talent_projects
+  - intent: apply_for_top_talent_project
+  - action: utter_top_talent_application
+  - intent: top_talent_member_selection
+  - action: utter_top_talent_member_selection  
+  
+- story: story_5
+  steps:
+  - intent: top_talent_general_info
+  - action: utter_top_talent_general_info
+  - intent: becoming_top_talent
+  - action: utter_becoming_top_talent
+  - intent: top_talent_projects
+  - action: utter_top_talent_projects
+  - intent: top_talent_member_selection
+  - action: utter_top_talent_member_selection 
+
+- story: story_6
+  steps:
+  - intent: top_talent_general_info
+  - action: utter_top_talent_general_info
+  - intent: becoming_top_talent
+  - action: utter_becoming_top_talent
+  - intent: top_talent_member_selection
+  - action: utter_top_talent_member_selection 
+
+- story: short_story_1
+  steps:
+  - intent: stand_out_in_interview
+  - action: utter_stand_out_in_interview
+
+- story: short_story_2
+  steps:
+  - intent: apply_for_top_talent_project
+  - action: utter_top_talent_application
+
+- story: short_story_3
+  steps:
+  - intent: top_talent_duration
+  - action: utter_top_talent_duration
+
+- story: short_story_4
+  steps:
+  - intent: top_talent_benefits
+  - action: utter_top_talent_benefits
+
+- story: short_story_5
+  steps:
+  - intent: top_talent_success_stories
+  - action: utter_top_talent_success_stories
+
+- story: short_story_6
+  steps:
+  - intent: top_talent_member_selection
+  - action: utter_top_talent_member_selection
+
+- story: short_story_7
+  steps:
+  - intent: top_talent_general_info
+  - action: utter_top_talent_general_info
+
+- story: short_story_8
+  steps:
+  - intent: becoming_top_talent
+  - action: utter_becoming_top_talent
+
+- story: short_story_9
+  steps:
+  - intent: top_talent_projects
+  - action: utter_top_talent_projects
+

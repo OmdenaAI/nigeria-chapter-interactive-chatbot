@@ -1,0 +1,65 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - top_talent_duration
+  - top_talent_past_examples
+  - top_talent_projects
+  - top_talent_benefits
+  - top_talent_member_selection
+  - stand_out_in_interview
+  - top_talent_success_stories
+  - becoming_top_talent
+  - top_talent_general_info
+  - apply_for_top_talent_project
+
+responses:
+  utter_greet:
+  - text: "Hey! I will be your personal assistant and would love to answer your questions about Omdena! would you like to hear what Omdena is about?"
+  
+  utter_goodbye:
+  - text: "Bye"  
+
+  utter_please_rephrase:
+  - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
+  
+  utter_top_talent_application:
+    - text: 'Each announced project has an application form linked to it with all the information required to apply.'
+
+  utter_top_talent_projects:
+    - text: 'Please follow the list on https://omdena.com/projects to find information about the different projects, including Top Talent. In addition, after completing one project at Omdena, you can join the collaborators website where you can learn more about available opportunities.'
+
+  utter_top_talent_past_examples:
+    - text: 'You can find information about Top Talent projects as they are announced. As such projects are not owned by Omdena, the information about past projects is not public.'
+
+  utter_top_talent_duration:
+    - text: 'This may depend on the project. Find information about top talent challenges on https://omdena.com/projects '
+
+  utter_top_talent_member_selection:
+    - text: 'Omdena''s Top Talent program members are selected for paid projects by being chosen from the pool of top performers in Omdena''s AI Innovation Challenges1. To be selected for the Top Talent program, an engineer must complete at least ine Omdena AI Innovation Challenges and perform extremely well in it.'
+
+  utter_becoming_top_talent:
+    - text: 'You should complete at least one AI innovation challenge and perform well in it. This can make you eligible to apply for top talent projects. Applications are reviewed based on the requirements of each project.'
+    - text: '1.Join Omadena to grow skills.
+        2.Become a leader
+        3.Get Paid as Top Talent'
+
+  utter_top_talent_general_info:
+    - text: 'Omdena''s top talent projects are payed projects that involve teams of up to 5 people who work on MLOps and software development. Previous project experience with Omdena is required for these projects. Omdena''s website provide information on specific projects that are currently ongoing or have been completed. Some examples of Omdena''s past projects include building a stand-out data science project portfolio, helping NGOs with disaster response, and developing AI solutions for healthcare and education.'
+
+  utter_stand_out_in_interview:
+    - text: 'To stand out as a candidate during the Omdena interview process, the following tips were provided: 1. Research Omdena 2. Showcase your previous experiences 3. Demonstrate motivation 4. Commitment and availability 5. Gain first-hand experience 6. Build a strong portfolio. Good luck!'
+
+  utter_top_talent_benefits:
+    - text: 'By working with Omdena you can develop your career, earn money, get job opportunities, and make an impact. By Joining Top Talent program and you get to access to paid projects. Earn money in special paid projects '
+    - text: 'The Top Talent program provides opportunities for developers to work on real-life problems, make an impact and develop a portfolio- while eaning money. Work is flexible as you can work from anywhere in the world at flexible times and you will enjoy the opportunity to work with people across the globe. In addition, these projects provide opprtunities for being hired by various organizations as a full-time job.'
+
+  utter_top_talent_success_stories:
+    - text: 'You can find information about personal success stories of developers who participated in the Top Talent program in the following link: https://omdena.com/top-talent/ '
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: True

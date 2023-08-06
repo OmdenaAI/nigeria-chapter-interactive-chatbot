@@ -1,0 +1,122 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - sure
+    - would love to
+    - please
+    - this would be great
+    - sounds cool
+    - cool
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: top_talent_general_info
+  examples: |
+    - What is Omdena's top talent program?
+    - What is the top talent program?
+
+- intent: top_talent_benefits
+  examples: |
+    - What are the benefits of becoming Top Talent?
+    - How does Omdena support the career growth of its Top Talent program members?
+    - Why would I want to join the top talent program?
+    - How can the top talent program be rewarding?
+    - How can the top talent program help my career?
+
+- intent: top_talent_duration
+  examples: |
+    - How long do top talent projects typically last?
+    - What's the duration of top talent projects?
+
+- intent: top_talent_projects
+  examples: |
+    - What kind of paid projects are available for Omdena Top Talent program members?
+    - Where can I see the list of top talent projects?
+    - Where can I find the top talent projects?
+    - What top talent projects can I join?
+    - Whare can I find the top talent opportunities?
+    - Which top talent projects are included?
+
+- intent: top_talent_past_examples
+  examples: |
+    - What are some examples of past paid projects for Omdena Top Talent program members?
+    - Can I see previous projects?
+    
+- intent: top_talent_member_selection
+  examples: |
+    - How are Omdena Top Talent program members selected for paid projects?
+    - What is the selection process?
+    - How is selection done?
+    - Who are Omdena´s Top Talent engineers?
+    - What are the criteria for selecting engineers for a top talent project?
+
+- intent: becoming_top_talent
+  examples: |
+    - How can I become part of Omdena Top Talent? 
+    - How do I apply for an Omdena top talent program?
+    - What is the process to become Top Talent ?
+    - How can I join a top-talent project?
+    - Who can join the top talent program?
+    - What are the requirments of the top talent program?
+
+- intent: apply_for_top_talent_project
+  examples: |
+    - How do I apply for a top talent project?
+    - How can I join a specific top talent project?
+    - What is the application process to a top talent project?
+
+- intent: stand_out_in_interview
+  examples: |
+    - How can I stand out as a candidate during the Omdena interview process? 
+    - How can I improve my chances in an interview
+
+- intent: top_talent_success_stories
+  examples: |
+    - What are the success stories of Omdena Top Talent program members?
+    - Can I see examples of how the top talent program helps in career development
+
+
