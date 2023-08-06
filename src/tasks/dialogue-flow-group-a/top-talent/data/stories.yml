@@ -30,86 +30,86 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-- story: story_1
+- story: story_unhappy
   steps:
   - intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
-- story: story_1
+- story: story_deny
   steps:
   - intent: deny
   - action: utter_goodbye
 
-- story: Story_1
+- story: Story_greet
   steps:
   - intent: greet
   - action: utter_greet
-- story: story_1
+- story: story_tt_general_info
   steps:
   - intent: top_talent_general_info
   - action: utter_top_talent_general_info
-- story: story_1
+- story: story_tt_process
   steps:
   - intent: process_top_talent
   - action: utter_process_top_talent
-- story: story_1
+- story: story_tt_enroll_process
   steps:
   - intent: omadena_enroll_process
   - action: utter_enroll_process
-- story: story_1
+- story: story_tt_benefits
   steps:
   - intent: top_talent_benefits
   - action: utter_top_talent_benefits
-- story: story_1
+- story: story_tt_duration
   steps:
   - intent: top_talent_duration
   - action: utter_top_talent_duration
-- story: story_1
+- story: story_tt_project
   steps:
   - intent: top_talent_projects
   - action: utter_top_talent_projects
-- story: story_1
+- story: story_tt_past_examples
   steps:
   - intent: top_talent_past_examples
   - action: utter_top_talent_past_examples
-- story: story_1
+- story: story_tt_application
   steps:
   - intent: top_talent_application
   - action: utter_top_talent_application
-- story: story_1
+- story: story_tt_member_selection
   steps:
   - intent: top_talent_member_selection
   - action: utter_top_talent_member_selection
-- story: story_1
+- story: story_tt_becoming_tt
   steps:
   - intent: becoming_top_talent
   - action: utter_becoming_top_talent
-- story: story_1
+- story: story_tt_interview
   steps:
   - intent: stand_out_in_interview
   - action: utter_stand_out_in_interview
-- story: story_1
+- story: story_tt_benefits
   steps:
   - intent: top_talent_benefits
   - action: utter_top_talent_benefits
-- story: story_1
+- story: story_tt_ss
   steps:
   - intent: top_talent_success_stories
   - action: utter_top_talent_success_stories
 
-- story: story_2
+- story: story_tt_outsource
   steps:
   - intent: top_talent_difference_from_outsourcing
   - action: utter_top_talent_difference_from_outsourcing
-- story: story_1
+- story: story_tt_eng
   steps:
   - intent: selecting_top_talent_engineers
   - action: utter_selecting_top_talent_engineers
-- story: story_1
+- story: story_tt_pricing_model
   steps:
   - intent: top_talent_pricing_model
   - action: utter_top_talent_pricing_model
-- story: story_1
+- story: story_tt_hiring_memeber
   steps:
   - intent: top_talent_hiring_members
   - action: utter_top_talent_hiring_members
