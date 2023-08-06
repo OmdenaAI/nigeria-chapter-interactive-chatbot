@@ -1,4 +1,5 @@
 version: "3.1"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -185,7 +186,35 @@ intents:
 - tools_used
 - working_process
 
+## Yu HANG -- JOIN OMDENA -----##
+- found_project_next_steps
+- project_application_whats_next
+- commitment_project
+- support_project
+- project_completion
+- technical_help_project
+- organization_join
+- partnership_organization_project
+- ai_events
+- omdena_support
 
+## ----PRIYA----TOP TALENT-------##
+- top_talent_duration
+- top_talent_pricing_model
+- top_talent_past_examples
+- top_talent_projects
+- top_talent_difference_from_outsourcing
+- selecting_top_talent_engineers
+- top_talent_benefits
+- omadena_enroll_process
+- top_talent_member_selection
+- top_talent_hiring_members
+- stand_out_in_interview
+- top_talent_success_stories
+- process_top_talent
+- top_talent_application
+- becoming_top_talent
+- top_talent_general_info
 
 responses:
   # General
@@ -669,9 +698,6 @@ responses:
   utter_goal_omdena_chapters:
     - text: 'Omdena Local Chapters are a network of community-driven groups that aim to solve local challenges using AI. The mission of Omdena''s Local Chapters is to run open-source AI projects that address challenges faced by the local community. These projects are designed to have a positive impact on the community by leveraging the skills and expertise of local AI professionals and data scientists. Running an Omdena Local Chapter provides an opportunity to help educate future tech experts by solving real-world problems. The Local Chapters also offer an opportunity to demonstrate the capabilities of local communities to build real-world solutions and pitch projects in front of top NGOs and development organizations. Each Local Chapter has a specific mission to run open-source AI projects that solve challenges faced by the local community. Examples of Omdena Local Chapters include the Sudan Local Chapter, the Philadelphia USA Chapter, and the Cameroon Chapter. Overall, the goal of Omdena Local Chapters is to empower local communities to use AI to solve real-world problems and make a positive impact in their communities.'
 
-  utter_applying:
-    - text: 'you can submit the application through the Omdena website'
-
   utter_support_communities:
     - text: 'Omdena''s local chapters enhance support for their respective communities when it comes to promoting real-world AI solutions through open-source projects in several ways. Here''s how they do it:
         1. Running Open-Source AI Projects:- The mission of Omdena''s local chapters is to run open-source AI projects that solve challenges faced by the local community. These projects are designed to have a tangible impact on the local region and its specific needs. By developing and implementing these projects, local chapters actively promote real-world AI solutions.
@@ -742,9 +768,109 @@ responses:
       6. Communication. Being able to communicate your ideas and results clearly is crucial. You will have the opportunity to present your work to your peers and the community
       7. Completion. After successful completion of the project, you can join Omdena's 8.week core challenges, which are professional projects with organizations aiming at solving real.world problems
       You can find the guidelines for working in a project here.https.//omdena.com/open.education.onboarding/ 
+      
+      
+## Yu HANG -- JOIN OMDENA -----##
+  utter_found_project_next_steps:
+    - text: 'Fantastic! Once you''ve selected a project, click on it to view more details. You''ll find information 
+        about the project''s timeline, objectives, and the skills required. If it seems like a good fit, 
+        proceed to the next step. Apply to Join: On the project page, you''ll see an "Apply Now" button. 
+        Click on it to fill out the application form. Make sure to provide relevant details about your 
+        background, expertise, and why you''re interested in joining the project.'
+  utter_project_application_whats_next:
+    - text: 'Great job! Now, our team will review your application and get back to you within a few days. 
+        If your application is shortlisted, you''ll receive an email with further instructions for the next 
+        steps. Once accepted, you''ll be added to the project''s collaborative workspace. Here, 
+        you''ll work with a diverse team of AI enthusiasts, data scientists, and experts from around 
+        the world.'
+  utter_commitment_project:
+    - text: 'Omdena projects usually run for 8 weeks, and we expect active participation during this period. 
+        The time commitment may vary based on the project''s complexity and your role. However, 
+        we understand that life can be busy, so we''re flexible as long as you communicate with your 
+        team. During the project, you''ll collaborate on solving real-world challenges using AI techniques. 
+        It''s an excellent opportunity to learn, share knowledge, and network with industry professionals.'
+  utter_support_project:
+    - text: 'Absolutely! Throughout the project, you''ll receive guidance from experienced mentors and experts 
+        who will help you with technical challenges and provide valuable insights. Collaboration is at the 
+        heart of Omdena, and we encourage a supportive environment for all participants.'
+  utter_project_completion:
+    - text: 'At the end of the project, your team will present the AI solution you''ve developed. Omdena 
+        showcases the project''s outcomes on our website and social media channels, giving you 
+        exposure and recognition for your hard work.'
+  utter_technical_help_project:
+    - text: 'I apologize for any inconvenience. For technical support, please contact the project lead or your team 
+         members. They can provide the necessary assistance related to the project. If you''re facing website-related 
+         technical issues, please e-mail to support@omdena.com.'
+  utter_organization_join:
+    - text: 'Fantastic! Omdena welcomes collaborations with organizations. Please visit our 
+        website''s "Partner With Us" page, where you can find more information about 
+        potential partnerships and how to get in touch with our team. We''d love to 
+        explore collaboration opportunities with you!'
+  utter_partnership_organization_project:
+    - text: 'If your project is selected for collaboration, we''ll work together to  formalize the 
+        partnership through a mutually agreed-upon agreement. The partnership agreement 
+        will outline the project scope, roles and responsibilities, data sharing agreements 
+        (if applicable), timeline, and any other relevant details. It will serve as a foundation 
+        for our collaboration.'
+  utter_ai_events:
+    - text: 'Yes, we do! Omdena regularly organizes webinars, workshops, and AI-related events. You can find the 
+         schedule and registration details on our website''s "Events" page. Make sure to check back frequently as 
+         we update the information regularly.'
+  utter_omdena_support:
+    - text: 'You can reach out to us by filling out the contact form on our website''s "Contact" page. Alternatively, 
+         you can also connect with us through our social media channels like Twitter and LinkedIn. Our team will be 
+         happy to assist you with any inquiries you may have.'
+##--------------- TOP TALENT ----- PRIYA -------##
+  utter_top_talent_application:
+    - text: 'Each announced project has an application form linked to it with all the information required to apply.'
 
+  utter_top_talent_difference_from_outsourcing:
+    - text: 'There are several key differences such as the following: 1. Problem-driven talent: Omdena is a community-driven organization with intrinsically motivated engineers from diverse technical, industry-related, and cultural backgrounds. In other words, we match the most motivated and suitable engineers to your problem. “Omdena engineers are enthusiasts and interested in the problem of the company. This is key for complex projects to be successful, which almost no other company can offer as Omdena can”, says Abhimanyu Bhargava, CEO, Farm-Hand (UK); 2. Vetted: The Top 2% among more than 30.000 applications per year who have worked on similar projects and engagements; 3. Flexibility: You can work with solo engineers or teams of up to five engineers. Up and downscale according to your needs; 4. Hiring: The most important difference is that we want our top talent to be hired and get full-time jobs by other companies. When you work with an outsourcing company, you will not be able to hire developers directly. However, we know, in the mid to long term most organizations want to build in-house teams so through Omdena you can already start identifying your potential future employees.'
 
+  utter_top_talent_projects:
+    - text: 'Please follow the list on https://omdena.com/projects to find information about the different projects, including Top Talent'
 
+  utter_process_top_talent:
+    - text: 'To become a top talent in Omdena, you need to have strong skills in AI, machine learning, data science, and related fields. You should build a portfolio of your projects that demonstrate your skills and expertise and network with other members to learn from their experiences and find new opportunities. Being proactive, taking initiative, and having a passion for using AI and machine learning to solve real-world problems are also important qualities for becoming a top talent in Omdena.'
 
+  utter_top_talent_past_examples:
+    - text: 'You can find information about Top Talent projects as they are announced. As such projects are not owned by Omdena, the information about past projects is not public.'
+
+  utter_top_talent_duration:
+    - text: 'This may depend on the project. Find information about top talent challenges on https://omdena.com/projects '
+
+  utter_enroll_process:
+    - text: 'You can join us in various ways.
+          ->Real World Projects
+          ->Local Projects
+          ->Omadena School '
+
+  utter_top_talent_member_selection:
+    - text: 'Omdena''s Top Talent program members are selected for paid projects by being chosen from the pool of top performers in Omdena''s AI Innovation Challenges1. To be selected for the Top Talent program, an engineer must complete at least ine Omdena AI Innovation Challenges and perform extremely well in it.'
+
+  utter_becoming_top_talent:
+    - text: 'You should complete at least one AI innovation challenge and perform well in it. This can make you eligible to apply for top talent projects. Applications are reviewed based on the requirements of each project.'
+
+  utter_selecting_top_talent_engineers:
+    - text: 'The top 2% of Omdena’s collaborators. They are selected from more than 30,000 applications. To be selected for Omdena Top Talent Pool an engineer must work on at least two Omdena AI Innovation Challenges and perform extremely well in both of them. Through running over 300 AI Innovation Challenges we have built a strong talent pool of engineers from all around the world.'
+
+  utter_top_talent_hiring_members:
+    - text: 'Yes, it happens very often that the company decides to hire the top-performing engineers in-house from the project team. If you end up successfully hiring an engineer through Omdena we would ask you for a one-off 10% recruitment fee of the annual salary you offer to the engineer. The Top Talent Projects are a unique opportunity for you to acquire ‘hidden’ top talent in a very cost-effective compared to traditional hiring processes (like job ads + scanning through CVs + interviews).'
+
+  utter_top_talent_general_info:
+    - text: 'Omdena''s top challenge projects are payed projects that involve teams of up to 5 people who work on MLOps and software development. Previous project experience with Omdena is required for these projects. Omdena''s website provide information on specific projects that are currently ongoing or have been completed. Some examples of Omdena''s past projects include building a stand-out data science project portfolio, helping NGOs with disaster response, and developing AI solutions for healthcare and education.'
+
+  utter_stand_out_in_interview:
+    - text: 'To stand out as a candidate during the Omdena interview process, the following tips were provided: 1. Research Omdena 2. Showcase your previous experiences 3. Demonstrate motivation 4. Commitment and availability 5. Gain first-hand experience 6. Build a strong portfolio. Good luck!'
+
+  utter_top_talent_benefits:
+    - text: 'By working with Omdena you can develop your career, earn money, get job opportunities, and make an impact. By Joining Top Talent program and you get to access to paid projects. Earn money in special paid projects.  
+The Top Talent program provides opportunities for developers to work on real-life problems, make an impact and develop a portfolio- while eaning money. Work is flexible as you can work from anywhere in the world at flexible times and you will enjoy the opportunity to work with people across the globe. In addition, these projects provide opprtunities for being hired by various organizations as a full-time job.'
+
+  utter_top_talent_pricing_model:
+    - text: 'Due to our access to talent from around the world, we have a higher chance to accommodate your budget. The cost could vary a lot depending on the location of the engineers, the seniority, the tech stack required, and other factors.'
+
+  utter_top_talent_success_stories:
+    - text: 'You can find information about personal success stories of developers who participated in the Top Talent program in the following link: https://omdena.com/top-talent/ '
 
 
