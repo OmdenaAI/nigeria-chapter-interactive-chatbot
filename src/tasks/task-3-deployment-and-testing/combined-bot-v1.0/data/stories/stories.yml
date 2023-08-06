@@ -781,74 +781,127 @@ stories:
   steps:
   - intent: projects_recommendation_for_newcomer
   - action: utter_projects_recommendation_for_newcomer
+  
+ ## ----YU HANG ---JOIN OMDENA-------##
+- story: User found a project and asks next steps
+  steps:
+  - intent: found_project_next_steps
+  - action: utter_found_project_next_steps
 
-##--------TOP TALENT--------PRIYA------------##
-- story: story_8
+- story: User asks about project application next steps
+  steps:
+  - intent: project_application_whats_next
+  - action: utter_project_application_whats_next
+
+- story: User asks about commitment to project
+  steps:
+  - intent: commitment_project
+  - action: utter_commitment_project
+
+- story: User asks about how to support the project
+  steps:
+  - intent: support_project
+  - action: utter_support_project
+
+- story: User inquires about project completion
+  steps:
+  - intent: project_completion
+  - action: utter_project_completion
+
+- story: User needs technical help with project
+  steps:
+  - intent: technical_help_project
+  - action: utter_technical_help_project
+
+- story: User wants to join the organization
+  steps:
+  - intent: organization_join
+  - action: utter_organization_join
+
+- story: User wants to know about partnership with organization for a project
+  steps:
+  - intent: partnership_organization_project
+  - action: utter_partnership_organization_project
+
+- story: User inquires about AI events
+  steps:
+  - intent: ai_events
+  - action: utter_ai_events
+
+- story: User asks about Omdena's support
+  steps:
+  - intent: omdena_support
+  - action: utter_omdena_support
+  
+ ##--------TOP TALENT--------PRIYA------------##
+- story: top_talent_story_8
   steps:
   - intent: top_talent_general_info
   - action: utter_top_talent_general_info
-- story: story_9
+- story: top_talent_story_9
   steps:
   - intent: process_top_talent
   - action: utter_process_top_talent
-- story: story_10
+- story: top_talent_story_10
   steps:
   - intent: omadena_enroll_process
   - action: utter_enroll_process
-- story: story_11
+- story: top_talent_story_11
   steps:
   - intent: top_talent_benefits
   - action: utter_top_talent_benefits
-- story: story_12
+- story: top_talent_story_12
   steps:
   - intent: top_talent_duration
   - action: utter_top_talent_duration
-- story: story_13
+- story: top_talent_story_13
   steps:
   - intent: top_talent_projects
   - action: utter_top_talent_projects
-- story: story_14
+- story: top_talent_story_14
   steps:
   - intent: top_talent_past_examples
   - action: utter_top_talent_past_examples
-- story: story_15
+- story: top_talent_story_15
   steps:
   - intent: top_talent_application
   - action: utter_top_talent_application
-- story: story_16
+- story: top_talent_story_16
   steps:
   - intent: top_talent_member_selection
   - action: utter_top_talent_member_selection
-- story: story_17
+- story: top_talent_story_17
   steps:
   - intent: becoming_top_talent
   - action: utter_becoming_top_talent
-- story: story_18
+- story: top_talent_story_18
   steps:
   - intent: stand_out_in_interview
   - action: utter_stand_out_in_interview
-- story: story_19
+- story: top_talent_story_19
   steps:
   - intent: top_talent_benefits
   - action: utter_top_talent_benefits
-- story: story_20
+- story: top_talent_story_20
   steps:
   - intent: top_talent_success_stories
   - action: utter_top_talent_success_stories
 
-- story: story_21
+- story: top_talent_story_21
   steps:
   - intent: top_talent_difference_from_outsourcing
   - action: utter_top_talent_difference_from_outsourcing
-- story: story_22
+- story: top_talent_story_22
   steps:
   - intent: selecting_top_talent_engineers
   - action: utter_selecting_top_talent_engineers
-- story: story_23
+- story: top_talent_story_23
   steps:
   - intent: top_talent_pricing_model
   - action: utter_top_talent_pricing_model
-- story: story_24
+- story: top_talent_story_24
   steps:
   - intent: top_talent_hiring_members
   - action: utter_top_talent_hiring_members
+ 
+ 
