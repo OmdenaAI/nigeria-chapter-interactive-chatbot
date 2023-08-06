@@ -1,7 +1,8 @@
 version: "3.1"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 
-
-  
 intents:
 - greet
 - goodbye
@@ -742,10 +743,6 @@ responses:
       7. Completion. After successful completion of the project, you can join Omdena's 8.week core challenges, which are professional projects with organizations aiming at solving real.world problems
       You can find the guidelines for working in a project here.https.//omdena.com/open.education.onboarding/ 
 
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
 
 
 
