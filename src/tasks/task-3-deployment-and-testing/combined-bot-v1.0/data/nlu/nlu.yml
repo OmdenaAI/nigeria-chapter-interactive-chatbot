@@ -357,11 +357,16 @@ nlu:
     - Purpose of chapters
     - Why local chapters exist
     - Goals of Omdena Chapters
+    - Can you explain the concept of Local Chapters in Omdena?
 - intent: join_chapter
   examples: |
     - Join a chapter now
     - How to get involved in a local chapter?
     - Participate in a local chapter
+    - What's the process to become a member of an Omdena Local Chapter?
+    - How can I get involved with Omdena's Local Chapters?
+    - Tell me about joining a Local Chapter in Omdena.
+    
 - intent: collaborator_role
   examples: |
     - What collaborators do
@@ -486,6 +491,12 @@ nlu:
     - Join Omdena.
     - how can i join omdena?
     - how to join omdena?
+    - How do I join Omdena?
+    - What's the process to become a member of Omdena?
+    - I want to be a part of Omdena, how can I join?
+    - Can you guide me through the steps to join Omdena?
+    - Where can I sign up to become a member of Omdena?
+
 - intent: become_collaborator
   examples: |
     - How to become a collaborator?
@@ -759,6 +770,7 @@ nlu:
     - "How can I connect with the individuals responsible for organizing a local Omdena chapter?"
 
 # OMDENA SCHOOL
+##--ADDED MORE EXAMPLES--## for first one only
 - intent: omdena_school_enrollment_inquiry
   examples: |
     - "How can I join OmdenaSchool?"
@@ -766,6 +778,11 @@ nlu:
     - "Could you guide me on the process of joining OmdenaSchool?"
     - "What is the procedure for enrolling in OmdenaSchool?"
     - "How can I get involved with OmdenaSchool?"
+    - What is the Omdena School
+    - Can you tell me about Omdena School?
+    - Iwant to learn more about Omdena School
+    - How can I enroll in  at Omdena School?
+    - Tell me about Omdena School.
 
 - intent: omdena_school_student_enrollment
   examples: |
@@ -1337,4 +1354,3 @@ nlu:
     - "I'm new to Omedena, which project is a good fit for me?"
     - "I'm a data science student, haven't done any real-world projects, which types of challenges should I start with?"
     - "I'm a machine learning student, haven't done any real-world projects, which types of challenges should I participate?"
-
