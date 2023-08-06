@@ -1354,3 +1354,178 @@ nlu:
     - "I'm new to Omedena, which project is a good fit for me?"
     - "I'm a data science student, haven't done any real-world projects, which types of challenges should I start with?"
     - "I'm a machine learning student, haven't done any real-world projects, which types of challenges should I participate?"
+# top talent @priya
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - sure
+    - would love to
+    - please
+    - this would be great
+    - sounds cool
+    - cool
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: top_talent_general_info
+  examples: |
+    - What is Omdena's top talent program?
+    - What can you tell me about Omdena's top talent program?
+    - I'm interested in knowing more about Omdena's top talent program.
+
+- intent: process_top_talent
+  examples: |
+    - What is the process to become Top Talent ?
+    - How does one become part of the Top Talent program?
+    - Can you explain the process of becoming Top Talent?
+    - What are the steps to join the Top Talent program?
+
+- intent: omadena_enroll_process
+  examples: |
+    - How to join Omdena to learn new skills?
+    - How do I enroll in Omdena to learn new skills?
+    - What is the process to join Omdena and learn new skills?
+    - Can you guide me through the enrollment process for Omdena?
+
+- intent: leader_collaborator
+  examples: |
+    - How to become a leader in the Omdena Projects?
+    - What is the path to becoming a leader in Omdena projects?
+    - How can I become a leader while collaborating in Omdena projects?
+    - Tell me about leadership opportunities in Omdena projects.
+
+- intent: top_talent_benefits
+  examples: |
+    - What are the benefits of becoming Top Talent?
+    - How does Omdena support the career growth of its Top Talent program members?
+    - What advantages do Top Talent program members enjoy?
+    - Can you list the benefits of being part of the Top Talent program?
+    - How does being part of the Top Talent program support career growth?
+
+- intent: top_talent_duration
+  examples: |
+    - How long do top talent projects typically last?
+    - What is the typical duration of top talent projects?
+    - How long do top talent projects usually last?
+    - Is there a fixed timeline for top talent projects?
+
+- intent: top_talent_projects
+  examples: |
+    - What kind of paid projects are available for Omdena Top Talent program members?
+    - What types of paid projects are offered to Top Talent program members?
+    - Can you provide examples of paid projects available for Top Talent program members?
+    - Tell me about the nature of projects in the Top Talent program.
+
+- intent: top_talent_past_examples
+  examples: |
+    - What are some examples of past paid projects for Omdena Top Talent program members?
+    - Could you share some past examples of paid projects for Top Talent program members?
+    - Can you provide case studies of successful projects from the Top Talent program?
+    - I'd like to see some real-life examples of projects done by Top Talent members.
+
+- intent: top_talent_application
+  examples: |
+    - How do I apply for an Omdena top talent program?
+    - How do I submit an application for the Omdena top talent program?
+    - What is the process of applying for the Omdena top talent program?
+    - Is there a specific way to apply for the top talent program?
+
+- intent: top_talent_member_selection
+  examples: |
+    - How are Omdena Top Talent program members selected for paid projects?
+    - How does Omdena select Top Talent program members for paid projects?
+    - What criteria are used to choose participants for top talent projects?
+    - How are candidates selected for top talent opportunities?
+
+
+
+- intent: becoming_top_talent
+  examples: |
+    - How can I become part of Omdena Top Talent?
+    - What do I need to do to become part of Omdena Top Talent?
+    - How can I join Omdena Top Talent?
+    - Is there a specific requirement to become a member of Top Talent?
+
+- intent: stand_out_in_interview
+  examples: |
+    - How can I stand out as a candidate during the Omdena interview process?
+    - How can I make a strong impression during the Omdena interview process?
+    - What are some tips to stand out as a candidate in the Omdena interview?
+    - How can I increase my chances of being selected for the top talent program?
+
+- intent: top_talent_success_stories
+  examples: |
+    - What are the success stories of Omdena Top Talent program members?
+    - Can you share some success stories of Omdena Top Talent program members?
+    - Tell me about successful individuals who were part of the Top Talent program.
+    - Are there any notable achievements of Top Talent program members?
+
+- intent: top_talent_difference_from_outsourcing
+  examples: |
+    - What is the difference between running a Top Talent Project with Omdena and hiring an Outsourcing Software Development Company?
+    - What sets apart running a Top Talent Project with Omdena from hiring an Outsourcing Software Development Company?
+    - Can you highlight the differences between Omdena's Top Talent Project and outsourcing to a software development company?
+    - How does Omdena's approach differ from traditional outsourcing?
+
+- intent: selecting_top_talent_engineers
+  examples: |
+    - Who are Omdena´s Top Talent engineers?
+    - Who are the engineers considered as Omdena's Top Talent?
+    - How does Omdena identify its Top Talent engineers?
+    - What qualifications are required to be classified as Top Talent in Omdena?
+
+- intent: top_talent_pricing_model
+  examples: |
+    - What is the pricing model to run a Top Talent Project?
+    - How does the pricing model work for running a Top Talent Project?
+    - Can you explain the cost structure of a Top Talent Project?
+    - What are the fees associated with participating in a Top Talent Project?
+
+- intent: top_talent_hiring_members
+  examples: |
+    - Can I hire people in\-house during or at the end of the project?
+    - Is it possible to hire in-house personnel during or after the Top Talent project?
+    - Can I recruit team members as full-time employees during the Top Talent project?
+    - Does Omdena allow hiring participants of the Top Talent program after project completion?
