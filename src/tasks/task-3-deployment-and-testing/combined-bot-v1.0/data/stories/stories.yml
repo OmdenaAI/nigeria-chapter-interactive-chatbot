@@ -781,3 +781,9 @@ stories:
   steps:
   - intent: projects_recommendation_for_newcomer
   - action: utter_projects_recommendation_for_newcomer
+
+# priya's work
+- story: story_2
+  steps:
+  - intent: top_talent_difference_from_outsourcing
+  - action: utter_top_talent_difference_from_outsourcing
