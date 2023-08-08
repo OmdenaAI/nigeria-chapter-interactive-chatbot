@@ -7,52 +7,25 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-# One Question successful stories
-- story: greet Q not specific, then inquire about Omdena, successful answer
+- story: inquire about Omdena, successful answer
   steps:
   - intent: about_us_inquire_omdena
   - action: utter_about_us_inquire_omdena
   - action: utter_folow_question
 
-
-- story: greet then inquire about Omdena, successful answer
-  steps:
-  - intent: about_us_inquire_omdena
-  - action: utter_about_us_inquire_omdena
-  - action: utter_folow_question
-
-
-- story: greet Q not specific, then inquire about Omdena components
+- story: inquire about Omdena components
   steps:
   - intent: about_us_omdena_components
   - action: utter_about_us_omdena_components
   - action: utter_folow_question
 
-- story: greet then inquire about Omdena components
-  steps:
-  - intent: about_us_omdena_components
-  - action: utter_about_us_omdena_components
-  - action: utter_folow_question
-
-- story: greet Q not specific, then inquire about Omdena values
+- story: inquire about Omdena values
   steps:
   - intent: about_us_omdena_values
   - action: utter_about_us_omdena_values
   - action: utter_folow_question
 
-- story: greet  then inquire about Omdena values
-  steps:
-  - intent: about_us_omdena_values
-  - action: utter_about_us_omdena_values
-  - action: utter_folow_question
-
-- story: greet Q not specific, then inquire about Omdena History
-  steps:
-  - intent: about_us_omdena_history
-  - action: utter_about_us_omdena_history
-  - action: utter_folow_question
-
-- story: greet then inquire about Omdena History
+- story: inquire about Omdena History
   steps:
   - intent: about_us_omdena_history
   - action: utter_about_us_omdena_history
