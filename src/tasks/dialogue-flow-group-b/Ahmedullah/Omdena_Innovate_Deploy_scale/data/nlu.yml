@@ -38,6 +38,10 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - Yes
+    - That's right
+    - Sure
+    - Absolutely
 
 - intent: deny
   examples: |
@@ -48,6 +52,10 @@ nlu:
     - don't like that
     - no way
     - not really
+    - No
+    - I don't think so
+    - Not really
+    - Nope 
 
 - intent: mood_great
   examples: |
@@ -83,12 +91,26 @@ nlu:
     - so saad
     - so sad
 
+- intent: about_omdena
+  examples: |
+    - Tell me about Omdena
+    - What is Omdena all about?
+    - Can you give me information about Omdena?
+    - Explain Omdena to me
+
+- intent: thank
+  examples: |
+    - Thanks!
+    - Thank you so much!
+    - I appreciate your help.
+
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
 
 
 - intent: find_omdena_info
@@ -127,26 +149,17 @@ nlu:
 - intent: select_top_ai_engineers
   examples: |
     - How does Omdena select its top AI engineers?
-    - What is the main objective of Omdena?
-    - Could you tell me the primary mission of Omdena?
-    - What does Omdena aim to achieve as its primary mission?
-    - What is the core goal that Omdena strives to accomplish?
+    - Can you explain the process of evaluating AI engineers for selection?
 
 - intent: hire_vetted_talents
   examples: |
     - How can I hire Omdena's vetted talents for my project?
-    - What is the main objective of Omdena?
-    - Could you tell me the primary mission of Omdena?
-    - What does Omdena aim to achieve as its primary mission?
-    - What is the core goal that Omdena strives to accomplish?
+    - What are the steps I should follow to hire Omdena's well-qualified talents for my project?
 
 - intent: money_back_guarantee
   examples: |
     - Does Omdena offer a money-back guarantee for its services?
-    - What is the main objective of Omdena?
-    - Could you tell me the primary mission of Omdena?
-    - What does Omdena aim to achieve as its primary mission?
-    - What is the core goal that Omdena strives to accomplish?
+    - In cases where project expectations aren't met, does Omdena offer a money-back guarantee?
 
 
 - intent: worked_with_top_companies
@@ -320,7 +333,6 @@ nlu:
 
 - intent: application_process
   examples: |
-    - Does Omdena take equity involvement in the projects it collaborates on?
     - What's the procedure for applying to the AI development program offered by Omdena?
     - How can I submit my application for the AI development program on Omdena's platform?
     - Could you guide me through the steps of the application process for Omdena's AI development program?
@@ -328,7 +340,6 @@ nlu:
 
 - intent: hiring_fee_discount
   examples: |
-    - Does Omdena take equity involvement in the projects it collaborates on?
     - Is there any information available regarding potential discounts for the hiring fee when working with Omdena?
     - Do you have details about whether Omdena offers any discounts on the hiring fee for its services?
     - Could you provide insights into whether there are any special offers or discounts for the hiring fee?
