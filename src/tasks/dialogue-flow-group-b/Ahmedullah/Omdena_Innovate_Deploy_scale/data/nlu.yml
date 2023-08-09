@@ -1,0 +1,416 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: find_omdena_info
+  examples: |
+    - How can I find more information about Omdena's projects, community, and initiatives?
+    - Where can I find more details about Omdena's projects, community, and initiatives?
+    - Could you direct me to where I can get more information about Omdena's projects and community?
+    - Can you tell me where I can learn more about Omdena's projects and community initiatives?
+    - What's the best source to find out about Omdena's projects, community, and initiatives?
+    - Hi, I'd like to know more about Omdena projects.
+
+- intent: request_refund_conditions
+  examples: |
+    - What is the refund policy if I decide not to continue the project with Omdena?
+    - If I decide not to continue with an Omdena project, can I request a refund within the first week?
+    - How does the refund process work if I choose to withdraw from an Omdena project?
+    - What are the conditions for getting a refund if I opt out of an Omdena project within the first week?
+    - Could you explain the refund policy if I decide not to proceed with an Omdena project?
+
+- intent: assure_partner_satisfaction
+  examples: |
+    - How does Omdena assure partner satisfaction?
+    - How does Omdena ensure partner satisfaction throughout a project?
+    - What measures does Omdena take to make sure partners are satisfied with the collaboration?
+    - Could you explain how Omdena maintains partner satisfaction during project engagements?
+    - What strategies does Omdena use to assure that partners are content with their involvement?
+
+- intent: primary_mission
+  examples: |
+    - What is Omdena's primary mission?
+    - What is the main objective of Omdena?
+    - Could you tell me the primary mission of Omdena?
+    - What does Omdena aim to achieve as its primary mission?
+    - What is the core goal that Omdena strives to accomplish?
+
+- intent: select_top_ai_engineers
+  examples: |
+    - How does Omdena select its top AI engineers?
+    - What is the main objective of Omdena?
+    - Could you tell me the primary mission of Omdena?
+    - What does Omdena aim to achieve as its primary mission?
+    - What is the core goal that Omdena strives to accomplish?
+
+- intent: hire_vetted_talents
+  examples: |
+    - How can I hire Omdena's vetted talents for my project?
+    - What is the main objective of Omdena?
+    - Could you tell me the primary mission of Omdena?
+    - What does Omdena aim to achieve as its primary mission?
+    - What is the core goal that Omdena strives to accomplish?
+
+- intent: money_back_guarantee
+  examples: |
+    - Does Omdena offer a money-back guarantee for its services?
+    - What is the main objective of Omdena?
+    - Could you tell me the primary mission of Omdena?
+    - What does Omdena aim to achieve as its primary mission?
+    - What is the core goal that Omdena strives to accomplish?
+
+
+- intent: worked_with_top_companies
+  examples: |
+    - Can you tell me more about the companies that Omdena has worked with?
+    - Can you provide examples of some of the companies that Omdena has collaborated with?
+    - Which top organizations from various industries has Omdena worked with?
+    - Could you mention a few companies that have partnered with Omdena for projects?
+    - Are there any notable companies that Omdena has had successful collaborations with?
+
+- intent: past_projects
+  examples: |
+    - What industries has Omdena worked in for its past projects?
+    - What are some of the industries that Omdena has experience working in?
+    - Can you give me examples of the types of projects Omdena has undertaken in the past?
+    - Could you share a few examples of the different industries that Omdena has worked on projects for?
+    - What are some of the fields that Omdena has expertise in based on its past projects?
+
+- intent: industry_experience
+  examples: |
+    - What is Omdena's experience in different industries?
+    - Could you elaborate on the different industries where Omdena has successfully executed projects?
+    - What industries has Omdena gained experience in through its project engagements?
+    - Can you provide some insights into the various industries that Omdena has worked across?
+    - In which sectors has Omdena demonstrated its capabilities by addressing complex challenges?
+
+- intent: technical_expertise
+  examples: |
+    - What areas of technical expertise does Omdena possess?
+    - What technical domains does Omdena specialize in?
+    - Could you tell me about the areas of technical expertise that Omdena possesses?
+    - What are the specific technical fields that Omdena excels in?
+    - Can you provide an overview of the technical skills and domains where Omdena demonstrates proficiency?
+
+- intent: successful_deployments
+  examples: |
+    - Can you provide examples of Omdena's successful AI model deployments?
+    - Can you give examples of real-world scenarios where Omdena's AI models have been successfully deployed?
+    - Could you share instances where Omdena's AI solutions were deployed and yielded positive outcomes?
+    -  Are there any cases where Omdena's AI models were implemented and produced tangible results?
+    -  What are some of the instances where Omdena's deployed AI models have proven successful?
+
+- intent: success_stories
+  examples: |
+    - Are there any success stories highlighting the impact of Omdena's projects?
+    - Do you have any specific success stories or case studies that showcase Omdena's positive impact?
+    - Could you provide examples of projects where Omdena's contributions led to successful outcomes?
+    - Are there any notable success stories that highlight the effectiveness of Omdena's projects?
+    - Can you share instances where Omdena's initiatives have resulted in positive change?
+
+
+- intent: vetting_process
+  examples: |
+    - How does Omdena's vetting process for AI talents work?
+    - What is the process through which Omdena selects its top AI talents?
+    - Can you explain the steps involved in Omdena's rigorous vetting process for AI engineers?
+    - How does Omdena evaluate and choose the top AI talents for its projects?
+    - Could you provide insights into the criteria and procedure used in Omdena's vetting process for AI engineers?
+
+- intent: client_testimonials
+  examples: |
+    - Where can I find client testimonials about Omdena's services?
+    - Where can I find testimonials from clients who have worked with Omdena?
+    - Are there any client testimonials available that endorse Omdena's AI solutions?
+    - Could you guide me to where I can read about the experiences of clients who collaborated with Omdena?
+    - Can you direct me to the section on the website where I can find client testimonials for Omdena?
+
+- intent: benefits_of_hiring_talents
+  examples: |
+    - What are the benefits of hiring Omdena's top talents for my project?
+    - What advantages can I gain by hiring Omdena's top talents for a project?
+    - Could you elaborate on the benefits of partnering with Omdena's top 2% talents for project engagements?
+    - What value and expertise do Omdena's top talents bring to projects?
+    - Can you explain how hiring Omdena's top talents can enhance the outcome of a project?
+
+- intent:  project_execution_process
+  examples: |
+    - Can you explain Omdena's project execution process?
+    - How does Omdena manage the execution of projects? What is the process?
+    - Can you walk me through the project execution process when working with Omdena?
+    - What steps are involved in the project execution process with Omdena?
+    - Could you provide an overview of how projects are executed in collaboration with Omdena?
+
+- intent: submit_project_idea
+  examples: |
+    - How can I submit my project idea to Omdena?
+    - How can I submit my project idea to Omdena? Is there a specific process?
+    - What's the procedure for sharing my project concept with Omdena? How can I get started?
+    - Could you guide me on how to propose a project idea to Omdena? What steps should I take?
+    - If I have a project idea, what's the best way to present it to Omdena for consideration?
+
+- intent: recruitment_fee
+  examples: |
+    - Is there a recruitment fee for each project with Omdena?
+    - Is there any fee associated with recruiting talents from Omdena for a project?
+    - Could you provide information about the recruitment fee for engaging with Omdena for a project?
+    - Is there a cost for the talent selection and management process when working with Omdena?
+    - What's the recruitment fee used for when collaborating with Omdena for project execution?
+
+- intent: sign_up_for_demo
+  examples: |
+    - How can I sign up for a demo with Omdena?
+    - How can I sign up for a demo session with Omdena? What's the process?
+    - What steps should I follow to request a demo from Omdena? How can I schedule one?
+    - Can you guide me on how to register for a demo presentation by Omdena?
+    - If I'm interested in a demo, how can I go about signing up for one with Omdena?
+
+- intent: contact_for_questions
+  examples: |
+    - How can I contact Omdena for further questions?
+    - What's the recommended way to get in touch with Omdena if I have questions?
+    - If I have queries or need more information, how can I contact the Omdena team?
+    - How can I reach out to Omdena for further inquiries or clarifications?
+    - If I need assistance or have doubts, what's the contact method to reach out to Omdena?
+
+- intent: service_inquiry
+  examples: |
+    - What types of AI development services does Omdena offer?
+    - Could you explain more about the AI development services that Omdena offers?
+    - What kinds of AI development services does Omdena provide to impact-driven organizations?
+    - Can you give me an overview of the AI development solutions that Omdena specializes in?
+    - If my organization aims to leverage AI for social good, how can Omdena assist with its services?
+
+- intent:  project_duration
+  examples: |
+    - How long does an average Omdena AI development project last?
+    - What is the typical duration of an AI development project with Omdena?
+    - How long do Omdena AI development projects usually run for?
+    - Can you provide an estimate of the timeframe required for completing an Omdena project?
+    - What's the average project duration when collaborating with Omdena for AI development?
+
+- intent: project_team_size
+  examples: |
+    - How many AI engineers usually work on an Omdena project?
+    - How is the size of the project team determined for an Omdena AI development project?
+    - Is there a specific criteria for deciding the number of AI engineers in an Omdena project team?
+    - Can you explain how Omdena determines the appropriate team size for each project?
+    - What factors influence the selection of AI engineers and the team size in Omdena projects?
+
+- intent: hiring_engineers
+  examples: |
+    - Is it common for companies to hire AI engineers from Omdena projects?
+    - Is it common for companies to hire AI engineers who have participated in Omdena projects?
+    - Do organizations frequently hire AI talents from Omdena's project teams?
+    - Are AI engineers who work on Omdena projects often sought after by hiring companies?
+    - Do many businesses choose to recruit AI experts who have contributed to Omdena initiatives?
+
+- intent: cost_of_engagement
+  examples: |
+    - How is the cost of engagement with Omdena determined for a project?
+    - How is the cost of engagement determined when working with Omdena for an AI development project?
+    - Could you provide insights into the factors that influence the cost of engaging Omdena's services?
+    - What elements contribute to the overall cost of collaborating with Omdena for project execution?
+    - Can you explain the variables that impact the pricing of AI development projects with Omdena?
+
+- intent:  intellectual_property
+  examples: |
+    - What happens to the Intellectual Property rights of solutions developed during an Omdena project?
+    - Who holds the Intellectual Property rights for solutions developed during an Omdena project?
+    - If I collaborate with Omdena on a project, who owns the Intellectual Property rights for the outcomes?
+    - Could you clarify the ownership of Intellectual Property for solutions created in partnership with Omdena?
+    - If Omdena and I work together on a project, who retains the rights to the developed solutions? 
+
+- intent: equity_involvement
+  examples: |
+    - Does Omdena take equity involvement in the projects it collaborates on?
+    - Does Omdena require any equity involvement in the projects? How are the outcomes of my project treated?
+    - When collaborating with Omdena, is there any equity share or ownership taken from the projects?
+    - Is it true that Omdena doesn't take any equity from the projects? Can you elaborate on this?
+    - Could you clarify whether Omdena retains any equity from the results of the projects it collaborates on?
+
+- intent: application_process
+  examples: |
+    - Does Omdena take equity involvement in the projects it collaborates on?
+    - What's the procedure for applying to the AI development program offered by Omdena?
+    - How can I submit my application for the AI development program on Omdena's platform?
+    - Could you guide me through the steps of the application process for Omdena's AI development program?
+    - If I'm interested in joining Omdena's AI development program, what are the steps I need to follow to apply?
+
+- intent: hiring_fee_discount
+  examples: |
+    - Does Omdena take equity involvement in the projects it collaborates on?
+    - Is there any information available regarding potential discounts for the hiring fee when working with Omdena?
+    - Do you have details about whether Omdena offers any discounts on the hiring fee for its services?
+    - Could you provide insights into whether there are any special offers or discounts for the hiring fee?
+    - Are there any ongoing promotions or discounts available for the hiring fee with Omdena?
+
+- intent: selection_process
+  examples: |
+    - Can you explain the selection process for the AI development program?
+    - Can you explain the steps involved in the selection process for Omdena's AI development program?
+    - How does Omdena conduct the selection process for participants in its AI development program?
+    - Could you give me an overview of the process Omdena follows to select participants for its AI development program?
+    - What stages are included in the selection process when applying for Omdena's AI development program?
+
+- intent: testimonials_or_reviews
+  examples: |
+    - Are there testimonials or reviews from participants who benefited from Omdena's projects?
+    - Are there any testimonials or reviews available from individuals who have participated in Omdena's projects?
+    - Has Omdena collected feedback or testimonials from previous participants of its projects?
+    - Could you share some of the experiences or feedback shared by those who have engaged with Omdena's initiatives?
+    - Can you provide examples of success stories or feedback from people who have been involved in Omdena's projects?
+
+- intent:  types_of_startups
+  examples: |
+    - Can you tell me more about Omdena's work with startups?
+    - In what domains or industries have startups collaborated with Omdena to develop AI solutions?
+    - Could you provide some insights into the various sectors or areas in which Omdena has partnered with startups?
+    - What are some examples of the types of startups that have worked with Omdena on AI projects?
+    - Can you elaborate on the range of industries where startups have engaged with Omdena for AI solutions?
+
+- intent: operational_fee
+  examples: |
+    - How is the operational fee for an Omdena project determined?
+    - How is the operational fee determined for participating in an Omdena project? What factors influence it?
+    - What considerations go into calculating the operational fee for involvement in an Omdena project?
+    - Could you provide more information about how the operational fee is assessed for Omdena projects?
+    - Is the operational fee fixed, or does it vary depending on the nature of the project when working with Omdena?
+
+- intent: investment_by_startups
+  examples: |
+    - Do you have information on how much startups invest in Omdena projects?
+    - Is there any available information on the typical investment that startups make when collaborating on Omdena projects?
+    - Do you have insights into the usual financial commitment startups have in Omdena's collaborative projects?
+    - Could you provide details about the financial investment made by startups when engaging with Omdena for AI solutions?
+    - Is there a standard range or average investment amount that startups allocate for Omdena projects?
+
+- intent:  number_of_applications
+  examples: |
+    - How many applications does Omdena typically receive for its projects?
+    - Do you have any data on the volume of applications that Omdena typically receives for its projects?
+    - Can you provide information about the number of applications Omdena usually receives for its initiatives?
+    - Is there any insight into the volume of project applications that Omdena receives on average?
+    - Could you share some statistics on the frequency of applications submitted to Omdena's projects?
+
+- intent: startup_partners
+  examples: |
+    - Can you provide more details about Omdena's startup partners?
+    - Who are some examples of startup partners that Omdena has collaborated with on impactful AI projects?
+    - Can you provide names or examples of organizations that are considered startup partners in Omdena's projects?
+    - Could you share some details about the sectors or domains from which Omdena's startup partners come?
+    - Can you elaborate on the types of partnerships Omdena has established with startups for AI projects?
+
+- intent: post_selection_process
+  examples: |
+    - What happens after being selected for the AI development program with Omdena?
+    - Once selected for Omdena's program, what can participants expect in terms of the next steps in the collaboration?
+    - After being chosen for Omdena's program, what are the subsequent stages that participants will be guided through?
+    - What kind of instructions or guidance do participants receive after the selection process for Omdena's program?
+    - Could you provide an overview of the actions participants need to take after successfully being selected for Omdena's program?
+
+- intent: defining_project_scope
+  examples: |
+    - How is the project scope defined when collaborating with Omdena?
+    - How is the project scope defined when partnering with Omdena? What factors influence this process?
+    - What steps are involved in aligning project goals and expectations to define the scope of collaboration with Omdena?
+    - Could you explain how Omdena and collaborators work together to establish the scope of a project?
+    - Can you elaborate on the approach Omdena takes to ensure that project scope is effectively defined and agreed upon?
+
+- intent: contact_information
+  examples: |
+    - How can I get in touch with Omdena using their contact information?
+    - Where can I find the contact information for reaching out to Omdena? How can I get in touch with them?
+    - If I need to contact Omdena, what's the best way to reach out? Is there specific contact information available?
+    - How can I get in contact with Omdena if I have questions or require assistance?
+    - Could you provide details about the methods available for contacting Omdena for inquiries and support?
+

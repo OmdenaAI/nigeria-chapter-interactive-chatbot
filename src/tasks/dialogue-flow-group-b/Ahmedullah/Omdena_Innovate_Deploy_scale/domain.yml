@@ -1,0 +1,157 @@
+version: '3.1'
+
+intents:
+  - greet
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - find_omdena_info
+  - request_refund_conditions
+  - assure_partner_satisfaction
+  - primary_mission
+  - select_top_ai_engineers
+  - hire_vetted_talents
+  - money_back_guarantee
+  - worked_with_top_companies
+  - past_projects
+  - industry_experience
+  - technical_expertise
+  - successful_deployments
+  - success_stories
+  - vetting_process
+  - client_testimonials
+  - benefits_of_hiring_talents
+  - project_execution_process
+  - submit_project_idea
+  - recruitment_fee
+  - sign_up_for_demo
+  - contact_for_questions
+  - service_inquiry
+  - project_duration
+  - project_team_size
+  - hiring_engineers
+  - cost_of_engagement
+  - intellectual_property
+  - equity_involvement
+  - application_process
+  - hiring_fee_discount
+  - selection_process
+  - testimonials_or_reviews
+  - types_of_startups
+  - operational_fee
+  - investment_by_startups
+  - number_of_applications
+  - startup_partners
+  - post_selection_process
+  - defining_project_scope
+  - contact_information
+  - goodbye
+responses:
+
+  utter_welcome:
+    - text: "Hi, welcome to Omdena bot. How can I help you?"
+
+  utter_find_omdena_info:
+    - text: "You can find more information about Omdena's projects, community, and initiatives on our website."
+  utter_request_refund_conditions:
+    - text: "If you decide to not continue the project with Omdena, you can request a refund within the first week of the project's start date."
+  utter_assure_partner_satisfaction:
+    - text: "Omdena assures partner satisfaction through transparent communication, regular updates, and collaborative decision-making."
+  utter_primary_mission:
+    - text: "Omdena's primary mission is to build AI models for social good by collaborating with a global network of AI engineers."
+  utter_select_top_ai_engineers:
+    - text: "Omdena selects the top 2% of AI engineers from around the world to work on projects that make a positive impact."
+  utter_hire_vetted_talents:
+    - text: "To hire Omdena's vetted talents for your project, visit our website's 'Hire Talent' section and provide project details."
+  utter_money_back_guarantee:
+    - text: "Omdena offers a money-back guarantee for their services if the agreed-upon project goals are not met."
+  utter_worked_with_top_companies:
+    - text: "Omdena has worked with over 200+ companies including top organizations from various industries."
+  utter_past_projects:
+    - text: "Omdena has experience in a wide range of industries, including healthcare, environment, finance, and more."
+  utter_industry_experience:
+    - text: "Omdena has successfully worked on various projects across different industries, solving complex challenges."
+  utter_technical_expertise:
+    - text: "Omdena's technical expertise includes machine learning, deep learning, natural language processing, computer vision, and more."
+  utter_successful_deployments:
+    - text: "Omdena has successfully managed deployments of AI models in real-world scenarios, delivering tangible results."
+  utter_success_stories:
+    - text: "Yes, there are several success stories highlighting how Omdena's projects have made a positive impact."
+  utter_vetting_process:
+    - text: "Omdena's unique vetting process involves selecting top AI talents through a rigorous evaluation of skills and experience."
+  utter_client_testimonials:
+    - text: "Testimonials from Omdena's clients can be found on our website, showcasing the value of our AI solutions."
+  utter_benefits_of_hiring_talents:
+    - text: "By hiring Omdena's top 2% talents, you can benefit from their expertise, experience, and innovative solutions."
+  utter_project_execution_process:
+    - text: "The project execution process with Omdena involves collaboration, regular updates, and milestones to achieve project goals."
+  utter_submit_project_idea:
+    - text: "To submit your project idea to Omdena, you can visit our website and fill out the project proposal form."
+  utter_recruitment_fee:
+    - text: "Yes, there is a one-off recruitment fee for each project to cover the costs of talent selection and management."
+  utter_sign_up_for_demo:
+    - text: "To sign up for a demo with Omdena, you can visit our website and fill out the demo request form."
+  utter_contact_for_questions:
+    - text: "For any further questions, you can contact our team through the 'Contact Us' section on our website."
+  utter_service_inquiry:
+    - text: "Omdena offers AI development services to impact-driven organizations looking to leverage AI for social good."
+  utter_project_duration:
+    - text: "An Omdena AI development project typically lasts for about 8 weeks, during which teams collaborate to solve challenges."
+  utter_project_team_size:
+    - text: "The number of AI engineers involved in an Omdena project varies depending on the project's scope and requirements."
+  utter_hiring_engineers:
+    - text: "Yes, it's common for companies to hire AI engineers who have participated in Omdena projects due to their expertise."
+  utter_cost_of_engagement:
+    - text: "The cost of engaging with Omdena for an AI development project varies based on the project's complexity and scope."
+  utter_intellectual_property:
+    - text: "Yes, you retain full Intellectual Property rights for any solutions developed during an Omdena project."
+  utter_equity_involvement:
+    - text: "No, Omdena does not take any equity from your project. Your project's outcomes remain entirely yours."
+  utter_application_process:
+    - text: "You can apply for the AI development program on Omdena's website by submitting your application."
+  utter_hiring_fee_discount:
+    - text: "There is no available information on whether there are discounts available for the hiring fee."
+  utter_selection_process:
+    - text: "The selection process for the AI development program involves reviewing applications, skills assessment, and interviews."
+  utter_testimonials_or_reviews:
+    - text: "Yes, there are several testimonials and reviews from participants who have benefited from Omdena's projects."
+  utter_types_of_startups:
+    - text: "Omdena has worked with startups across various domains, helping them develop AI solutions for their challenges."
+  utter_operational_fee:
+    - text: "The operational fee for participating in an Omdena project depends on the project's specifics and requirements."
+  utter_investment_by_startups:
+    - text: "There is no available information on how much startups typically invest in Omdena projects."
+  utter_number_of_applications:
+    - text: "There is no available information on how many applications Omdena receives for its projects."
+  utter_startup_partners:
+    - text: "Omdena's startup partners include organizations from various sectors that collaborate on impactful AI projects."
+  utter_post_selection_process:
+    - text: "After you're selected for the program, you will receive further instructions on how to proceed with the collaboration."
+  utter_defining_project_scope:
+    - text: "The process for defining the project scope with Omdena involves aligning project goals and expectations."
+  utter_contact_information:
+    - text: "You can contact Omdena through their website using the provided contact information."
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: True

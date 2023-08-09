@@ -1,0 +1,190 @@
+version: "3.1"
+
+stories:
+
+- story: welcome and greet
+  steps:
+  - intent: greet
+  - action: utter_welcome
+
+- story: happy path
+  steps:
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+ 
+- story: story_1
+  steps:
+  - intent: find_omdena_info
+  - action: utter_find_omdena_info
+- story: story_2
+  steps:
+  - intent: request_refund_conditions
+  - action: utter_request_refund_conditions
+- story: story_3
+  steps:
+  - intent: assure_partner_satisfaction
+  - action: utter_assure_partner_satisfaction
+- story: story_4
+  steps:
+  - intent: primary_mission
+  - action: utter_primary_mission
+- story: story_5
+  steps:
+  - intent: select_top_ai_engineers
+  - action: utter_select_top_ai_engineers
+- story: story_6
+  steps:
+  - intent: hire_vetted_talents
+  - action: utter_hire_vetted_talents
+- story: story_7
+  steps:
+  - intent: money_back_guarantee
+  - action: utter_money_back_guarantee
+- story: story_8
+  steps:
+  - intent: worked_with_top_companies
+  - action: utter_worked_with_top_companies
+- story: story_9
+  steps:
+  - intent: past_projects
+  - action: utter_past_projects
+- story: story_10
+  steps:
+  - intent: industry_experience
+  - action: utter_industry_experience
+- story: story_11
+  steps:
+  - intent: technical_expertise
+  - action: utter_technical_expertise
+- story: story_12
+  steps:
+  - intent: successful_deployments
+  - action: utter_successful_deployments
+- story: story_13
+  steps:
+  - intent: success_stories
+  - action: utter_success_stories
+- story: story_14
+  steps:
+  - intent: vetting_process
+  - action: utter_vetting_process
+- story: story_15
+  steps:
+  - intent: client_testimonials
+  - action: utter_client_testimonials
+- story: story_16
+  steps:
+  - intent: benefits_of_hiring_talents
+  - action: utter_benefits_of_hiring_talents
+- story: story_17
+  steps:
+  - intent: project_execution_process
+  - action: utter_project_execution_process
+- story: story_18
+  steps:
+  - intent: submit_project_idea
+  - action: utter_submit_project_idea
+- story: story_19
+  steps:
+  - intent: recruitment_fee
+  - action: utter_recruitment_fee
+- story: story_20
+  steps:
+  - intent: sign_up_for_demo
+  - action: utter_sign_up_for_demo
+- story: story_21
+  steps:
+  - intent: contact_for_questions
+  - action: utter_contact_for_questions
+- story: story_22
+  steps:
+  - intent: service_inquiry
+  - action: utter_service_inquiry
+- story: story_23
+  steps:
+  - intent: project_duration
+  - action: utter_project_duration
+- story: story_24
+  steps:
+  - intent: project_team_size
+  - action: utter_project_team_size
+- story: story_25
+  steps:
+  - intent: hiring_engineers
+  - action: utter_hiring_engineers
+- story: story_26
+  steps:
+  - intent: cost_of_engagement
+  - action: utter_cost_of_engagement
+- story: story_27
+  steps:
+  - intent: intellectual_property
+  - action: utter_intellectual_property
+- story: story_28
+  steps:
+  - intent: equity_involvement
+  - action: utter_equity_involvement
+- story: story_29
+  steps:
+  - intent: application_process
+  - action: utter_application_process
+- story: story_30
+  steps:
+  - intent: hiring_fee_discount
+  - action: utter_hiring_fee_discount
+- story: story_31
+  steps:
+  - intent: selection_process
+  - action: utter_selection_process
+- story: story_32
+  steps:
+  - intent: testimonials_or_reviews
+  - action: utter_testimonials_or_reviews
+- story: story_33
+  steps:
+  - intent: types_of_startups
+  - action: utter_types_of_startups
+- story: story_34
+  steps:
+  - intent: operational_fee
+  - action: utter_operational_fee
+- story: story_35
+  steps:
+  - intent: investment_by_startups
+  - action: utter_investment_by_startups
+- story: story_36
+  steps:
+  - intent: number_of_applications
+  - action: utter_number_of_applications
+- story: story_37
+  steps:
+  - intent: startup_partners
+  - action: utter_startup_partners
+- story: story_38
+  steps:
+  - intent: post_selection_process
+  - action: utter_post_selection_process
+- story: story_39
+  steps:
+  - intent: defining_project_scope
+  - action: utter_defining_project_scope
+- story: story_40
+  steps:
+  - intent: contact_information
+  - action: utter_contact_information
