@@ -2,10 +2,10 @@ version: "3.1"
 
 stories:
 
-# - story: welcome and greet
-#   steps:
-#   - intent: greet
-#   - action: utter_welcome
+- story: welcome and greet
+  steps:
+  - intent: greet
+  - action: utter_welcome
 
 - story: happy path
   steps:
@@ -15,7 +15,6 @@ stories:
 - story: sad path 1
   steps:
   - intent: mood_unhappy
-  - action: utter_cheer_up
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_happy
@@ -23,26 +22,9 @@ stories:
 - story: sad path 2
   steps:
   - intent: mood_unhappy
-  - action: utter_cheer_up
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
-
-- story: User asks about Omdena
-  steps:
-    - intent: about_omdena
-    - action: utter_find_omdena_info
-    - action: utter_did_that_help
-
-- story: User expresses gratitude
-  steps:
-    - intent: thank
-    - action: utter_thank_you
-
-- story: User denies help
-  steps:
-    - intent: deny
-    - action: utter_sorry_to_hear  
  
 - story: story_1
   steps:

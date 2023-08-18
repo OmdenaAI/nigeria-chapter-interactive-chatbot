@@ -38,10 +38,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-    - Yes
-    - That's right
-    - Sure
-    - Absolutely
 
 - intent: deny
   examples: |
@@ -52,10 +48,6 @@ nlu:
     - don't like that
     - no way
     - not really
-    - No
-    - I don't think so
-    - Not really
-    - Nope 
 
 - intent: mood_great
   examples: |
@@ -91,26 +83,12 @@ nlu:
     - so saad
     - so sad
 
-- intent: about_omdena
-  examples: |
-    - Tell me about Omdena
-    - What is Omdena all about?
-    - Can you give me information about Omdena?
-    - Explain Omdena to me
-
-- intent: thank
-  examples: |
-    - Thanks!
-    - Thank you so much!
-    - I appreciate your help.
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
 
 
 - intent: find_omdena_info
@@ -149,17 +127,21 @@ nlu:
 - intent: select_top_ai_engineers
   examples: |
     - How does Omdena select its top AI engineers?
-    - Can you explain the process of evaluating AI engineers for selection?
+    - what is the procedure to be selected as top AI engineers?
+    - What is the role of top AI engineers?
 
 - intent: hire_vetted_talents
   examples: |
     - How can I hire Omdena's vetted talents for my project?
-    - What are the steps I should follow to hire Omdena's well-qualified talents for my project?
+    - Could you tell me the primary objective of talent program of Omdena?
+    - What does Omdena aim to achieve by hiring top talent?
+    - What is the size of team for Top talent project?
 
 - intent: money_back_guarantee
   examples: |
     - Does Omdena offer a money-back guarantee for its services?
-    - In cases where project expectations aren't met, does Omdena offer a money-back guarantee?
+    - Is there any payment or money_back_guarantee structure?
+    - Is omdena return money to client if project not completed as required?
 
 
 - intent: worked_with_top_companies

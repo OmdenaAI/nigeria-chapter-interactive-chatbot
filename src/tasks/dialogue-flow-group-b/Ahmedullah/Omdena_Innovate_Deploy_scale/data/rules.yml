@@ -1,10 +1,6 @@
 version: "3.1"
 
 rules:
-- rule: Greet the user
-  steps:
-  - intent: greet
-  - action: utter_greet
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
@@ -15,3 +11,4 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+

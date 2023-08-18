@@ -48,25 +48,13 @@ intents:
   - defining_project_scope
   - contact_information
   - goodbye
-  - about_omdena
-  - thank
-
-actions:
-  - utter_find_omdena_info
-  - utter_did_that_help
-  - utter_thank_you
-  - utter_sorry_to_hear
-
 responses:
+
+  utter_welcome:
+    - text: "Hi, welcome to Omdena bot. How can I help you?"
 
   utter_find_omdena_info:
     - text: "You can find more information about Omdena's projects, community, and initiatives on our website."
-  utter_did_that_help:
-    - text: "Did that help you?"
-  utter_thank_you:
-    - text: "You're welcome! If you have more questions, feel free to ask."
-  utter_sorry_to_hear:
-    - text: "I'm sorry to hear that. Please let me know if there's anything else I can assist you with."
   utter_request_refund_conditions:
     - text: "If you decide to not continue the project with Omdena, you can request a refund within the first week of the project's start date."
   utter_assure_partner_satisfaction:
@@ -148,12 +136,9 @@ responses:
   utter_goodbye:
     - text: "Bye"
 
-  utter_greet:
-  - text: "Hi, welcome to Omdena bot. How can I help you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+ 
+  utter_did_that_help:
+  - text: "Did that help you?"
 
   utter_happy:
   - text: "Great, carry on!"
