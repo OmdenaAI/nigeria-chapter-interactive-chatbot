@@ -1,0 +1,39 @@
+version: "3.1"
+
+nlu:
+- intent: about_us_inquire_omdena
+  examples: |
+    - What is Omdena ?
+    - What does Omdena do ?
+    - What do you do ?
+    - What is this website for ?
+    - What is this platform ?
+    - What is the purpose of this platform ?
+
+- intent: about_us_omdena_components
+  examples: |
+    - What kind of activities do you have ?
+    - How do you help communities ?
+    - Which types of activities are there ?
+    - How are you helping people ?
+    - How do you achieve collaborations ?
+    - How do you facilitate collaborations ?
+
+- intent: about_us_omdena_values
+  examples: |
+    - What are your core values ?
+    - What are the organization values ?
+    - Which values do you have ?
+    - Have you defined values ?
+    - tell me your values
+
+- intent: about_us_omdena_history
+  examples: |
+    - How was Omdena founded ?
+    - What inspired the organization ?
+    - How was the organization created ?
+    - What is Omdena's story ?
+    - how was this platform founded ?
+    - what is the history of the website ?
+    - what is the history of the platform ?
+
