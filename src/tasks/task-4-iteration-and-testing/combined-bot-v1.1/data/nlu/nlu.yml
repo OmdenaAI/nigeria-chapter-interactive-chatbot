@@ -508,7 +508,7 @@ nlu:
     - Can you guide me through the steps to join Omdena?
     - Where can I sign up to become a member of Omdena?
 
-- intent: become_collaborator
+- intent: becoming_collaborator
   examples: |
     - How to become a collaborator?
     - Get involved as a collaborator.
@@ -518,7 +518,7 @@ nlu:
     - how can i become a collaborator
     - how to become a collaborator?
     - how to join as collaborator?
-- intent: requirements_collaborator
+- intent: requirements_for_collaborator
   examples: |
     - Prerequisites for collaborators
     - Requirements to join omdena collaborators
@@ -526,51 +526,51 @@ nlu:
     - Qualifications needed collaborators?
     - what are requirements to become collaborator?
     - what are the qualifications needed for collaborators 
-- intent: apply_collaborator
+- intent: applying_for_collaborator
   examples: |
     - Application process for collaborator?
     - Where to apply for collaborator?
     - Procedure to join as a collaborator.
     - where can in apply for collaborator?
     - where can i apply as collaborator
-- intent: omdena_projects
+- intent: about_omdena_projects
   examples: |
     - Overview of projects
     - Omdena focus areas in projects
     - Details on projects
     - about omdena projects
-- intent: join_omdena_projects
+- intent: joining_omdena_projects
   examples: |
     - Participate in Omdena project
     - Join ongoing project
     - How to get involved in an omdena project?
     - Steps to join project
-- intent: find_project_myself
+- intent: finding_project_for_myself
   examples: |
     - Search for projects
     - Find suitable project
     - Explore available projects
     - Resources to find projects
     - how can i search for projects
-- intent: working_process
+- intent:  collaboration_process_omdena
   examples: |
     - Omdena project workflow
     - Collaboration process in omdena
     - Step-by-step working in omdena
     - Project execution structure
-- intent: collaboration_tools
+- intent: collaboration_tools_used
   examples: |
     - Omdena collaboration tools?
     - Online platforms used?
     - Collaborator tools list.
     - Communication platforms.
-- intent: roles_responsibilities
+- intent: roles_responsibilities_collaborator
   examples: |
     - Omdena collaborator roles?
     - Responsibilities in projects.
     - Team member expectations.
     - How are roles distributed?
-- intent: programming_languages
+- intent: programming_languages_used
   examples: |
     - Programming languages used?
     - Proficiency requirements.
@@ -586,14 +586,14 @@ nlu:
     - Examples of tools used.
     - How to familiarize with tools used in projects
     - Required proficiency tools for projects
-- intent: data_accessing
+- intent: accessing_data
   examples: |
     - Accessing data for projects?
     - Source of project data
     - Collaborator data role
     - Data acquisition process.
     - where does omdena collect data for their projects
-- intent: about_community
+- intent: about_omdena_community
   examples: |
     - Omdena community details.
     - Overview of community.
@@ -601,7 +601,7 @@ nlu:
     - Benefits of community.
     - about omdena community
 
-- intent: networking
+- intent: networking_process
   examples: |
     - Collaborator networking
     - Omdena community interaction
@@ -614,84 +614,6 @@ nlu:
     - How does collaboration help?
     - Rewards/incentives for collaborators.
     - Positive outcomes of collaboration
-
-- intent: chapter_lead_benefit
-  examples: |
-    - Advantages of being a lead
-    - Benefits for chapter leads
-    - What you gain as a chapter lead
-
-- intent: chapter_lead_requirements
-  examples: |
-    - Requirements for leading a chapter
-    - How to qualify as a lead
-    - Prerequisites for chapter leads
-
-- intent: partner_role
-  examples: |
-    - Role of partners
-    - What partners do
-    - Partner responsibilities
-
-- intent: join_partner
-  examples: |
-    - Become a partner
-    - How to partner with Omdena
-    - Partner with us
-
-- intent: partner_benefit
-  examples: |
-    - Why become a partner?
-    - Advantages of partnering
-    - Benefits for partners
-
-- intent: partner_requirements
-  examples: |
-    - Partnering requirements
-    - How to qualify as a partner
-    - Prerequisites for partners
-
-- intent: case_study
-  examples: |
-    - Understanding case study education
-    - What are case studies?
-    - Learning through case studies
-
-- intent: help_networking
-  examples: |
-    - How local chapters assist with AI services
-    - Networking support for AI enthusiasts
-    - Help with AI projects
-
-- intent: cross_border_exchange_impact
-  examples: |
-    - Impact of knowledge exchange
-    - Cross-border impact on AI solutions
-    - Global knowledge sharing effect
-
-- intent: collaboration_and_insights
-  examples: |
-    - Collaboration in chatbot development
-    - How chapters share insights
-    - Working together on chatbots
-
-- intent: support_communities
-  examples: |
-    - Supporting AI solutions in communities
-    - Promoting open-source projects
-    - Community assistance by chapters
-
-- intent: using_technology
-  examples: |
-    - Technology in local chapters
-    - Engaging with tech
-    - Leveraging modern tools
-
-- intent: local_chapters_role
-  examples: |
-    - Omdena chapters and education
-    - Facilitating case study education
-    - Local chapters' role in learning
 
 ####---------NLU-ARPIT ----------------######
 # Updated in v1.1 followup section
