@@ -158,13 +158,10 @@ intents:
 - chapter_lead_benefit
 - goal_omdena_chapters
 - partner_role
-- join_as_collaborator
 - local_chapters_role
-- collaborator_requirements
 - using_technology
 - collaboration_and_insights
 - join_partner
-- collaborator_role
 - join_chapter_lead
 - case_study
 - chapter_lead_role
@@ -174,26 +171,25 @@ intents:
 - help_networking
 - chapter_lead_requirements
 - partner_benefit
-- benefit_collaborator
 - cross_border_exchange_impact
 
 ## Pankaj GENERAL QUESTIONS
-- about_community
-- apply_collaborator
-- become_collaborator
-- collaboration_tools
+- about_omdena_community
+- applying_for_collaborator
+- becoming_collaborator
+- collaboration_tools_used
 - collaborator_benefit
-- data_accessing
-- find_project_myself
-- join_omdena_projects
+- accessing_data
+- finding_project_for_myself
+- joining_omdena_projects
 - joining_omdena_network
-- networking
-- omdena_projects
-- programming_languages
-- requirements_collaborator
-- roles_responsibilities
+- networking_process
+- about_omdena_projects
+- programming_languages_used
+- requirements_for_collaborator
+- roles_responsibilities_collaborator
 - tools_used
-- working_process
+- collaboration_process_omdena
 
 entities:
 - user_role
