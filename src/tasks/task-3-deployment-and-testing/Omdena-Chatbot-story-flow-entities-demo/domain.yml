@@ -1,0 +1,87 @@
+version: "3.1"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+- greeting
+- bot_capabilities
+- project_help
+- inform_role
+# ----Arpit---Local Chapter-----#
+- local_chapter_inquire_local_chapter_programs
+# - local_chapter_cost
+# - local_chapter_participation_eligibility
+- local_chapter_join_collaborator
+- local_chapter_collaborator_benefit
+- local_chapter_lead_local_chapter
+- local_chapter_lead_benefit
+- local_chapter_find_challenges
+- local_chapter_contact_organizers
+#--Pankaj--Local Chapter--#
+- join_chapter
+- join_general
+- cost_general
+- eligibility_general
+entities:
+- user_role
+- local_chapter
+
+slots:
+  user_role:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: user_role
+  local_chapter:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: local_chapter
+
+responses:
+  utter_greeting:
+  - text: "Hello! How can I assist you?"
+
+  utter_bot_capabilities:
+  - text: "I'm here to answer questions related to the omdena.com website. How can I assist you?"
+
+  utter_ask_user_role:
+  - text: "Sure! Are you a developer or a client representing an organization?"
+  
+## -- ARPIT --- ##
+ # LOCAL CHAPTER
+  utter_local_chapter_inquire_local_chapter_programs:
+    - text: "Our local chapter program aims to establish local communities who provide AI education and collaborate together on solving issues important for locals in their respective regions. It aims: To promote real-world AI through running open-source projects, To provide case study-based education and To bring AI services to local AI enthusiasts and businesses around the world. "
+  utter_local_chapter_cost:
+    - text: "Yes, joining an Omdena local chapter is free of charge. It's an inclusive community initiative aimed at fostering collaboration and knowledge sharing among AI enthusiasts and professionals."
+  utter_local_chapter_participation_eligibility:
+    - text: "Omdena local chapters are open to anyone interested in AI, regardless of their level of expertise. Whether you're a beginner or an experienced practitioner, you're welcome to join and contribute to the local AI community."
+  utter_local_chapter_join_collaborator:
+    - text: "To join one of our local chapter, visit the Local Chapters page on our website and find the chapter nearest to your location. Then, follow the instructions provided to get involved and connect with other members."
+  utter_local_chapter_collaborator_benefit:
+    - text: "Joining an Omdena local chapter offers numerous benefits, including opportunities for networking, collaborating on AI projects, gaining industry insights, and participating in local events and workshops."
+  utter_local_chapter_lead_local_chapter:
+    - text: "Absolutely! We encourage individuals passionate about AI and community building to start their own local chapters. Visit the Local Chapters page on our website and go to the https://omdena.com/application-page-omdena-chapter-lead/ to learn more about the requirements and process for starting a chapter."
+  utter_local_chapter_lead_benefit:
+    - text: "By becoming a chapter lead you understand the technical approaches and the skills needed in solving a problem using data science/artificial intelligence, Get the work experience needed in becoming a product owner/developerLearn and develop your AI skills through collaboration with other AI engineers, Showcase your work and impact to obtain grants or scholarships at international conferences, universities or global communities, Make contacts and get help from Omdena AI community experts to organise workshops and Develop your non-technical skills like communication, team building, analytical and problem solving skills."
+  utter_local_chapter_find_challenges:
+    - text: "You can find a list of all challenges on the Local Chapter Section on our Website (https://omdena.com/local-chapters/). In the Local Chapter Challenges section you can scroll through the different challenges, search according to interest words or filter according to domain, phase country or city. "
+  utter_local_chapter_contact_organizers:
+    - text: "To contact the organizers of a specific Omdena local chapter, you can find their contact information on the Local Chapters page of our website (https://omdena.com/local-chapters/). Reach out to them directly for any inquiries, suggestions, or collaboration opportunities. Also visit our Growth stories of Local Chapter Leads section to get inspired by their stories and path with us."
+## Local Chapter Pankaj ##
+  utter_join_chapter:
+    - text: 'You can join local chapters by either joining as collaborator to the local chapter challenge or as a chapter lead or
+        you can also join local chapter as a university or educational institution partner.
+        To join the local chapter, please visit our website at https://omdena.com/local-chapters/. Do you have any other questions?'
+
+
+actions:
+- action_reset_slots
+- action_help_with_role
+- action_general_help
+- action_join_classify
+- action_eligibility_classify
+- action_cost_classify

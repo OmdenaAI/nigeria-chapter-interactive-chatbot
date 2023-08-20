@@ -1,0 +1,167 @@
+version: "3.1"
+nlu:
+
+###----------------INTENTS FOR FOLLOW UP QUESTIONS--------------------###
+
+
+- intent: greeting
+  examples: |
+    - Hi
+    - Hello
+    - Hey
+
+- intent: bot_capabilities
+  examples: |
+    - What can you do?
+    - What's your function?
+    - Tell me your capabilities.
+
+- intent: project_help
+  examples: |
+    - Can you help me with a project?
+    - I need help with my project.
+    - Can you assist me on this project as a [developer](user_role)?
+    - I'm a [client](user_role) looking for assistance.
+    - I'm a [client](user_role) representing an organization
+
+- intent: inform_role
+  examples: |
+    - I'm a [developer](user_role)
+    - I'm a [client](user_role)
+    - [client](user_role)
+    - [developer](user_role)
+    - [client](user_role) work for an organization
+
+
+
+# NLU PANKAJ--LOCAL-CHAPTER
+- intent: join_chapter
+  examples: |
+    - Join a [local chapter](local_chapter) now
+    - How to get involved in a [local chapters](local_chapter)?
+    - Participate in a [local chapter](local_chapter)
+    - What's the process to become a member of an [local chapters](local_chapter)?
+    - How can I get involved with [local chapters](local_chapter)?
+    - Tell me about joining a [local chapters](local_chapter)
+    - How to join [local chapter](local_chapter)
+
+####---------NLU-ARPIT -lOCAL cHAPTER----------------######
+
+
+- intent: local_chapter_inquire_local_chapter_programs
+  examples: |
+    - What is [local chapter](local_chapter)?
+    - What are [local chapters](local_chapter)?
+    - Tell me about the [local chapter](local_chapter)
+    - What do the [local chapters](local_chapter) do?
+    - what is [local chapter](local_chapter)
+    - Can you explain the [local chapters](local_chapter)
+    - Tell me a bit about [local chapter](local_chapter)
+    - What does the [local chapters](local_chapter) involve?
+    - give me about [local chapter](local_chapter)?
+
+- intent: join_general
+  examples: |
+    - How do I join?
+    - How to join?
+    - How can I join?
+    - What is the process of joining?
+    - I want to be a part of it. How do I start?
+    - What's the process to join?
+    - Can I join now?
+    - I am interested. How can I get involved?
+    - Please guide me on joining.
+    - How can I be part of this?
+    - I'd like to participate. What should I do next?
+    - Please help me understand the joining process.
+    - What are the steps to join?
+
+- intent: eligibility_general
+  examples: |
+    - Can anyone participate?
+    - What are the qualifications required to participate?
+    - Is participation open to everyone?
+    - Are there any restrictions on who can take part?
+    - What are the eligibility criteria for participating?
+    - Can individuals with any background join and participate?
+    - Do I need specific qualifications to be able to participate?
+    - What is the eligibility?
+    - Who can participate
+    - What are the requirements
+
+- intent: cost_general
+  examples: |
+    - How much does it cost?
+    - Is there a fee to participate?
+    - What are the charges associated with it?
+    - Can I know the price?
+    - Are there any financial requirements?
+    - What's the pricing like?
+    - Do I have to pay to get involved?
+    - Are there any dues or fees?
+    - What would be the cost for me to join?
+    - Is this a paid opportunity?
+    - What is the cost
+
+
+- intent: local_chapter_join_collaborator
+  examples: |
+    - How can I join an Omdena local chapter?
+    - How can I be active on a local chapter?
+    - Can I become a member of a local chapter?
+    - What is the process for joining an Omdena local chapter?
+    - How do I become a member of an Omdena local chapter?
+    - Can you guide me on how to join a local Omdena chapter?
+    - What are the steps to become part of an Omdena local chapter?
+    - I'm interested in joining a local Omdena chapter. How can I do that?
+
+- intent: local_chapter_collaborator_benefit
+  examples: |
+    - What are the benefits of joining an Omdena local chapter?
+    - What advantages can individuals gain from becoming members of an Omdena local chapter?
+    - How does joining an Omdena local chapter benefit individuals?
+    - What are the perks of being part of an Omdena local chapter?
+    - In what ways can individuals profit from participating in an Omdena local chapter?
+    - What do people stand to gain by becoming members of an Omdena local chapter?
+    - What are the benefits of being a local chapter collaborator?
+
+- intent: local_chapter_lead_local_chapter
+  examples: |
+    - Can I start my own Omdena local chapter?
+    - Can I lead a local chapter?
+    - Can I create a local chapter?
+    - Is it possible for me to initiate my own Omdena local chapter?
+    - How can I go about starting my own Omdena local chapter?
+    - Is there a way for me to create a local Omdena chapter?
+    - Can I take the initiative to establish an Omdena local chapter?
+    - What do I need to do to begin my own Omdena local chapter?
+
+- intent: local_chapter_lead_benefit
+  examples: |
+    - What are the benefits of becoming a local chapter lead?
+    - Why should I become a chapter lead?
+    - What advantages come with taking on the role of a local chapter lead?
+    - How does becoming a local chapter lead benefits ?
+    - In what ways can individuals gain from stepping up as a local chapter lead?
+    - What are the perks of assuming the position of a chapter lead?
+
+- intent: local_chapter_find_challenges
+  examples: |
+    - Where can I find challenges related to local chapter lead?
+    - How can I take the role of a local chapter lead?
+
+- intent: local_chapter_contact_organizers
+  examples: |
+    - How can I contact the organizers of an Omdena local chapter?
+    - Where can I find information on the local chapter organizers?
+    - How do I get in touch with the organizers of an Omdena local chapter?
+    - What is the best way to contact the organizers of a local Omdena chapter?
+    - Where can I find the contact details of the organizers for a specific Omdena local chapter?
+    - Is there a designated platform to reach out to the organizers of Omdena local chapters?
+    - How can I connect with the individuals responsible for organizing a local Omdena chapter?
+
+synonym: local_chapter
+  - local chapter
+  - local chapters
+  - Local Chapter
+  - Local Chapters

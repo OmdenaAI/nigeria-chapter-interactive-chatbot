@@ -1,0 +1,88 @@
+version: "3.1"
+stories:
+
+- story: greeting path
+  steps:
+  - intent: greeting
+  - action: utter_greeting
+  # Resets current slot values on greeting
+  - action: action_reset_slots
+
+- story: bot capabilities path
+  steps:
+  - intent: bot_capabilities
+  - action: utter_bot_capabilities
+
+- story: project help without role (developer response)
+  steps:
+  - intent: project_help
+  - action: action_general_help
+  - intent: inform_role
+    entities:
+      - user_role: "developer"
+  - slot_was_set:
+    - user_role: "developer"
+  - action: action_help_with_role
+
+- story: project help without role (client response)
+  steps:
+  - intent: project_help
+  - action: action_general_help
+  - intent: inform_role
+    entities:
+      - user_role: "client"
+  - slot_was_set:
+    - user_role: "client"
+  - action: action_help_with_role
+
+- story: project help with role developer
+  steps:
+  - intent: project_help
+    entities:
+      - user_role: "developer"
+  - slot_was_set:
+    - user_role: "developer"
+  - action: action_help_with_role
+
+- story: project help with role client
+  steps:
+  - intent: project_help
+    entities:
+      - user_role: "client"
+  - slot_was_set:
+    - user_role: "client"
+  - action: action_help_with_role
+
+##------- Local Chapter -----------##
+
+- story: User wants to join a local chapter
+  steps:
+  - intent: join_chapter
+  - slot_was_set:
+    - local_chapter: "local chapter"
+  - action: utter_join_chapter
+
+- story: Inquiry about local chapter
+  steps:
+  - intent: local_chapter_inquire_local_chapter_programs
+  - slot_was_set:
+    - local_chapter: "local chapter"
+  - action: utter_local_chapter_inquire_local_chapter_programs
+  
+##-------General-Classified using Entities----------##
+
+- story: General request for joining
+  steps:
+  - intent: join_general
+  - action: action_join_classify
+
+- story: General request for eligibility
+  steps:
+  - intent: eligibility_general
+  - action: action_eligibility_classify
+
+- story: General request for cost
+  steps:
+  - intent: cost_general
+  - action: action_cost_classify
+
