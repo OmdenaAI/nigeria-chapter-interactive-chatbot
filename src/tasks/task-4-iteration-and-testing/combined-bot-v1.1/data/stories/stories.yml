@@ -241,60 +241,60 @@ stories:
   - action: utter_joining_omdena_network
 - story: Story_2
   steps:
-  - intent: become_collaborator
-  - action: utter_become_collaborator
+  - intent: becoming_collaborator
+  - action: utter_becoming_collaborator
 - story: Story_3
   steps:
-  - intent: requirements_collaborator
-  - action: utter_requirements_collaborator
+  - intent: requirements_for_collaborator
+  - action: utter_requirements_for_collaborator
 - story: Story_4
   steps:
-  - intent: apply_collaborator
-  - action: utter_apply_collaborator
+  - intent: applying_for_collaborator
+  - action: utter_applying_for_collaborator
 - story: story_5
   steps:
-  - intent: omdena_projects
-  - action: utter_omdena_projects
+  - intent: about_omdena_projects
+  - action: utter_about_omdena_projects
 - story: Story_6
   steps:
-  - intent: join_omdena_projects
-  - action: utter_join_omdena_project
+  - intent: joining_omdena_projects
+  - action: utter_joining_omdena_project
 - story: Story_7
   steps:
-  - intent: find_project_myself
-  - action: utter_find_project_myself
+  - intent: finding_project_for_myself
+  - action: utter_find_project_for_myself
 - story: Story_8
   steps:
-  - intent: working_process
-  - action: utter_working_process
+  - intent: collaboration_process_omdena
+  - action: utter_collaboration_process_omdena
 - story: Story_9
   steps:
-  - intent: collaboration_tools
-  - action: utter_collaboration_tools
+  - intent: collaboration_tools_used
+  - action: utter_collaboration_tools_used
 - story: Story_10
   steps:
-  - intent: roles_responsibilities
-  - action: utter_roles_responsibilities
+  - intent: roles_responsibilities_collaborator
+  - action: utter_roles_responsibilities_collaborator
 - story: story_11
   steps:
-  - intent: programming_languages
-  - action: utter_programming_languages
+  - intent: programming_languages_used
+  - action: utter_programming_languages_used
 - story: Story_12
   steps:
   - intent: tools_used
   - action: utter_tools_used
 - story: Story_13
   steps:
-  - intent: data_accessing
-  - action: utter_data_accessing
+  - intent: accessing_data
+  - action: utter_accessing_datda
 - story: story_14
   steps:
-  - intent: about_community
-  - action: utter_about_community
+  - intent: about_omdena_community
+  - action: utter_about_omdena_community
 - story: Story_15
   steps:
-  - intent: networking
-  - action: utter_networking
+  - intent: networking_process
+  - action: utter_networking_process
 - story: Story_16
   steps:
   - intent: collaborator_benefit
