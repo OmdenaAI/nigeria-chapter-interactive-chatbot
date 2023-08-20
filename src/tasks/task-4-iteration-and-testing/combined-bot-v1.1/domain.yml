@@ -527,105 +527,41 @@ responses:
     
 ## Pankaj Tiwari LOCAL CHAPTERS
   utter_using_technology:
-    - text: 'Omdena''s local chapters are using technology to enhance engagement in several ways. Here are some examples:
-        1. Interactive Chatbots:- Omdena''s local chapters are developing interactive chatbots to engage with their communities. By effectively communicating information through the chatbot, Omdena can foster a more informed and engaged community, facilitating collaboration and knowledge sharing.
-        2. Online Forums and Video Conferencing:- Omdena''s local chapters use online forums and video conferencing tools to collaborate and share insights when developing AI solutions. These channels allow for real-time communication and knowledge sharing, enhancing engagement and promoting collaboration.
-        3. Impact Programs:- Omdena''s local chapters participate in open-source impact programs, where they build real-world solutions and pitch their projects to top NGOs and development organizations. This exposure helps local chapters gain recognition and expand their network, ultimately enhancing engagement and support for their communities.
-        4. Social Media:- Omdena''s local chapters use social media platforms to promote their projects and engage with their communities. By leveraging social media, local chapters can reach a wider audience and foster engagement with their projects.
-        5. Online Learning Platforms:- Omdena''s local chapters use online learning platforms to provide opportunities for skill development and portfolio building. By offering online courses and hands-on coding experience, local chapters can engage with their communities and promote the development of AI solutions.
-        In summary, Omdena''s local chapters are using technology to enhance engagement by developing interactive chatbots, using online forums and video conferencing tools, participating in impact programs, leveraging social media, and offering online learning platforms. These initiatives promote collaboration, knowledge sharing, and skill development, ultimately enhancing support for their communities and the advancement of AI technology.'
+  - text: "Omdena's local chapters are harnessing the power of technology to bolster engagement in a myriad of ways. They are developing interactive chatbots to engage with their communities, fostering a more informed and engaged community that facilitates collaboration and knowledge sharing. Additionally, they utilize online forums and video conferencing tools for collaboration and insight sharing when crafting AI solutions. These platforms enable real-time communication, further enhancing engagement and fostering collaboration. Omdena's local chapters also participate in open-source impact programs, building tangible solutions and presenting their projects to leading NGOs and developmental organizations. This not only provides recognition but also broadens their network. Furthermore, they employ social media platforms to showcase their projects and engage with their communities, reaching a broader audience. Lastly, they offer online learning platforms, providing opportunities for skill enhancement and hands-on coding experiences. Through these initiatives, Omdena's local chapters are promoting collaboration, knowledge sharing, and skill development, all of which bolster support for their communities and the progression of AI technology."
 
-  utter_partner_role:
-    - text: '     
-        1.Collaborate:- Local chapter partners collaborate with Omdena''s Local Chapters to identify the most pressing problems faced by their local community and initiate projects to address them
-        2.Impact Reporting:- Local chapter partners co-create impactful stories of their students and projects, showcasing the outcomes and impact of their work
-        They contribute to the narrative of how AI can be used for positive change.
-        3.Networking and Partnerships:- Local chapter partners have the opportunity to network with other chapter leads, Omdena partners, and organizations interested in solving real-world problems they can establish partnerships to enhance the impact of their projects and create shared marketing and PR opportunities.
-        4.Project Activation:- Local chapter partners activate their local data science community by organizing events, workshops, and collaborations
-        They create an environment that fosters learning, collaboration, and impact.
-        5.Support and Resources:- Omdena provides support and resources to local chapter partners, including guidance on running projects, access to the Omdena platform, and the opportunity to collaborate with a global network of AI professionals and data scientists'
+utter_partner_role:
+  - text: "Local chapter partners work in tandem with Omdena's Local Chapters to pinpoint the most critical issues their local community faces and kickstart projects to address them. They co-create compelling narratives of their students and projects, highlighting the results and impact of their endeavors, thereby contributing to the broader narrative of AI's potential for positive change. These partners also have the unique opportunity to network with other chapter leads, Omdena partners, and organizations keen on addressing real-world challenges. This networking can lead to partnerships that amplify the impact of their projects and open doors to shared marketing and PR opportunities. Moreover, they play a pivotal role in activating their local data science community by orchestrating events, workshops, and collaborations, creating an environment ripe for learning, collaboration, and tangible impact. Omdena, in turn, offers unwavering support and resources, including guidance on project management, access to the Omdena platform, and collaboration opportunities with a global network of AI professionals and data scientists."
 
-  utter_partner_benefit:
-    - text: '1.Give your students the best real-world education
-        2.Make your members more hireable
-        3.Benefit from shared marketing and PR
-        4.Co-create impactful stories of your students'
+utter_partner_benefit:
+  - text: "By partnering with Omdena, you can offer your students unparalleled real-world education, enhance the employability of your members, benefit from shared marketing and PR endeavors, and co-create compelling narratives of your students' achievements."
 
-  utter_collaborator_requirements:
-    - text: 'Williingness to learn, Dedication towards work, communication skills'
+utter_collaborator_requirements:
+  - text: "Collaborators should come with a willingness to learn, a dedication to their work, and strong communication skills."
 
-  utter_chapter_lead_benefit:
-    - text: '1.Understand the technical approaches and the skills needed in solving a problem using data science/artificial intelligence
-        2.Showcase your work and impact to obtain grants or scholarships at international conferences, universities or global communities
-        3.Make contacts and get help from Omdena AI community experts to organise workshops
-        4.Develop your non-technical skills like communication, team building, analytical and problem solving skills
-        5.Learn and develop your AI skills through collaboration with other AI engineers
-        6.Develop your non-technical skills like communication, team building, analytical and problem solving skills'
+utter_chapter_lead_benefit:
+  - text: "Chapter leads gain a deep understanding of the technical strategies and the requisite skills for solving problems using data science and artificial intelligence. They can showcase their work and impact, potentially securing grants or scholarships at international conferences, universities, or within global communities. They also have the opportunity to network and receive assistance from Omdena's AI community experts for workshop organization. Furthermore, they can hone both their technical AI skills and non-technical skills, such as communication, team building, analytical thinking, and problem-solving, through collaboration with other AI engineers."
 
-  utter_join_partner:
-    - text: 'Visit the Omdena website and go to the "Local Chapter Partnerships" page
-        1.This page provides information on how to work together to do amazing things when joining as a partner of Local Chapters to help solve real-world problems.
-        2.Explore the opportunities available for local chapter partnerships and the benefits of partnering with Omdena''s Local Chapters.
-        3.If you are interested in partnering with Omdena''s Local Chapters, fill out the contact form on the "Local Chapter Partnerships" page to express your interest.
-        4.Once you submit the form, the Omdena team will get in touch with you to discuss the partnership opportunities and how you can contribute to solving real-world problems in your local community.
-        5.As a local chapter partner, you will have the opportunity to work with local NGOs, governments, and/or universities to identify the most pressing problems faced by your community and get a team of 80-100/project to solve them.
-        4.You will also have the opportunity to pitch your projects in front of top NGOs and development organizations and demonstrate the capabilities of local chapters to build real-world solutions
-        Omdena provides support and resources to local chapter partners, including guidance on running projects, access to the Omdena platform, and the opportunity to collaborate with a global network of AI professionals and data scientists'
+utter_join_partner:
+  - text: "To join as a partner of Omdena's Local Chapters, visit the Omdena website and navigate to the 'Local Chapter Partnerships' page. This page elucidates how partnering can lead to remarkable achievements in addressing real-world challenges. Explore the myriad opportunities and benefits of such partnerships. If you're keen on partnering, fill out the contact form on the page. Upon submission, the Omdena team will reach out to discuss partnership opportunities and how you can make a difference in your local community. As a partner, you'll collaborate with local NGOs, governments, and universities, addressing pressing community challenges with a team of 80-100 individuals per project. You'll also have the chance to present your projects to top NGOs and developmental organizations, showcasing the capabilities of local chapters in crafting tangible solutions. Omdena ensures partners are well-supported, offering guidance, platform access, and collaboration opportunities with a global AI and data science network."
 
-  utter_chapter_lead_role:
-    - text: '1.Education and Mentorship: Chapter leads have the opportunity to help educate and mentor future tech experts by organizing and leading projects that solve real-world problems
-        
-        2.Team Management:- Chapter leads manage a team of collaborators who work together to develop AI solutions for local challenges
-        they coordinate and oversee the activities of the team, ensuring effective collaboration and progress.
-        3.Problem Solving:- Chapter leads identify the most pressing problems faced by their local community and initiate projects to address them
-        they work closely with local NGOs, governments, and/or universities to understand the challenges and find innovative solutions.
-        
-        4.Project Activation:- Chapter leads activate their local data science community by organizing events, workshops, and collaborations
-        they create an environment that fosters learning, collaboration, and impact.
-        5.Networking and Partnerships:- Chapter leads have the opportunity to network with other chapter leads, Omdena partners, and organizations interested in solving real-world problems
-        they can establish partnerships to enhance the impact of their projects and create shared marketing and PR opportunities.
-        6.Impact Reporting:- Chapter leads co-create impactful stories of their students and projects, showcasing the outcomes and impact of their work
-        they contribute to the narrative of how AI can be used for positive change.'
+utter_chapter_lead_role:
+  - text: "Chapter leads play a multifaceted role. They have the privilege of educating and mentoring the next generation of tech experts by spearheading projects that address real-world challenges. They manage teams of collaborators, ensuring seamless collaboration and project progression. They also identify and address pressing local community challenges, collaborating closely with local NGOs, governments, and universities. By organizing events, workshops, and collaborations, they activate their local data science community, fostering an environment conducive to learning and impactful work. Networking opportunities abound, allowing them to connect with other chapter leads, Omdena partners, and organizations. They also co-create impactful narratives of their students and projects, underscoring the transformative power of AI."
 
-  utter_collaborator_role:
-    - text: '1.Skill Development: Collaborators are expected to develop their skills in AI, data science, and related fields through real-world projects, mentoring support, and access to paid courses
-        
-        2.Collaboration:- Collaborators are expected to collaborate with other team members, share their knowledge and expertise, and work towards the common goal of developing solutions to real-world problems
-        
-        3.Engagement:- Collaborators are encouraged to engage with the project by reaching out to task leaders or product owners and offering to pitch in. They can also seek guidance from collaborators who have worked on previous Omdena projects
-        
-        4.Mentorship:- One or two mentors with senior experience (or previous Omdena experience) help to advance the project if necessary. Mentors provide guidance and support to collaborators, helping them develop their skills and achieve project goals
-        
-        5.Product Ownership:- Collaborators may also take on the role of product owner, responsible for tasks such as skill gap analysis, tech tool problems or gaps, partner communication, and collaborator presentations
-        
-        6.Community Building:- Collaborators are encouraged to help build the Omdena community by sharing their experiences, providing feedback, and contributing to the growth of the platform
-        '
+utter_collaborator_role:
+  - text: "Collaborators at Omdena have a dynamic role. They are expected to hone their skills in AI, data science, and related fields through hands-on projects, mentoring, and access to premium courses. Collaboration is at the heart of their role, working in tandem with team members and sharing expertise. They are encouraged to actively engage with projects, seeking guidance from seasoned collaborators. Some collaborators also have the opportunity to mentor, providing invaluable guidance to their peers. Others might take on the role of product owner, handling tasks like skill gap analysis, tech tool challenges, partner communication, and presentations. Beyond project work, collaborators play a pivotal role in community building, sharing experiences, offering feedback, and contributing to Omdena's growth."
 
-  utter_case_study:
-    - text: 'OmdenaSchool is an AI and data science education platform that offers hands-on instructor-led coding experience with real-world projects
-        1. The courses at OmdenaSchool are based on real-world practical assignments leading to projects with similar application areas, and they are developed on end-to-end solutions from collecting datasets to the deployment of working models
-        2. The courses aim to equip learners with state-of-the-art AI skills, and completion certificates are issued to successful participants
-        3. Omdena also offers technical case studies and project results across AI, data science, and machine learning
-        4. These case studies cover a wide range of topics, including computer vision, disaster management, logistics and transportation, and renewable energy, among others
-        5. The case studies are designed to help learners apply what they learn to real-world problems
-        6. Omdena''s AI engineers use their data skills to solve a diverse range of real-world problems, from improving food security in Senegal to creating the business case for making buildings in the US more energy-efficient
-        7. Omdena also partners with mission-driven organizations and startups to build impactful AI solutions through global collaboration and empowering AI engineers.
-        
-        To summarize, case study-based education in Omdena involves hands-on coding experience with real-world projects and technical case studies that cover a wide range of topics. The courses aim to equip learners with state-of-the-art AI skills and help them apply what they learn to real-world problems. Omdena also partners with organizations to build impactful AI solutions through global collaboration.'
+utter_case_study:
+  - text: "OmdenaSchool stands as a beacon in AI and data science education, offering hands-on, instructor-led coding experiences rooted in real-world projects. The courses are crafted around practical assignments that culminate in projects with real-world applications, spanning the entire solution development process. These courses aim to arm learners with cutting-edge AI skills, and successful participants are awarded completion certificates. Omdena also presents technical case studies and project results spanning AI, data science, and machine learning. These studies encompass diverse topics, from computer vision to disaster management. Designed to bridge theory and practice, these case studies help learners apply their knowledge to tangible challenges. Omdena's AI engineers leverage their skills to address a spectrum of challenges, from bolstering food security in Senegal to advocating for energy-efficient buildings in the US. Furthermore, Omdena collaborates with mission-driven entities and startups to craft impactful AI solutions, championing global collaboration and empowering AI engineers."
 
-  utter_local_chapters_role:
-    - text: 'Omdena local chapters play an important role in facilitating case study-based education by running open-source AI projects to solve challenges faced by the local community
-        1.  These projects provide an opportunity for participants to demonstrate their capabilities in building real-world solutions and pitch their projects in front of top NGOs and development organizations
-        2. Omdena local chapters also facilitate quality data science education, workshops, career guidance, and collaboration for individuals interested in AI
-        3. They provide a platform for individuals to work on projects that have a positive impact on society and to learn from experienced mentors and peers
-        4. Omdena local chapters have been recognized as educational pioneers and organizations spearheading SDG 4 quality education on a global scale
-        5. They have also been involved in projects such as feasibility and ROI analysis for renewable resources infrastructure using computer vision and detecting automatic lake encroachment using machine learning and remote sensing'
+utter_local_chapters_role:
+  - text: "Omdena's local chapters are pivotal in promoting case study-based education. They run open-source AI projects tailored to address challenges endemic to their local communities. These projects not only allow participants to demonstrate their prowess but also offer a platform to present their solutions to leading NGOs and developmental organizations. Beyond projects, local chapters facilitate top-tier data science education, workshops, career guidance, and collaboration opportunities. They have garnered recognition as pioneers in education, championing quality education on a global scale. Their projects have spanned diverse areas, from analyzing the feasibility of renewable resources using computer vision to detecting lake encroachments using machine learning."
 
-  utter_join_chapter_lead:
-    - text: '1.Submit an application
-        2.we review your application
-        3.Launch your chapter
-        You can also find further information regarding this on the omdena website.'
+utter_join_chapter_lead:
+  - text: "To join as a chapter lead, start by submitting an application. Once reviewed, and if deemed a good fit, you can launch your chapter. For a more detailed overview and to initiate the process, visit the Omdena website."
+
+# Assuming the link to the Omdena page is 'https://www.omdena.com/page', you can add:
+# link: 'https://www.omdena.com/page'
+
 
   utter_join_chapter:
     - text: 'You can join local chapters by either joining as a chapter lead or by joining as collaborator to the local chapter challenge.
