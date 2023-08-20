@@ -835,6 +835,8 @@ stories:
 - story: User wants to join a local chapter
   steps:
   - intent: join_chapter
+    entities:
+      - local_chapter: "local chapter"
   - slot_was_set:
     - local_chapter: "local chapter"
   - action: utter_join_chapter
@@ -842,6 +844,8 @@ stories:
 - story: Inquiry about local chapter
   steps:
   - intent: local_chapter_inquire_local_chapter_programs
+    entities:
+      - local_chapter: "local chapter"
   - slot_was_set:
     - local_chapter: "local chapter"
   - action: utter_local_chapter_inquire_local_chapter_programs
