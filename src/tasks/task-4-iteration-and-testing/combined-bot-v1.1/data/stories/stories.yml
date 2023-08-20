@@ -311,27 +311,10 @@ stories:
 #   - intent: join_chapter
 #   - action: utter_join_chapter
 
-- story: story_2_1
-  steps:
-  - intent: collaborator_role
-  - action: utter_collaborator_role
 
-- story: story_2_2
-  steps:
-  - intent: collaborator_requirements
-  - action: utter_collaborator_requirements
+
 
 - story: story_3_1
-  steps:
-  - intent: join_as_collaborator
-  - action: utter_join_as_collaborator
-
-- story: story_3_2
-  steps:
-  - intent: benefit_collaborator
-  - action: utter_benefit_collaborator
-
-- story: story_4_1
   steps:
   - intent: chapter_lead_role
   - action: utter_chapter_lead_role
