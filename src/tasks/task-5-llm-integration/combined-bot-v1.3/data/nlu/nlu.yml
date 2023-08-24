@@ -1,0 +1,1143 @@
+version: "3.1"
+
+nlu:
+##------------- NLU - CENTRAL BOT---MAISAM-------###
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+# - intent: affirm
+#   examples: |
+#     - yes
+#     - y
+#     - indeed
+#     - of course
+#     - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - no way
+    - not really
+    - no thanks
+    - dont need help
+    - actually, I dont
+    - I'm done
+    - thats it
+
+- intent: gratitude
+  examples: |
+    - thanks
+    - thank you
+    - thats great
+    - that was helpful
+    - thank
+    - thanks alot
+    - much thanks
+    - you helped me
+    - helpful
+
+# - intent: misunderstood
+#   examples: |
+#     - That's not what I meant
+#     - I meant something else
+#     - that was not what I asked
+#     - The answer doesnt make sense
+#     - I asked something else
+
+- intent: question
+  examples: |
+    - I have a question
+    - can you answer my question ?
+    - I need information.
+    - can you help me ?
+    - can you give me information ?
+    - tell me more
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who is this ?
+    - is this live chat ?
+    - is this customer service ?
+    - what are you ?
+
+- intent: greet+general_question
+  examples: |
+    - Hallo, I have a question
+    - Hey There, I have a question
+    - Hi, I have a question
+    - good evening, I have a question
+    - moin, I have a question
+    - good afternoon, I have a question
+    - Hallo, I need information
+    - Hey There, I need information.
+    - Hi, I need information.
+    - good evening, I need information.
+    - moin, I need information.
+    - good afternoon, I need information.
+    - Hallo, can you help me ?
+    - Hey There, can you help me ?
+    - Hi, can you help me ?
+    - good evening, can you help me ?
+    - moin, can you help me ?
+    - good afternoon, can you help me ?
+    - Hallo, can you give me information ?
+    - Hey There, can you give me information ?
+    - Hi, can you give me information ?
+    - good evening, can you give me information ?
+    - moin, can you give me information ?
+    - good afternoon, can you give me information ?
+
+
+####-- CAREER PATHS --ANAND SIVA P V--####
+
+- intent: careers_in_omdena
+  examples: |
+    - What careers are available at Omdena?
+    - Tell me about careers in Omdena.
+    - Job opportunities in Omdena?
+    - Careers at omdena
+    - what job available omdena
+    - what careers are in omdena
+    - which careers are in omdena
+    - tell me about rasa careers
+    - what are the careers available in omdena
+    - tell me careers in omdena
+    - tell me abot careers in omdena
+- intent: requirements_ai_product_carreer
+  examples: |
+    - requirements Omdena's AI Product Development?
+    - Requirements for joining AI Product Development at Omdena?
+    - requirements ai product developer
+    - requirements ai product career
+- intent: process_ai_product_carreer
+  examples: |
+    - How can I become an AI product owner at Omdena?
+    - Process for becoming an AI product owner at Omdena?
+    - Steps to become ai product developer
+    - how to become ai product owner
+    - How to become an AI product owner at Omdena?
+    - Can you explain the process for becoming an AI product owner at Omdena?
+    - What are the steps to become an AI product developer?
+    - How can I become an AI product owner?
+    - Please tell me the process to become an AI product owner.
+- intent: leadership_in_omdena_challenge
+  examples: |
+    - How do I take a leadership role during an Omdena AI Innovation Challenge?
+    - Can I become a leader in Omdena's AI Innovation Challenge?
+    - leadership in omdena challenge how to
+    - how do i become a leader in a project
+- intent: omdena_open_positions
+  examples: |
+    - What open positions are available at Omdena currently?
+    - Any job openings at Omdena right now?
+    - current open positions in omdena
+    - what job openigs are available
+    - tell me about open jobs
+    - what open positions are available at omdena
+- intent: careers_page_link
+  examples: |
+    - Where can I find the open positions at Omdena?
+    - How do I access the careers page for Omdena's job listings?
+    - Where can i find more details on open jobs
+    - where can i find open positions at omdena
+    - where can i get more details
+    - how to find open positions
+    - where can i find open positions
+- intent: applying_at_omdena
+  examples: |
+    - How do I apply for open positions at Omdena?
+    - What is the process to join the team at Omdena?
+    - how to apply for open jobs
+    - how can i apply for a job at omdena
+# - intent: product_manager_role
+#   examples: |
+#     - Product Manager role at Omdena?
+#     - What does a Product Manager do at Omdena?
+#     - Tell me about Product Manager position.
+# - intent: marketing_growth_manager_position
+#   examples: |
+#     - Responsibilities of Marketing Growth Manager at Omdena?
+#     - What does the Marketing Growth Manager do?
+#     - Tell me about Marketing Growth Manager role.
+# - intent: content_marketer_position
+#   examples: |
+#     - Describe the Content Marketer role.
+#     - Is the Content Marketer position full-time?
+#     - Content Marketer responsibilities?
+- intent: become_community_manager
+  examples: |
+    - How to become a Community Manager at Omdena?
+    - Can I apply for the Community Manager role?
+    - Steps to become a Community Manager.
+    - how to become a community manager
+- intent: community_manager_skills
+  examples: |
+    - Skills required for a Community Manager?
+    - What expertise do I need as a Community Manager?
+    - Community Manager skill set.
+    - what are the skills required community manager
+- intent: community_manager_role
+  examples: |
+    - Tell me about the Community Manager role.
+    - What does a Community Manager at Omdena do?
+    - Explain the responsibilities of a Community Manager.
+    - tell me about the role of community manager
+    - what is the role community manager
+    - tell me about community development position
+- intent: requirements_community_manager_role
+  examples: |
+    - Community Manager role requirements?
+    - What are the prerequisites for becoming a Community Manager?
+    - Eligibility for Community Manager position.
+    - what is the eligibility of community manager role
+    - requirements of community manager position
+- intent: become_ai_engineer
+  examples: |
+    - How to become an AI Engineer?
+    - Steps to become an AI Engineer.
+    - Can you guide me on becoming an AI Engineer?
+    - how can i become ai engineer
+    - how to become an ai engineer
+- intent: ai_engineer_skills
+  examples: |
+    - Skills needed for an AI Engineer?
+    - What skills do I require to be an AI Engineer?
+    - AI Engineer skill set.
+    - what are the skills for ai engineer
+    - what skills I need for ai engineer
+    - what are the skills required for ai engineer
+- intent: ai_engineer_role
+  examples: |
+    - What does an AI Engineer do?
+    - Tell me about the role of AI Engineer.
+    - Explain AI Engineer responsibilities.
+    - what are the responsibilities ai engineer
+    - what is the role of ai engineer
+    - tell me about ai engineer role
+    - what is an ai engineer
+- intent: requirements_ai_researcher
+  examples: |
+    - Requirements for becoming an AI researcher
+    - Eligibility criteria for AI researcher role.
+    - What do I need to qualify as an AI researcher
+    - waht are the qualifications of ai researcher
+    - what are the requirements of ai researcher
+    - Requirements for becoming AI researcher
+    
+- intent: requirements_ai_engineer
+  examples: |
+    - Requirements for becoming an AI Engineer
+    - Eligibility criteria for AI Engineer role.
+    - What do I need to qualify as an AI Engineer
+    - waht are the qualifications of ai engineer
+    - what are the requirements of ai engineer
+    - eligibility for ai researcher
+    - what do I need to qualify as an ai researcher
+    - what are the requirements of ai engineer role
+- intent: become_ai_researcher
+  examples: |
+    - How can I become an AI Researcher?
+    - Steps to become an AI Researcher.
+    - Guide me on pursuing a career as an AI Researcher.
+    - how can i become an ai researcher
+    - how to become ai researcher
+- intent: ai_researcher_skills
+  examples: |
+    - Skills required to be an AI Researcher?
+    - What skills do I need for AI Researcher position?
+    - AI Researcher skill set.
+    - what are the skills for ai researcher
+    - what are the skills required for ai researcher
+- intent: ai_researcher_role
+  examples: |
+    - What is the role of an AI Researcher?
+    - Tell me about the responsibilities of an AI Researcher.
+    - Explain the job of an AI Researcher.
+    - explain the role of ai researcher
+    - what is an ai researcher
+
+##### GENERAL QUESTIONS--ANAND SIVA----###
+- intent: ask_ai_challenge
+  examples: |
+    - How does an Omdena AI challenge work?
+    - Explain Omdena AI challenge
+    - What are the principles of Omdena AI challenges?
+    - How can I participate in an Omdena AI challenge?
+- intent: ask_collaborator_benefits
+  examples: |
+    - What are the benefits of being an Omdena collaborator?
+    - Tell me about Omdena collaborator benefits
+    - Why should I collaborate with Omdena?
+    - What advantages do Omdena collaborators get?
+- intent: ask_engage_collaborator
+  examples: |
+    - How can I engage as a collaborator?
+    - What should I do to become an Omdena collaborator?
+    - Can you guide me on engaging with Omdena?
+- intent: ask_no_ai_experience
+  examples: |
+    - What if I have no experience in AI?
+    - Can I join Omdena without AI experience?
+    - Is AI expertise required to participate in Omdena challenges?
+- intent: ask_participation_assessment
+  examples: |
+    - How is participation assessed in an Omdena challenge?
+    - What criteria are used to evaluate participation in Omdena challenges?
+    - How do you measure the involvement of collaborators in a challenge?
+- intent: ask_website_info
+  examples: |
+    - Where can I find more information about Omdena?
+    - Tell me about the Omdena website
+    - How can I access details about Omdena on the internet?
+- intent: ask_omdena_works
+  examples: |
+    - What is Omdena's working approach?
+    - How does Omdena work?
+    - Explain how Omdena operates.
+- intent: ask_projects
+  examples: |
+    - What kind of projects does Omdena work on?
+    - Can you give me examples of Omdena projects?
+    - Tell me about the projects undertaken by Omdena.
+- intent: ask_data_privacy
+  examples: |
+    - How does Omdena ensure data privacy and confidentiality?
+    - What measures are taken to protect data privacy at Omdena?
+    - Is my data safe when collaborating with Omdena?
+- intent: ask_get_involved
+  examples: |
+    - How can my organization get involved with Omdena?
+    - Is there a way for my company to collaborate with Omdena?
+    - Can you guide me on how to partner with Omdena?
+- intent: ask_expertise
+  examples: |
+    - What kind of expertise does Omdena have?
+    - Tell me about the skills and knowledge of Omdena collaborators.
+    - What expertise is available in the Omdena community?
+- intent: ask_quality_assurance
+  examples: |
+    - How does Omdena ensure the quality of its work?
+    - What processes are in place to maintain work quality at Omdena?
+    - Is there a quality assurance mechanism at Omdena?
+- intent: ask_impact
+  examples: |
+    - What is the impact of Omdena's work?
+    - How has Omdena contributed to social good?
+    - Tell me about the positive outcomes of Omdena projects.
+
+### -------NLU PANKAJ----LOCAL CHAPTERS--------##
+   
+# Updated in section followup 
+# - intent: join_chapter
+#   examples: |
+#     - Join a chapter now
+#     - How to get involved in a local chapter?
+#     - Participate in a local chapter
+#     - What's the process to become a member of an Omdena Local Chapter?
+#     - How can I get involved with Omdena's Local Chapters?
+#     - Tell me about joining a Local Chapter in Omdena.
+ 
+
+# NLU PANKAJ TIWARI-- GENERAL QUESTIONS ----#
+
+
+####---------NLU-ARPIT ----------------######
+# Updated in v1.1 followup section
+# - intent: local_chapter_inquire_local_chapter_programs
+#   examples: |
+#     - "What is Omdena local chapter program?"
+#     - "Tell me about the local chapter program"
+#     - "What do the local chapters do?"
+#     - "Can you explain the Omdena local chapter program briefly?"
+#     - "Tell me a bit about Omdena's local chapter program."
+#     - "What does the Omdena local chapter program involve?"
+#     - "Could you give me a overview of the Omdena local chapter program?"
+
+# - intent: local_chapter_cost
+#   examples: |
+#     - "Are Omdena local chapters free to join?"
+#     - "Is there a cost associated with joining Omdena local chapters?"
+#     - "Do individuals need to pay to become members of Omdena local chapters?"
+#     - "Are there any fees involved in joining Omdena local chapters?"
+#     - "Is it free of charge to be a part of Omdena local chapters?"
+#     - "Do I need to pay any membership fees to join Omdena local chapters?"
+
+# - intent: local_chapter_participation_eligibility
+#   examples: |
+#     - "Can anyone participate in Omdena local chapter challenge?"
+#     - "What are the qualifications required to participate in Omdena local chapter challenge?"
+#     - "Is participation in Omdena local chapter challenges open to everyone?"
+#     - "Are there any restrictions on who can take part in Omdena local chapter challenges?"
+#     - "What are the eligibility criteria for participating in Omdena local chapter challenges?"
+#     - "Can individuals with any background join and participate in Omdena local chapter challenges?"
+#     - "Do I need specific qualifications to be able to participate in Omdena local chapter challenges?"
+
+# - intent: local_chapter_join_collaborator
+#   examples: |
+#     - "How can I join an Omdena local chapter?"
+#     - "How can I be active on a local chapter?"
+#     - "Can I become a member of a local chapter?"
+#     - "What is the process for joining an Omdena local chapter?"
+#     - "How do I become a member of an Omdena local chapter?"
+#     - "Can you guide me on how to join a local Omdena chapter?"
+#     - "What are the steps to become part of an Omdena local chapter?"
+#     - "I'm interested in joining a local Omdena chapter. How can I do that?"
+
+- intent: local_chapter_collaborator_benefit
+  examples: |
+    - "What are the benefits of joining an Omdena local chapter?"
+    - "What advantages can individuals gain from becoming members of an Omdena local chapter?"
+    - "How does joining an Omdena local chapter benefit individuals?"
+    - "What are the perks of being part of an Omdena local chapter?"
+    - "In what ways can individuals profit from participating in an Omdena local chapter?"
+    - "What do people stand to gain by becoming members of an Omdena local chapter?"
+    - "What are the benefits of being a local chapter collaborator?"
+
+- intent: local_chapter_lead_local_chapter
+  examples: |
+    - "Can I start my own Omdena local chapter?"
+    - "Can I lead a local Chapter?"
+    - "Can I create a local chapter?"
+    - "Is it possible for me to initiate my own Omdena local chapter?"
+    - "How can I go about starting my own Omdena local chapter?"
+    - "Is there a way for me to create a local Omdena chapter?"
+    - "Can I take the initiative to establish an Omdena local chapter?"
+    - "What do I need to do to begin my own Omdena local chapter?"
+
+- intent: local_chapter_lead_benefit
+  examples: |
+    - "What are the benefits of becoming a local chapter lead?"
+    - "Why should I become a chapter lead?"
+    - "What advantages come with taking on the role of a local chapter lead?"
+    - "How does becoming a local chapter lead benefits ?"
+    - "In what ways can individuals gain from stepping up as a local chapter lead?"
+    - "What are the perks of assuming the position of a chapter lead?"
+
+- intent: local_chapter_find_challenges
+  examples: |
+    - "Where can I find challenges related to local chapter lead?"
+    - "How can I take the role of a local chapter lead?"
+
+- intent: local_chapter_contact_organizers
+  examples: |
+    - "How can I contact the organizers of an Omdena local chapter?"
+    - "Where can I find information on the local chapter organizers?"
+    - "How do I get in touch with the organizers of an Omdena local chapter?"
+    - "What is the best way to contact the organizers of a local Omdena chapter?"
+    - "Where can I find the contact details of the organizers for a specific Omdena local chapter?"
+    - "Is there a designated platform to reach out to the organizers of Omdena local chapters?"
+    - "How can I connect with the individuals responsible for organizing a local Omdena chapter?"
+
+# OMDENA SCHOOL
+##--ADDED MORE EXAMPLES--## for first one only
+- intent: omdena_school_enrollment_inquiry
+  examples: |
+    - "How can I join OmdenaSchool?"
+    - "What are the steps to become a part of OmdenaSchool?"
+    - "Could you guide me on the process of joining OmdenaSchool?"
+    - "What is the procedure for enrolling in OmdenaSchool?"
+    - "How can I get involved with OmdenaSchool?"
+    - What is the Omdena School
+    - Can you tell me about Omdena School?
+    - Iwant to learn more about Omdena School
+    - How can I enroll in  at Omdena School?
+    - Tell me about Omdena School.
+
+- intent: omdena_school_student_enrollment
+  examples: |
+    - "How can I sign up as a student in Omdena School?"
+    - "What is the process for registering as a student at Omdena School?"
+    - "How can I enroll as a student in Omdena School?"
+    - "What steps do I need to follow to become a student at Omdena School?"
+    - "Could you provide instructions on how to sign up as a student in Omdena School?"
+
+- intent: omdena_school_instructor_application_and_requirements
+  examples: |
+    - "How can I sign up as a instructor in Omdena School?"
+    - "What steps should I take to become an instructor at Omdena School?"
+    - "Can you please explain the requirements and procedure for becoming an instructor at Omdena School?"
+    - "I'd like to know how I can become a teacher at Omdena School. Can you assist me with the sign-up procedure?"
+
+- intent: omdena_school_instructor_eligibility
+  examples: |
+    - "What are the eligibility criteria for individuals interested in becoming instructors at Omdena School?"
+    - "Who meets the requirements to be considered as an instructor at Omdena School?"
+    - "What qualifications or prerequisites are necessary for someone to be eligible as an instructor at Omdena School?"
+    - "Are there any specific criteria that individuals must fulfill to qualify as instructors at Omdena School?"
+    - "Which individuals are deemed eligible to serve as instructors at Omdena School?"
+
+- intent: omdena_school_free_course_availability
+  examples: |
+    - "Can learners join courses free of cost?"
+    - "Is it possible for learners to enroll in courses without incurring any charges?"
+    - "Are there any courses available for learners that come at no cost?"
+    - "Are there free-of-charge options for learners who wish to join courses?"
+    - "Can learners participate in courses without having to pay any fees?"
+    - "Are there any courses that learners can join without any cost involved?"
+
+- intent: omdena_school_dual_role_teacher_and_student_inquiry
+  examples: |
+    - "Can I be a teacher and student as well?"
+    - "Is it possible for me to assume the roles of both a teacher and a student simultaneously?"
+    - "Can I take on the roles of both a teacher and a student concurrently?"
+    - "Is it permissible for me to be both a teacher and a student at the same time?"
+    - "Am I allowed to fulfill the positions of both a teacher and a student concurrently?"
+    - "Can I simultaneously engage in teaching and learning as a teacher and a student?"
+
+- intent: omdena_school_access_to_recorded_sessions_inquiry
+  examples: |
+    - "Will we have access to the recorded sessions?"
+    - "Will we be provided with the recorded sessions for future reference?"
+    - "Can we expect to have access to the recorded sessions for later use?"
+    - "Is it possible for us to obtain the recorded sessions for our own review and access?"
+    - "Will there be a provision for us to retrieve the recorded sessions for our reference?"
+    - "Can we anticipate being able to revisit the recorded sessions at a later time?"
+
+- intent: omdena_school_overview_and_offerings
+  examples: |
+    - "What is Omdena School?"
+    - "Can you tell me about Omdena School and what it offers?"
+    - "What is the purpose of Omdena School and what can I expect from it?"
+    - "Could you provide me with an overview of Omdena School and its offerings?"
+    - "Can you give me a brief description of Omdena School and its educational programs?"
+
+- intent: omdena_school_unique_features_of_omdena_courses
+  examples: |
+    - "What sets Omdena courses apart from others?"
+    - "What makes Omdena's approach to courses distinctive?"
+    - "In what ways do Omdena courses stand out from the rest?"
+    - "How are Omdena courses different from traditional educational offerings?"
+    - "What unique features and benefits do Omdena courses provide?"
+    - "Why should someone choose Omdena courses over other options?"
+
+- intent: omdena_school_programs_value_proposition
+  examples: |
+    - "What courses are coming up on Omdena School?"
+    - "Can you tell me about the upcoming courses on Omdena School?"
+    - "What are the next courses scheduled on Omdena School?"
+    - "Are there any new courses coming soon to Omdena School?"
+    - "Can you share information about the courses that will be available in the future on Omdena School?"
+
+# STARTUPS
+- intent: startup_view_testimonials
+  examples: |
+    - "Can I see some testimonials?"
+    - "Can you show me some testimonials?"
+    - "I'd like to see what others are saying about your product/service."
+    - "Do you have any customer feedback or reviews?"
+    - "Do you have any testimonials from previous clients?"
+
+- intent: startup_get_contact_information
+  examples: |
+    - "Can you provide me with your contact information?"
+    - "How can I get in touch with your team?"
+    - "Give me your contact details."
+    - "Tell me how I can reach you."
+
+- intent: startup_share_past_experience
+  examples: |
+    - "Can you tell me about your previous experience?"
+    - "Share some examples of your past work or projects."
+    - "Can you provide examples of projects you've completed?"
+    - "Can you share a success story?"
+    - "Tell me about a project that had a particularly successful outcome."
+    - "Share a story of how your company made a positive impact on a client's business."
+
+- intent: startup_explain_product_benefits
+  examples: |
+    - "What are the key benefits of your product/service?"
+    - "Can you tell me how your solution can help me?"
+    - "What advantages does your product/service offer over competitors?"
+
+- intent: startup_request_demo
+  examples: |
+    - "Can I request a demo?"
+    - "Is it possible to see a demo of how your solution works?"
+
+- intent: startup_startup_clients_info
+  examples: |
+    - "Can you provide some information about the startups you have worked with?"
+    - "Tell me about the startup clients you have served or collaborated with."
+    - "Can you share some details about the startups that have been your clients?"
+    - "Do you have any success stories or case studies of startups you have worked with?"
+    - "What kind of startups have you typically partnered with or provided services to?"
+
+- intent: startup_project_skills_required
+  examples: |
+    - "Can you list the essential skills for working on the project?"
+    - "What specific skills should project members have?"
+    - "What abilities are required to be part of the project team?"
+    - "Which talents are important for contributing to the project's success?"
+    - "What skill sets are necessary to join the project?"
+    - "What are the key skills needed for collaborating effectively in the project?"
+
+- intent: startup_business_success_factors
+  examples: |
+    - "What are the key factors to success in starting a business?"
+    - "What are the top priorities for a new business owner?"
+    - "What are the essential elements of a successful business launch?"
+    - "What are the critical success factors for a startup?"
+    - "What are the must-dos for a new business owner?"
+
+- intent: startup_common_business_errors
+  examples: |
+    - "What are the frequent errors made by new businesses?"
+    - "What are five common pitfalls new businesses encounter?"
+    - "Could you list some typical mistakes new businesses commit?"
+    - "What are the prevalent blunders new businesses tend to make?"
+    - "I'm curious about the common missteps new businesses often fall into, can you provide five examples?"
+
+- intent: startup_find_cofounder_strategies
+  examples: |
+    - "What strategies can I use to discover a co-founder for my startup? How can I find a co-founder?"
+    - "Where should I look to find a compatible co-founder for my business idea?"
+    - "How do I go about seeking a co-founder to join my entrepreneurial journey?"
+    - "What are effective methods for connecting with potential co-founders to collaborate on a startup?"
+    - "What steps should I take to identify and recruit the right co-founder for my new business venture?"
+
+- intent: startup_create_business_plan_steps
+  examples: |
+    - "What are the essential steps and components involved in creating a business plan?"
+    - "How can I structure and format a comprehensive business plan for my company?"
+    - "What are the key elements to consider when drafting an effective business plan?"
+    - "Can you provide guidance on the process of writing a business plan that attracts investors and stakeholders?"
+    - "What are the best practices for developing a business plan that outlines my business's goals, strategies, and financial projections?"
+
+- intent: startup_raise_startup_funds_strategies
+  examples: |
+    - "How can I raise funding for my startup?"
+    - "What strategies can I employ to secure funding for my startup from venture capitalists?"
+    - "Are there any effective ways to attract angel investors and raise funds for my startup idea?"
+    - "How can I utilize crowdfunding platforms to raise capital and support for my startup venture?"
+    - "What are the best practices for approaching government grants and subsidies to fund my startup?"
+    - "Are there any alternative financing options like bootstrapping or peer-to-peer lending that could be viable for my startup?"
+
+- intent: startup_startup_digital_marketing_strategies
+  examples: |
+    - "What digital marketing strategies can I use for my startup?"
+    - "How can I leverage social media and influencers to promote my startup?"
+    - "What are effective content marketing and SEO techniques for my startup's online presence?"
+    - "How can I utilize offline marketing, events, and partnerships to raise awareness for my startup?"
+    - "Are there growth hacking or referral programs suitable for promoting my startup?"
+    - "How can email marketing and newsletters help in driving traffic to my startup's website?"
+
+- intent: startup_startup_growth_resources
+  examples: |
+    - "What resources are available to support startup growth and success?"
+    - "How can startups access mentorship and guidance to navigate challenges and achieve success?"
+    - "What funding options and investor networks are available to help startups thrive?"
+    - "Are there any startup incubators or accelerators that provide valuable resources and support?"
+    - "What online platforms or communities exist to connect startups with valuable resources, advice, and networking opportunities?"
+
+- intent: startup_omdena_startup_connections
+  examples: |
+    - "How to connect with Omdena community startups?"
+    - "Where to find Omdena startup networking opportunities?"
+    - "Engaging with Omdena events for startup connections?"
+    - "Omdena community: Best networking platforms?"
+    - "Omdena mentorship for startup connections?"
+    - "How to connect with Omdena community startups?"
+
+- intent: startup_find_startup_mentor_coach
+  examples: |
+    - "How to find a startup mentor or coach?"
+    - "Where to get a mentor for my startup?"
+    - "Finding a coach for startup guidance."
+
+- intent: startup_plan_successful_exit
+  examples: |
+    - "How to connect with a mentor for my business?"
+    - "What are the key steps to plan a successful exit strategy for my startup?"
+    - "When is the right time to consider exiting my startup?"
+    - "What are the common exit options available for startups?"
+
+- intent: startup_startup_financial_management
+  examples: |
+    - "What are the essential financial records I need to maintain for my startup?"
+    - "How can I create a budget and track expenses effectively?"
+    - "What financial tools or software can help me manage my startup's finances?"
+    - "What are some strategies to optimize cash flow for my startup?"
+    - "How can I ensure compliance with tax and accounting regulations for my startup?"
+
+- intent: startup_protect_startup_intellectual_property
+  examples: |
+    - "What are the different types of intellectual property that my startup may have?"
+    - "How can I secure a patent for my unique invention or product?"
+    - "What steps can I take to protect my startup's confidential information and trade secrets?"
+    - "Should I consider trademark registration to protect my startup's brand?"
+    - "How can I avoid infringing on other companies' intellectual property rights?"
+
+- intent: startup_data_science_startup_optimization
+  examples: |
+    - "What are some specific ways data science can optimize my startup's supply chain?"
+    - "How can data analysis help improve customer satisfaction and retention for my startup?"
+    - "What role does data science play in enhancing marketing strategies for my startup?"
+    - "How can data-driven insights lead to better decision-making for my startup's growth?"
+    - "What are the key steps to implement a data science strategy for my startup?"
+
+- intent: startup_ai_automation_startup_examples
+  examples: |
+    - "What are some practical examples of tasks that AI can automate in my startup?"
+    - "How can AI-powered chatbots enhance customer support and reduce response times?"
+    - "What AI tools or platforms are available for automating repetitive tasks in my startup?"
+    - "Can AI help streamline data analysis and reporting processes for improved efficiency?"
+    - "What considerations should I keep in mind when integrating AI into my startup's workflow?"
+
+- intent: startup_machine_learning_product_innovation
+  examples: |
+    - "What are some innovative ways machine learning can inspire new product ideas?"
+    - "How can I use machine learning algorithms to analyze customer data for product development?"
+    - "What role does machine learning play in predicting market trends for new services?"
+    - "How can I leverage machine learning to personalize products for individual customers?"
+    - "What are the key steps to incorporate machine learning into my product development process?"
+
+- intent: startup_iot_data_collection_applications
+  examples: |
+    - "What are some practical applications of IoT for data collection in my business?"
+    - "How can IoT sensors and devices enhance data accuracy and real-time monitoring?"
+    - "What role does IoT play in optimizing supply chain management and inventory control?"
+    - "Can IoT data improve predictive analytics and forecasting for better decision-making?"
+    - "What security measures should I implement to protect IoT-generated data and ensure privacy?"
+
+- intent: startup_positive_work_environment
+  examples: |
+    - "How to create a positive work environment?"
+    - "Promoting teamwork and collaboration?"
+    - "Recognizing and rewarding contributions?"
+    - "Supporting professional growth?"
+    - "Ensuring work-life balance?"
+
+- intent: startup_team_motivation_retention
+  examples: |
+    - "How can I keep my team members motivated and engaged?"
+    - "What strategies can I use to retain my team members and keep them motivated?"
+    - "How do I ensure my team members stay motivated and committed to their work?"
+    - "What can I do to retain and inspire my team members?"
+    - "How can I maintain a motivated and loyal team?"
+    - "What approaches should I adopt to boost team motivation and retention?"
+
+- intent: startup_industry_trends_sources
+  examples: |
+    - "What actions can I take to keep my team members motivated and satisfied in their roles?"
+    - "How can I create an environment that encourages my team members to stay and thrive?"
+    - "What sources can help me stay informed about industry trends?"
+    - "How can I utilize industry newsletters or blogs for updates?"
+    - "What role do conferences and webinars play in staying up-to-date?"
+    - "Are there relevant industry forums or social media groups to follow?"
+    - "How can networking with industry peers keep me informed?"
+
+- intent: startup_long_term_strategy_development
+  examples: |
+    - "What are the key steps to develop a long-term business strategy?"
+    - "How can I adapt my startup to meet changing market demands?"
+    - "What role does innovation play in positioning my startup for future success?"
+    - "How can I build strong partnerships to expand my startup's reach?"
+    - "What should I consider when planning for scalability and growth?"
+
+# UNIVERSITIES
+- intent: university_partnership_with_omdena
+  examples: |
+    - "How can my university partner with Omdena for real-world AI projects?"
+    - "Is Omdena open to partnerships with universities or bootcamps for AI initiatives?"
+    - "What steps should our AI school take to partner with Omdena and offer real-world experience to our students?"
+    - "We want to give our students practical AI exposure. Can you guide us on how to partner with Omdena?"
+    - "Does Omdena accept partnerships from academic institutions to work on impactful AI projects?"
+
+- intent: university_team_expertise
+  examples: |
+    - "What kinds of professionals are part of Omdena's team for the projects?"
+    - "Can you tell me about the experts involved in Omdena's AI projects?"
+    - "What types of specialists collaborate on Omdena's AI initiatives?"
+    - "I'm curious about the skill sets of the individuals working on Omdena's projects. Can you provide more details?"
+    - "Are there specific roles or fields of expertise represented in Omdena's team for the projects?"
+    - "Who are the professionals behind Omdena's innovative AI solutions?"
+    - "Can you give me an overview of the experts that contribute to Omdena's real-world AI projects?"
+
+- intent: university_omdena_collaborative_platform
+  examples: |
+    - "Can you provide more information about Omdena's collaborative platform?"
+    - "Could you elaborate on the concept of Omdena's collaborative platform?"
+    - "I've heard about Omdena's collaborative approach. Can you explain it further?"
+    - "Can you give me an overview of Omdena's platform for collaboration?"
+
+- intent: university_omdena_project_workflow
+  examples: |
+    - "Can you explain the workflow of projects on Omdena's platform?"
+    - "How are the projects organized and managed on Omdena's platform?"
+    - "I'm interested in the process of AI projects at Omdena. Can you elaborate on that?"
+    - "What is the typical procedure for AI projects on Omdena's collaborative platform?"
+    - "Can you walk me through the steps involved in participating in a project on Omdena's platform?"
+    - "How do AI engineers and domain experts collaborate virtually on Omdena's projects?"
+    - "What is the structure of AI challenges and initiatives on Omdena's platform?"
+
+- intent: university_omdena_partnership_benefits
+  examples: |
+    - "What benefits will our university gain from partnering with Omdena?"
+    - "What are the advantages of our university partnering with Omdena for AI projects?"
+    - "Can you elaborate on the benefits our students and institution can gain from this partnership?"
+    - "How will partnering with Omdena enhance our students' real-world education?"
+    - "We want to make our students more hireable. How can Omdena's partnership contribute to that?"
+    - "Besides shared marketing, what other benefits can we expect from collaborating with Omdena?"
+
+- intent: university_omdena_ai_project_success_story
+  examples: |
+    - "Could you share a success story showcasing the impact of Omdena's AI projects?"
+    - "I'm interested in seeing real-life results. Can you provide a success story achieved through Omdena's initiatives?"
+    - "Can you give me a glimpse of the positive outcomes from one of Omdena's AI projects?"
+    - "Are there any notable achievements or success stories that resulted from Omdena's collaborative efforts?"
+    - "How has Omdena's platform contributed to solving real-world problems? Can you provide a specific example?"
+
+- intent: university_project_university_partners
+  examples: |
+    - "Can you list some of the universities that have collaborated with Omdena on AI projects?"
+    - "I'm curious about the academic institutions involved. Can you share some of Omdena's partners?"
+    - "Are there any well-known universities or organizations among Omdena's partners?"
+    - "Can you tell me about the institutions from different countries that have partnered with Omdena?"
+    - "What are some of the notable educational institutions that are part of Omdena's collaborative network?"
+
+- intent: university_newsletter_subscription
+  examples: |
+    - "I'm interested in receiving updates on real-world AI case studies. How can I subscribe to Omdena's newsletter?"
+    - "What kind of content does Omdena's newsletter usually contain?"
+    - "Is the AI newsletter free to subscribe to, and how often is it sent out?"
+    - "Can you provide a link to Omdena's real-world AI newsletter subscription?"
+    - "I want to stay updated with Omdena's latest case studies and events. How can I join the newsletter?"
+
+- intent: university_project_domains
+  examples: |
+    - "What are the specific areas or domains in which Omdena's AI projects operate?"
+    - "Can you provide some examples of the types of challenges and initiatives open for partnership?"
+    - "Are there AI projects related to sustainability, healthcare, or education that our university can collaborate on?"
+    - "How can my students contribute to projects that make a positive impact on society?"
+    - "I'm interested in projects with real-world significance. What are the current themes for partnership opportunities at Omdena?"
+
+# AI INNOVATION
+- intent: ai_invo_ai_innovation_challenge
+  examples: |
+    - "What type of problems is a good fit for an AI Innovation Challenge?"
+    - "Create an AI system to improve personalized recommendations for e-commerce platforms."
+    - "Create an AI-powered recommender system that can help people find the best products and services for their needs."
+    - "Build an AI-powered system that can help farmers improve crop yields."
+    - "Create an AI-powered tool that can help people learn new languages more effectively."
+
+- intent: ai_invo_pricing_model
+  examples: |
+    - "What is your pricing model?"
+    - "I'm interested in using your service. Could you please explain how your pricing is structured?"
+    - "Could you break down the costs associated with using your AI technology?"
+    - "I'd like to understand the pricing model for your AI services. Can you provide an overview?"
+    - "Can you share information about the pricing tiers or packages offered for your AI solution?"
+    - "What factors influence the pricing of your AI services? Is it based on usage, features, or something else?"
+    - "Are there any additional fees or charges apart from the base pricing for your AI solution?"
+    - "Do you offer any discounts or pricing plans for long-term commitments or enterprise-level usage?"
+
+- intent: ai_invo_timely_results_8_weeks
+  examples: |
+    - "Can you provide details on how you ensure timely results within the 8-week time frame?"
+    - "How do you ensure results are delivered within the specified 8-week time frame?"
+    - "What measures do you have in place to guarantee that the project will be completed on time within the given 8-week period?"
+    - "What strategies or methodologies do you employ to optimize efficiency and deliver results within the designated 8-week time frame?"
+
+- intent: ai_invo_participants_innovation_challenge
+  examples: |
+    - "Can you provide information about the individuals who typically participate in an Omdena AI Innovation Challenge?"
+    - "What skill sets are required to join an Omdena project?"
+    - "Could you elaborate on the team composition for an Omdena AI Innovation Challenge?"
+    - "What are the typical backgrounds and skill sets of the people who work on an Omdena AI Innovation Challenge?"
+    - "What is the profile of the participants in an Omdena AI Innovation Challenge? Are they primarily data scientists, domain experts, or a combination of both?"
+    - "Who leads the projects in an Omdena AI Innovation Challenge?"
+
+- intent: ai_invo_talk_with_omdena_clients
+  examples: |
+    - "Can I talk with some Omdena clients?"
+    - "Can I talk with clients?"
+    - "Will I talk with Omdena clients?"
+
+# TOP TALENT
+- intent: top_talent_omdena_top_talent_engineers
+  examples: |
+    - "Who are Omdena's Top Talent engineers?"
+    - "I'm curious about the qualifications of Omdena's Top Talent engineers. Can you provide more details about their selection process and the criteria used to identify the top 2% of collaborators?"
+    - "What sets Omdena's Top Talent engineers apart from other software development professionals? How does Omdena ensure that they have the necessary skills and expertise to work on complex AI projects?"
+    - "As a company considering a collaboration with Omdena, I would like to know more about the background and experience of their Top Talent engineers. Can you give me some examples of their past projects and achievements?"
+    - "How does Omdena's process of selecting Top Talent engineers contribute to the success of their projects? What benefits can a company expect when working with such a skilled and motivated team?"
+    - "I'm interested in the diversity aspect of Omdena's Top Talent engineers. Could you elaborate on how their varied technical, industry-related, and cultural backgrounds enhance the problem-solving capabilities of the team?"
+    - "What opportunities do Omdena's Top Talent engineers get to further enhance their skills and expertise? Does Omdena provide any specialized training or development programs for them?"
+    - "Can you share some success stories or case studies that highlight the contributions of Omdena's Top Talent engineers in solving real-world challenges through AI Innovation Challenges?"
+    - "For companies looking to collaborate with Omdena, what advantages do they gain by working with the top 2% of Omdena's collaborators? How does it impact the overall project outcomes?"
+
+- intent: top_talent_top_talent_project_pricing_model
+  examples: |
+    - "What is the pricing model to run a Top Talent Project?"
+    - "How does Omdena determine the pricing for their Top Talent Projects? Can you explain the factors taken into consideration when calculating the project cost?"
+    - "I'm interested in running a Top Talent Project with Omdena. Could you provide me with insights on how the pricing is structured? Specifically, how do factors like location, seniority, tech stack, and project complexity influence the overall cost?"
+    - "What advantages does Omdena's pricing model offer for running Top Talent Projects compared to traditional software development outsourcing companies? How does the pricing accommodate different budgets?"
+    - "As a company looking to collaborate with Omdena on a Top Talent Project, I would like to understand how the pricing is determined. Can you elaborate on how factors like the team size and access to global talent impact the project cost?"
+    - "Could you please walk me through the pricing model used by Omdena for their Top Talent Projects? I'm particularly interested in understanding how the cost varies based on factors like the engineers' locations, their expertise, and the project's complexity."
+
+- intent: top_talent_top_talent_vs_outsourcing_company
+  examples: |
+    - "What is the difference between running a Top Talent Project with Omdena and hiring an Outsourcing Software Development Company?"
+    - "Can you provide a quick comparison between running a Top Talent Project with Omdena and hiring an Outsourcing Software Development Company?"
+
+- intent: top_talent_hiring_inhouse_after_project
+  examples: |
+    - "Can I hire people in-house during or at the end of the project?"
+    - "I'm interested in collaborating with Omdena for a Top Talent Project. Can you tell me if there's a possibility to hire the engineers in-house during or after the project?"
+    - "Could you clarify the hiring process for the engineers working on a Top Talent Project? Is it possible for companies to hire them as full-time employees after the project's conclusion?"
+    - "As a company looking to work with Omdena, I'd like to know if there's an option to hire the engineers from the project team as permanent employees at our company."
+    - "Are there any restrictions or conditions when hiring the top-performing engineers from the project team? How does the recruitment process work if we want to bring them in-house?"
+    - "Can you explain the benefits of being able to hire engineers in-house during or at the end of the project? How does it add value to the overall collaboration with Omdena?"
+    - "I'm considering running a Top Talent Project with Omdena, and I'd like to know if there's an opportunity to hire the engineers who excel in the project as our employees later on."
+    - "Does Omdena provide any support or assistance in the hiring process if we decide to bring the top-performing engineers into our company after the project?"
+    - "What is the typical procedure for hiring engineers from the project team in-house? Are there any additional fees or requirements for doing so?"
+
+- intent: top_talent_team_selection_process
+  examples: |
+    - "How do you select the teams of engineers (experience, location, etc.)? Can I select the engineers on my own?"
+    - "How does Omdena ensure the right selection of engineers for a Top Talent Project? Can you explain the process they follow in detail?"
+    - "As a company considering a collaboration with Omdena, I'm curious about how the team of engineers is chosen for our project. Can we provide input in the selection process?"
+    - "Can you elaborate on the criteria used to select the teams of engineers for Top Talent Projects? Is it based on their prior experience, skillset, or other factors?"
+    - "What role does the client play in the team selection process? Can we have any influence or preference in selecting specific engineers?"
+    - "Could you walk me through the steps involved in forming a project team? How does Omdena match the engineers' expertise to the project requirements?"
+    - "I'm interested in understanding how Omdena ensures a suitable team of engineers for each project. Do they take into account the project's complexity and specific needs?"
+    - "Is there any flexibility in team selection after the initial formation? Can changes be made to the team composition based on project progress?"
+    - "What factors does Omdena consider when matching engineers to a specific project? How do they ensure the engineers are a good fit for the client's requirements?"
+
+- intent: top_talent_week_money_back_guarantee
+  examples: |
+    - "Explain how the 2-week money-back guarantee works for Omdena's Top Talent Projects. What are the conditions or requirements for availing of this guarantee?"
+    - "As a potential client, I'm interested in the 2-week money-back guarantee. Can you provide more details on how it is implemented and what steps are involved in the refund process?"
+    - "What are the benefits of the 2-week money-back guarantee for clients? How does it provide assurance and confidence in the team selection process?"
+    - "Can you share any specific examples or success stories where clients benefited from the 2-week money-back guarantee offered by Omdena?"
+    - "Is there any additional documentation or formalities that clients need to complete to request a refund under the 2-week money-back guarantee?"
+    - "Can you elaborate on the reasons why clients might consider availing the 2-week money-back guarantee? Are there any typical scenarios where this guarantee proves valuable?"
+    - "Does the 2-week money-back guarantee cover any specific aspects of the project, or is it applicable for any reason the client might have for requesting a refund?"
+    - "In case a client decides to request a refund within the 2-week period, what is the expected timeline for receiving the full refund?"
+
+  # PROJECTS
+- intent: projects_available_projects_details
+  examples: |
+    - "Can you please share details of the projects available on your site?"
+    - "Where can I find projects that are available for participation?"
+    - "How can I find projects I can join?"
+    - "I'm curious about the projects you have available. Can you give me more details about them?"
+    - "Can you provide me with an overview of the upcoming projects I can join?"
+    - "I'm eager to contribute to a project. What kind of projects are currently open for participation?"
+    - "I want to get involved in a project. What options do you have, and what are their details?"
+    - "Could you please share some information about the upcoming projects and how I can join them?"
+    - "I'm looking for opportunities to collaborate on real-world challenges. Can you tell me more about the projects I can join?"
+    - "What are the available projects that I can participate in? I'd like to know more about them."
+    - "I'm interested in joining one of your collaborative projects. Can you provide me with more information about them?"
+    - "I'm keen on contributing my skills to a meaningful project. Could you share details about the available projects I can be a part of?"
+
+- intent: projects_completed_projects_details
+  examples: |
+    - "Can you provide me with information about your past completed projects? I'm interested in learning about the impact they made."
+    - "I'd like to know more about the projects that have been successfully completed. Can you share some details about them?"
+    - "What are some notable projects that have been completed in the past? I'd love to understand the solutions developed by the teams."
+    - "Can you give me an overview of the past projects and the real-world challenges they addressed?"
+    - "I'm curious about the outcomes of your previous projects. Can you provide some insights into the solutions they generated?"
+    - "Could you share success stories or case studies from the projects that have been completed? I'm interested in learning about the achievements."
+    - "Are there any past projects that have had a significant impact or garnered recognition? I'd like to know more about them."
+    - "Can you provide examples of the kind of projects your teams have successfully completed in the past?"
+    - "I'm interested in understanding the range of industries or domains that your completed projects have covered. Could you provide some information?"
+
+- intent: projects_ongoing_projects_details
+  examples: |
+    - "Can you provide me with information about the ongoing projects? I'm interested in learning about the challenges being addressed."
+    - "I'd like to know more about the projects that are currently ongoing. Can you share some details about them?"
+    - "What are some notable projects that are currently in progress? I'd love to understand the solutions being developed by the teams."
+    - "Can you give me an overview of the ongoing projects and the real-world challenges they are addressing?"
+    - "I'm curious about the projects currently being worked on. Can you provide some insights into the objectives and progress of these projects?"
+    - "Could you share details about the ongoing projects and the technologies being utilized?"
+    - "Are there any ongoing projects that have had a significant impact or received recognition? I'd like to know more about them."
+    - "Can you provide examples of the kind of projects your teams are currently working on?"
+    - "I'm interested in understanding the range of industries or domains covered by the ongoing projects. Could you provide some information?"
+    - "What are the key focus areas of the projects currently in progress?"
+
+- intent: projects_all_projects_details
+  examples: |
+    - "Can you provide me with information about all the projects? I want to explore the various initiatives undertaken."
+    - "I'm interested in knowing about all the projects available. Can you give me an overview of each project?"
+    - "Could you provide details about all the projects, regardless of their status? I want to get a comprehensive understanding."
+    - "I'd like to learn about all the projects. Can you share information about each project?"
+    - "Can you give me an overview of all the projects, irrespective of their current status? I'm curious to know the breadth of the initiatives."
+    - "I want to know about all the projects. Can you provide a summary of each project?"
+    - "Could you share information about every project listed on your website? I want to explore all the opportunities available."
+    - "I'm interested in understanding the scope of all the projects. Can you provide detailed information about each project?"
+    - "Can you provide an overview of all the projects, including their status and the real-world challenges they address?"
+    - "I want to get a complete picture of all the projects you offer. Can you provide me with details about each project, regardless of its status?"
+
+- intent: projects_apply_to_join
+  examples: |
+    - "How can I apply to join a project?"
+    - "I'm interested in joining a project. How do I apply to become a part of one?"
+    - "Can you guide me through the process of applying to join a project?"
+    - "What steps do I need to follow in order to apply for a project and join the team?"
+    - "I want to contribute to a project. How can I submit my application to join?"
+    - "How do I go about applying for a project and becoming a member of the team?"
+    - "Can you provide me with information on how to submit an application and join a project?"
+    - "I'm eager to participate in a project. What is the procedure for applying and joining the team?"
+    - "How can I express my interest and apply to join a project as a team member?"
+    - "What is the application process like for joining a project? Can you walk me through it?"
+    - "Can you provide step-by-step instructions on how to apply and join a project as a team member?"
+
+- intent: projects_host_a_project
+  examples: |
+    - "How can I host a project?"
+    - "I have an idea for a project. What are the steps to host it on Omdena?"
+    - "Can you guide me through the process of hosting a project on Omdena?"
+    - "How do I go about hosting a project and collaborating with a team on Omdena?"
+    - "What is the procedure for hosting a project and leading a team of AI engineers and data scientists?"
+    - "I want to initiate a project. How can I submit a proposal and host it on Omdena?"
+    - "I want to initiate a project. How can I do that on Omdena?"
+    - "Can you provide me with information on how to host a project and engage with a talented team?"
+    - "I'm interested in leading a collaborative project. What are the steps involved in hosting it on Omdena?"
+    - "How can I express my interest
+
+- intent: projects_categories_details
+  examples: |
+    - "Can you tell me more about the different categories of projects you offer? I'm curious about the types of challenges available."
+    - "What are the main project categories on Omdena's platform? I'd like to know more about the different types of challenges."
+    - "I'm interested in participating in a project, but I'm not sure which category would be the best fit for me. Can you explain the different project categories?"
+    - "Could you provide details about the AI Innovation Challenges, Top Talent Projects, and Local Chapter Challenges? I want to understand the distinctions between them."
+    - "I'm new to Omdena and would like to know about the different project types available. Can you give me an overview of each category?"
+    - "How are the AI Innovation Challenges, Top Talent Projects, and Local Chapter Challenges different from one another? I'd like to learn about their unique aspects."
+    - "I see there are three categories of projects, but I'm not sure which one suits me best. Can you help me understand the differences between them?"
+    - "I want to explore the various project categories you offer. Can you please share the details?"
+    - "I'm interested in learning about the various types of challenges available. Can you provide more information about it?"
+
+- intent: projects_recommendation_for_newcomer
+  examples: |
+    - "I'm new to Omedena, which project is a good fit for me?"
+    - "I'm a data science student, haven't done any real-world projects, which types of challenges should I start with?"
+    - "I'm a machine learning student, haven't done any real-world projects, which types of challenges should I participate?"
+
+## v1.1- Follow Up
+
+- intent: bot_capabilities
+  examples: |
+    - What can you do?
+    - What's your function?
+    - Tell me your capabilities.
+
+- intent: project_help
+  examples: |
+    - Can you help me with a project?
+    - I need help with my project.
+    - Can you assist me on this project as a [developer](user_role)?
+    - I'm a [client](user_role) looking for assistance.
+    - I'm a [client](user_role) representing an organization
+
+- intent: inform_role
+  examples: |
+    - I'm a [developer](user_role)
+    - I'm a [client](user_role)
+    - [client](user_role)
+    - [developer](user_role)
+    - [client](user_role) work for an organization
+
+
+
+# NLU PANKAJ--LOCAL-CHAPTER
+- intent: join_chapter
+  examples: |
+    - Join a [local chapter](local_chapter) now
+    - How to get involved in a [local chapters](local_chapter)?
+    - Participate in a [local chapter](local_chapter)
+    - What's the process to become a member of an [local chapters](local_chapter)?
+    - How can I get involved with [local chapters](local_chapter)?
+    - Tell me about joining a [local chapters](local_chapter)
+    - How to join [local chapter](local_chapter)
+
+####---------NLU-ARPIT -lOCAL cHAPTER----------------######
+
+
+- intent: local_chapter_inquire_local_chapter_programs
+  examples: |
+    - What is [local chapter](local_chapter)?
+    - What are [local chapters](local_chapter)?
+    - Tell me about the [local chapter](local_chapter)
+    - What do the [local chapters](local_chapter) do?
+    - what is [local chapter](local_chapter)
+    - Can you explain the [local chapters](local_chapter)
+    - Tell me a bit about [local chapter](local_chapter)
+    - What does the [local chapters](local_chapter) involve?
+    - give me about [local chapter](local_chapter)?
+
+- intent: join_general
+  examples: |
+    - How do I join?
+    - How to join?
+    - How can I join?
+    - What is the process of joining?
+    - I want to be a part of it. How do I start?
+    - What's the process to join?
+    - Can I join now?
+    - I am interested. How can I get involved?
+    - Please guide me on joining.
+    - How can I be part of this?
+    - I'd like to participate. What should I do next?
+    - Please help me understand the joining process.
+    - What are the steps to join?
+
+- intent: eligibility_general
+  examples: |
+    - Can anyone participate?
+    - What are the qualifications required to participate?
+    - Is participation open to everyone?
+    - Are there any restrictions on who can take part?
+    - What are the eligibility criteria for participating?
+    - Can individuals with any background join and participate?
+    - Do I need specific qualifications to be able to participate?
+    - What is the eligibility?
+    - Who can participate
+    - What are the requirements
+
+- intent: cost_general
+  examples: |
+    - How much does it cost?
+    - Is there a fee to participate?
+    - What are the charges associated with it?
+    - Can I know the price?
+    - Are there any financial requirements?
+    - What's the pricing like?
+    - Do I have to pay to get involved?
+    - Are there any dues or fees?
+    - What would be the cost for me to join?
+    - Is this a paid opportunity?
+    - What is the cost
