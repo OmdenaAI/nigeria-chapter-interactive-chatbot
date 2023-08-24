@@ -1,4 +1,4 @@
-# combined-bot-v1.1
+# combined-bot-v1.2
 
 ## Instructions for collaborators
 
