@@ -1,0 +1,15 @@
+digraph  {
+0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
+1 [class=active, fontsize=12, label=action_session_start];
+2 [class=active, fontsize=12, label=utter_local_chapter_inquire_local_chapter_programs];
+3 [class=active, fontsize=12, label=action_join_classify];
+4 [class="intent dashed active", label="  ?  ", shape=rect];
+5 [class="intent active", fillcolor=lightblue, label="/local_chapter_inquire_local_chapter_programs", shape=rect, style=filled];
+6 [class="intent active", fillcolor=lightblue, label="/join_general", shape=rect, style=filled];
+0 -> 1  [class=active, key=NONE, label=""];
+1 -> 5  [class=active, key=0];
+2 -> 6  [class=active, key=0];
+3 -> 4  [class=active, key=NONE, label=""];
+5 -> 2  [class=active, key=0];
+6 -> 3  [class=active, key=0];
+}

@@ -1,0 +1,51 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say happy to help when user thanks you
+  steps:
+  - intent: gratitude
+  - action: utter_happy_help
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Get openai response on low confidence
+  steps:
+  - intent: nlu_fallback
+  - action: action_get_response_openai
+ 
+- rule: bot_answer out of scope intents
+  steps:
+  - intent: out_of_scope_non_english
+  - action: utter_out_of_scope
+  - action: utter_folow_question
+  
+- rule: bot_answer out of scope intents
+  steps:
+  - intent: out_of_scope_other
+  - action: utter_out_of_scope
+  - action: utter_folow_question
+  
+ ##------- Local Chapter --ANAND SIVA--ACTIONS---------##
+
+- rule: User wants to join a local chapter
+  steps:
+  - intent: join_chapter
+  - slot_was_set:
+    - local_chapter: "local chapter"
+  - action: utter_join_chapter
+
+- rule: Inquiry about local chapter
+  steps:
+  - intent: local_chapter_inquire_local_chapter_programs
+  - slot_was_set:
+    - local_chapter: "local chapter"
+  - action: utter_local_chapter_inquire_local_chapter_programs
