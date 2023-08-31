@@ -31,7 +31,7 @@ secret_value_0 = os.environ.get("openai")
 openai.api_key = secret_value_0
 # Provide your OpenAI API key
 
-def generate_openai_response(query, model_engine="text-davinci-002", max_tokens=124, temperature=0.8):
+def generate_openai_response(query, model_engine="text-davinci-003", max_tokens=124, temperature=0.8):
     """Generate a response using the OpenAI API."""
     
     # Run the main function from search_content.py and store the results in a variable
