@@ -19,6 +19,15 @@ This solution will significantly impact the local community by improving the use
  - Enhance the overall user experience on Omdena's website by providing a seamless and efficient information retrieval system through the chatbot.
  - Establish the chatbot as a valuable tool for both new and existing users, contributing to the growth and success of Omdena's initiatives.
 
+## Deployed Solution (Staging) 
+#### [Omdena Chat Assistant UI](https://huggingface.co/spaces/pvanand/Omdi-omdena-chat-assistant-ui) [1]
+#### [Hosted Model](https://huggingface.co/spaces/pvanand/Omdi-chat-model) [2]
+#### [Hosted Action server](https://huggingface.co/spaces/pvanand/omdi-action-server) [3]
+
+- [1] Streamlit frontend + Google Sheets for storing conversation data + RASA backend.
+- [2] Pretrained RASA model to classify user intent and provide predefined answers
+- [3] Enhances the capability of RASA model with custom logic + fallback answers using cohere free api
+  
 ## Contribution Guidelines
 - Have a Look at the [project structure](#project-structure) and [folder overview](#folder-overview) below to understand where to store/upload your contribution
 - If you're creating a task, Go to the task folder and create a new folder with the below naming convention and add a README.md with task details and goals to help other contributors understand
